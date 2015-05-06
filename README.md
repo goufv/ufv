@@ -1,2 +1,7 @@
 # goufv.github.io
-goUFV on GitHub
+
+Repository and version-control for public and private web based projects online.
+
+Managed by:
+Web Producer, University Relations
+
