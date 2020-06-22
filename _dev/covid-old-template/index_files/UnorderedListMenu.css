@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ipf-sectionmenu, .ipf-sectionmenu ul {
+	padding:0;
+	margin:0; 
+	list-style:none; 
+	float:left;
+}
+.ipf-sectionmenu li {
+	position:relative; 
+	float:left;
+}
+.ipf-sectionmenu li ul {
+	position:absolute;
+	left:-999em;
+	margin-left:180px;
+	top:0;
+}
+.ipf-sectionmenu li ul ul {
+	left: -999em;
+}
+.ipf-sectionmenu li a {
+	width:172px;
+	display:block;
+	color:#666666;
+	text-decoration:none;
+	background: #FFFFFF;
+	border-bottom:1px dotted #999999;
+	padding: 4px;
+}
+.ipf-sectionmenu li.ipf-parent a {
+	background: #FFFFFF url(/media/dev/content-assets/images/SectionMenuExpandImageRight.gif) right center no-repeat;
+}
+.ipf-sectionmenu li.ipf-parent a:hover{
+	background: #e1e2e1 url(../images/SectionMenuExpandImageRight-over.gif) right center no-repeat;
+		background: #006633 url(../images/SectionMenuExpandImageRight-over.gif) right center no-repeat; color:#FFFFFF;
+}
+.ipf-sectionmenu li a:hover {
+	background:#006633;
+	color:#FFFFFF
+}
+.ipf-sectionmenu li.ipf-parent li a	{
+	background-image:none;
+}
+.ipf-sectionmenu li.ipf-parent li a:hover {
+	background-image:none; background-color:#00663; color:#FFFFFF;
+}
+.ipf-sectionmenu li:hover ul ul, .ipf-sectionmenu li:hover ul ul ul, .ipf-sectionmenu
+li.sfhover ul ul, .ipf-sectionmenu li.sfhover ul ul ul {
+	left: -999em;
+}
+.ipf-sectionmenu li:hover ul, .ipf-sectionmenu li li:hover ul, .ipfsectionmenu, li li li:hover ul, .ipf-sectionmenu li.sfhover ul, .ipfsectionmenu, li li.sfhover ul, .ipf-sectionmenu li li li.sfhover ul {
+	left:auto;
+}
+.ip-calendarpagelet-mainlist ul, .ip-calendar-mainlist ul, .ip-calendarpagelet-mainlist li, .ip-calendar-mainlist li{ 
+	list-style-type:none; margin:0; padding:0; text-align:left   
+}  
+
+
+
+
+/************************************ 
+SYNDICATED CALENDAR CUSTOMIZATION FOR CALENDAR LIST
+*/
+
+.ip-calendar-eventtitlelink
+{
+font-weight:bold;
+font-size:15px;
+}
+.ip-calendar-mainlist
+{
+padding:0;
+margin:0;margin-top:15px;
+}
+.ip-calendar-eventdetailspanel
+{
+border-bottom: 1px dotted #CCCCCC;
+height: 60px;
+margin-bottom: 5px;
+min-height: 60px;
+padding-bottom: 10px;
+padding-top: 5px;
+}
+.ip-calendar-eventtime
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#62201D;
+	font-weight:bold;
+}
+.ip-calendar-eventpreview
+{
+font-size:13px;
+margin-top:5px;
+font-weight:normal;
+margin-bottom:5px;
+}
+.ip-calendar-titlecell
+{
+font-weight:bold;
+font-size:16px;
+padding:0; margin:0;
+}
+ul#ctl02_ulListMain.ip-calendar-mainlist li, ul#ctl03_ulListMain.ip-calendar-mainlist li
+{
+font-weight:bold;
+margin-bottom:2px;
+margin-top:5px;
+font-size:15px;
+}
+\
+.ip-calendar-eventduration
+{
+font-weight:normal;
+}
+div#ctl03_divCalendar.ip-calendar-content span.h1,
+div#ctl02_divCalendar.ip-calendar-content span.h1
+{
+margin-bottom:10px;
+}
+
+div#ctl02_pnlCalendarAll,
+div#ctl03_pnlCalendarAll
+{
+margin-top:20px;
+}
+
+span#ctl02_spnSearchControls.ip-calendar-searchcontrolspan,
+span#ctl03_spnSearchControls.ip-calendar-searchcontrolspan
+{
+clear:both;
+
+}
+select#ctl03_ddlCategory, 
+select#ctl02_ddlCategory
+{
+width:150px;
+
+}
+input#ctl03_txtKeyword, 
+input#ctl02_txtKeyword
+{
+width:100px;
+}
+
+.ip-syndicatedevent-eventdetailstitle td#ctl03_ctl16_tdTitleCell,
+.ip-syndicatedevent-eventdetailstitle td#ctl02_ctl16_tdTitleCell
+{
+height:30px;
+margin-top:10px;
+color: #3B494F;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 16px;
+font-weight: bold;
+
+
+}
+
+td#ctl03_ctl16_tdEmailCell a,
+td#ctl02_ctl16_tdEmailCell a
+{
+font-weight: bold;
+font-size:13px;
+}
+
+tr#ctl03_ctl16_trDateRow.ip-syndicatedevent-eventdetailsdate td,
+tr#ctl02_ctl16_trDateRow.ip-syndicatedevent-eventdetailsdate td
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#62201D;
+	font-weight:bold;
+}
+
+td#ctl03_ctl16_tdEventDetailsCell, 
+td#ctl02_ctl16_tdEventDetailsCell
+{
+font-size:13px;
+line-height:18px;
+padding: 10px 0 20px 0;
+border-bottom: 1px dotted #CCCCCC;
+border-top: 1px dotted #CCCCCC;
+}
+
+
+�

@@ -1,0 +1,405 @@
+@charset "utf-8";
+
+/*
+CSS Style sheet for department design templates
+-----------------------------------------------*/
+h1 {
+	color:#063;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:700;
+}
+
+#dept_buttons img {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.breadcrumb-clean {
+	border-bottom:0 dotted #999;
+}
+
+div.slide-wrapper div.caption div.wrapper div.content a {
+	font-size:13px;
+	color:#FFF;
+}
+
+div#ctl06_pnlCalendar ul#ctl06_ulListMain.ip-calendarpagelet-mainlist,
+div#ctl05_pnlCalendar ul#ctl05_ulListMain.ip-calendarpagelet-mainlist,
+div#ctl07_pnlCalendar ul#ctl07_ulListMain.ip-calendarpagelet-mainlist {
+	margin:0;
+}
+
+div#ctl05_pnlCalendar table#ctl05_tblMain.ip-calendarpagelet-maintable,
+div#ctl06_pnlCalendar table#ctl06_tblMain.ip-calendarpagelet-maintable,
+div#ctl07_pnlCalendar table#ctl07_tblMain.ip-calendarpagelet-maintable {
+	display:none;
+}
+
+#col1,
+#col2,
+#col3 {
+	min-height:200px;
+	float:left;
+	width:120px;
+}
+
+#col2 {
+	width:300px;
+	margin-right:10px;
+}
+
+#col3 {
+	width:200px;
+	margin-right:0;
+}
+
+div#dept_header_contain h1#dept_header {
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:16px;
+	margin:0 0 0 15px;
+	padding:12px 0 10px;
+}
+
+div#header_right h2#dept_header {
+	font-size:15px;
+	font-weight:700;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ebebeb;
+	margin:0;
+	padding:15px 0 0 15px;
+}
+
+#deptsocial {
+	text-align:right;
+	width:100px;
+	height:20px;
+	float: right;
+	padding-top:10px;
+	padding-right:5px;
+}
+
+#dept_header_contain {
+	background-color:#8C8D8D;
+	border:none;
+	height:35px;
+	padding:0;
+	margin:0;
+	margin-bottom:5px;
+}
+
+#ufvsharebtn {
+	width:60px;
+	height:10px;
+	padding-top:1px;
+	float:right;
+}
+
+#ufvgoogleplus {
+	width:25px;
+	height:10px;
+	padding-top:2px;
+	float:right;
+}
+
+#ufvsocialshare {
+	height:10px;
+	width:130px;
+	float:right;
+	padding-top:0px;
+}
+
+#header_right {
+	height:40px;
+	background-color:#8C8D8D;
+}
+
+#dept_home_rss {
+	padding:16px;
+	padding-top:10px;
+	margin-top:10px;
+	min-height:320px;
+	float:left;
+	width:260px;
+}
+
+#dept_home_col3 {
+	padding:10px;
+	padding-top:10px;
+	margin-top:10px;
+}
+#dept_slider div.homeslider
+{
+	width:400px;
+	
+}
+.homeslider {
+    margin-left: 5px;
+    width: 528px;
+}
+
+.wt-rotator .screen{
+position:relative;
+top:0;
+left:0;
+width:525px;
+height:300px;
+overflow:hidden;
+}
+#dept_buttons {
+	background-color:#fff;
+}
+
+#dept_slider {
+	background-color:#FFF;
+	height:333px;
+}
+
+#newstoolsevents_container {
+	margin-bottom:10px;
+}
+
+#dept_head01 {
+	height:25px;
+	background-color:#8C8D8D;
+	width:331px;
+}
+
+#dept_head01 h2 {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	margin: 0;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 15px;
+}
+
+#dept_cont01 {
+	padding:5px;
+	padding-left:15px;
+}
+.wt-rotator {
+    border: 1px solid #ccc;
+}
+
+.wt-rotator .screen {
+	position:relative;
+	top:0;
+	left:0;
+	width:525px;
+	height:333px;
+	overflow:hidden;
+}
+
+div#st_content_1.st_tab_view p,
+div#st_content_2.st_tab_view p,
+div#st_content_3.st_tab_view p,
+div#st_content_4.st_tab_view p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.4em;
+	color: #333333;
+}
+
+#slbg {
+	top:280px;
+	left:0px;
+	width:535px;
+	height:0;
+	color:#FFF;
+	background-color:#1E1E1E;
+}
+
+div.wt-rotator div.screen div.desc div.inner-text p {
+	padding:0;
+	margin:0;
+	margin-top:1px;
+}
+
+div.st_horizontal ul.st_tabs li a.st_first_tab {
+	border-left: 1px solid #D4D4D4;
+
+}
+
+div#st_content_1.st_tab_view h2,
+div#st_content_2.st_tab_view h2,
+div#st_content_3.st_tab_view h2,
+div#st_content_4.st_tab_view h2
+{
+	padding-top:0;
+	margin-top:0;
+}
+.ninepx_spacebelow {
+    margin-bottom: 2px;
+    width: 874px;
+}
+
+div.st_horizontal ul.st_tabs li a {
+background: none repeat scroll 0 0 #8C8D8D;
+border-right: 1px solid #D4D4D4;
+border-top: 1px solid #D4D4D4;
+color: #EBEBEB;
+display: block;
+font-size: 12px;
+font-weight: bold;
+line-height: 18px;
+margin: 0;
+outline: medium none;
+padding: 3px 20px;
+text-decoration: none;
+
+}
+div.st_horizontal ul.st_tabs li a:hover
+{
+	color:#FFF;
+}
+
+#tools a {
+    color: #EBEBEB;
+    display: block;
+    height: 24px;
+    text-decoration: none;
+    width: 144px;
+}
+#tools a:hover {
+    color:#FFF;
+}
+
+div.st_tabs_container div.st_slide_container ul.st_tabs li a.st_tab_active:hover
+{
+	color:#004928;
+}
+
+
+/*
+Calbox CSS
+-----------------------------------------------*/
+
+#calendar td{border: 1px solid grey;height: 15px;width:13px;padding:0.3em;}
+#calendar td a:hover{background-color:#99CC33;color:#fff !important;}
+#calendar td:hover{background-color:#99CC33;}
+
+.preMonth{background-color:#dddddd;}
+.preMonth a{display:none;}
+.postMonth{background-color:#dddddd;}
+.postMonth a{display:none;}
+a.hasEvents{color:#fff !important;background-color:#99CC33;display:block;padding:0.3em;}
+
+
+/*
+
+Blog feed CSS
+-----------------------------------------------*/
+
+
+#newsevents_dept_left { padding-left: 12px; }
+#newsevents_dept_left a {
+    border-bottom: #333 dotted 1px;
+    font-size: 12px;
+    color: #333;
+    display: block;
+    overflow: inherit;
+    margin-bottom: 3px;
+    text-decoration: none;
+    width: 300px;
+    padding: 1px 0 10px;
+}
+#newsevents_content a:hover {
+    color: #063;
+    text-decoration: none;
+}
+ul.ipf-rssreader-feed-list
+    {
+    padding:0; margin:0;
+    list-style:none;
+    }
+    div.ipf-rssreader-feed-title
+    {
+    display:none;
+    }
+
+
+
+/*
+
+CSS for UFV Board
+
+TESTIMONIALS
+
+*/
+
+.ct-testimonial {
+  background-color: #f8f8f8;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 20px;
+  overflow: auto;
+  padding: 15px 15px 25px;
+  width: 95%;
+}
+
+.ct-testimonial img
+{
+	float: right;
+	margin-left: 20px;
+}
+.ct-testimonial p
+{
+	margin-bottom: 20px;
+  	margin-top:0px;
+}
+div.ct-testimonial p strong
+{
+	margin-bottom: 10px;
+}
+#content div.ct-testimonial a.ct_t_readmore
+{
+	text-decoration: none;
+	color:#fff;
+}
+table#maincontent tbody tr td table#pagecontent tbody tr td#content div.ct-testimonial a.ct_t_readmore
+{
+	font-size: 12px;
+}
+table#maincontent tbody tr td table#pagecontent tbody tr td#content div.ct-testimonial a.ct_t_readmore:hover
+{
+	font-size: 12px;
+	color: #00703c;
+}
+.ct-testimonial h3
+{
+	font-size: 20px;
+	padding: 0; margin: 0;
+}
+.ct_t_readmore
+{
+	padding: 12px;
+	background-color: #E45300;
+	color: #fff;
+}
+.ct_t_readmore:hover
+{
+	padding: 12px;
+	background-color: #a1a1a1;
+	color: #fff;
+	text-decoration: none;
+}
+
+a.ct_t_readmore
+{
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+}
+.ct_t_readmore a:hover
+{
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+}
