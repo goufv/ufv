@@ -1,0 +1,159 @@
+/*
+_DEV_pre2016.css
+
+Basically hot-fixes for older template with regards to mobile issues - aml
+
+Currently used on: 
+
+DEPT INNER PAGE: https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=style&fnno=10&styleid=29777
+
+CONTACT TYPE
+*/
+
+.ct-contact {
+  margin: 0;
+  padding: 0;
+  border: 0px solid #ebebeb;
+  display: block;
+  height: auto;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  padding: 5px 0px 15px 0px;
+  background: #f2f2f2;
+  background: #fff;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.ct-contact a.btn-default {
+  background: #fff;
+  padding: 7px;
+  border-radius: 0;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom:15px;
+  border: 1px #ccc solid;
+  display: inline-block;
+  font-size: 12px;
+  text-decoration: none;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.ct-contact a.btn-default::before,
+.ct-contact a.btn-default::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.ct-contact a.btn-default:hover,
+#content-updated a:hover {
+  background-color: #00703c;
+  text-decoration: none;
+  color: #fff;
+}
+
+.profile-img {
+  padding: 0px;
+  margin: 0;
+  float: right;
+  display: block;
+  height: auto;
+}
+
+.profile-img img {
+  width: 160px;
+  float: right;
+}
+
+.contact_name,
+.contact_title,
+.contact_dept,
+.contact_loc,
+.contact_phone,
+.contact_email,
+.contact_profile {
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+#content div.ct-contact div a.contact_email.btn.btn-default:hover,
+#content div.ct-contact div a.contact_profile.btn.btn-default:hover
+{
+  color:#fff;
+  text-decoration: none;
+}
+
+.contact_name {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact_phone,
+.contact_title {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 800px) {
+  .ct-contact {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ebebeb;
+    padding: 7px 0px 7px 5px;
+    background: #fff;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+  .profile-img {
+    padding: 0px 10px 0px 0px;
+    float: left;
+  }
+  .profile-img img {
+    width: 110px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 0px;
+  }
+  .contact_name,
+  .contact_title,
+  .contact_dept,
+  .contact_loc,
+  .contact_phone,
+  .contact_email,
+  .contact_profile,
+  .ct-contact h3 {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+    font-weight: 400;
+  }
+  .ct-contact h3 {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+  }
+  .ct-contact a.btn-default {
+    background: #fff;
+    padding: 7px;
+    border-radius: 0;
+    margin: 10px 0 5px 0;
+    border: 1px #ccc solid;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 0;
+  }
+}

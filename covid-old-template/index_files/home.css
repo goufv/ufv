@@ -1,0 +1,385 @@
+@charset "utf-8";
+#masthead {
+    height: 107px;
+    width: 874px;
+    background: url('/media/dev/content-assets/images/ufv-2015-masthead.jpg') no-repeat top;
+  	background: url('/media/dev/content-assets/images/ufv-2015-masthead.jpg') no-repeat top;
+    color: #FFF;
+}
+#ufvSN a:link
+{
+	width:35px; float:left; margin-right:5px; height:30px; display:block;
+}
+
+
+
+#nav00 { padding: 0 9px 0 0 }
+#nav00 a {
+    color: #FFF;
+    text-decoration: none;
+}
+.search { padding: 9px 9px 0 0 }
+.nav01_container {
+	height: 36px;
+	width: 874px;
+	background-color: #00703C;
+	margin: 3px 0 4px;
+}
+.nav02_container { padding-right: 5px }
+.nav02divs {
+    height: 24px;
+    width: 188px;
+    border-bottom: #030 solid 1px;
+}
+img { border: 0 none }
+#newstoolsevents_container {
+    background: url('/media/dev/content-assets/images/bg_greyfade.gif') top repeat-x;
+    padding: 9px;
+}
+.newstoolsevents_headers { margin-bottom: 9px }
+#minical {
+    overflow: hidden;
+    padding: 12px 2px 2px 12px;
+}
+#tools {
+    width: 335px;
+    margin-right: 9px;
+}
+#tools a {
+    display: block;
+    height: 24px;
+    width: 144px;
+    color: #333;
+    text-decoration: none;
+}
+#tools a:hover {
+    color: #060;
+    border: none;
+    text-decoration: none;
+}
+#homepage_poll {
+    padding-left: 0;
+    border-top: #333 dotted 1px;
+}
+#SNicons a {
+    display: auto;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+}
+.homepage_SN {
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333;
+}
+
+
+.news {
+  
+    background: url('/media/dev/content-assets/images/spacer1x1_grey.gif') repeat-y left top;
+    margin-right: 9px;
+    width: 265px;
+}
+.events {
+background: url('/media/dev/content-assets/images/spacer1x1_grey.gif') repeat-y left top;
+  
+    width: 256px;
+}
+#newsevents_content { padding-left: 12px }
+#newsevents_content a {
+    border-bottom: #333 dotted 1px;
+    font-size: 12px;
+    color: #333;
+    display: block;
+    overflow: inherit;
+    margin-bottom: 3px;
+    text-decoration: none;
+    width: 240px;
+    padding: 1px 0 10px;
+}
+#newsevents_content a:hover {
+    color: #063;
+    text-decoration: none;
+}
+.ninepx_spacebelow {
+    margin-bottom: 0px;
+    width: 874px;
+}
+.ads {
+    height: 80px;
+    margin-bottom: 9px;
+}
+.ads_last { height: 80px }
+#footer {
+    background: #FFF;
+    border-top: #CCC solid 1px;
+    font-size: 10px;
+    color: #666;
+    padding: 9px;
+}
+#footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #666;
+}
+#footer a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #063;
+}
+.bottomlogoblurb {
+    height: 60px;
+    background: url('/media/dev/content-assets/images/ufvlogo-1.gif') left top no-repeat;
+  background: url('/media/2015/logo/ufv-university-fraser-valley-bc.jpg') left top no-repeat;
+      font-size: 10px;
+    line-height: 14px;
+    padding: 9px 9px 0 226px;
+}
+.ip-calendar-eventtitlelink {
+    font-weight: 400;
+    font-size: 12px;
+}
+.ip-calendar-mainlist {
+    margin: 0;
+    padding: 0;
+}
+.ip-calendar-eventdetailspanel {
+    height: 10px;
+    border-bottom: medium none;
+    margin-bottom: 1px;
+    min-height: 10px;
+    padding-bottom: 2px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.ip-calendar-eventtime {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #62201D;
+    font-weight: 400;
+}
+.ip-calendar-eventpreview {
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.ip-calendar-titlecell {
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+ul#ctl02_ulListMain.ip-calendar-mainlist li,
+ul#ctl03_ulListMain.ip-calendar-mainlist li {
+    font-weight: 700;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.ip-calendar-eventduration { font-weight: 400 }
+div#ctl03_divCalendar.ip-calendar-content span.h1,
+div#ctl02_divCalendar.ip-calendar-content span.h1 { margin-bottom: 10px }
+div#ctl02_pnlCalendarAll,
+div#ctl03_pnlCalendarAll { margin-top: 20px }
+div#newstoolsevents_container table tbody tr td.events div.newstoolsevents_headers { margin-bottom: 2px }
+span#ctl02_spnSearchControls.ip-calendar-searchcontrolspan,
+span#ctl03_spnSearchControls.ip-calendar-searchcontrolspan { clear: both }
+select#ctl03_ddlCategory,
+select#ctl02_ddlCategory { width: 150px }
+input#ctl03_txtKeyword,
+input#ctl02_txtKeyword { width: 100px }
+.ip-syndicatedevent-eventdetailstitle td#ctl03_ctl16_tdTitleCell,
+.ip-syndicatedevent-eventdetailstitle td#ctl02_ctl16_tdTitleCell {
+    height: 30px;
+    margin-top: 10px;
+    color: #3B494F;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+td#ctl03_ctl16_tdEmailCell a,
+td#ctl02_ctl16_tdEmailCell a {
+    font-weight: 700;
+    font-size: 13px;
+}
+tr#ctl03_ctl16_trDateRow.ip-syndicatedevent-eventdetailsdate td,
+tr#ctl02_ctl16_trDateRow.ip-syndicatedevent-eventdetailsdate td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #62201D;
+    font-weight: 700;
+}
+td#ctl03_ctl16_tdEventDetailsCell,
+td#ctl02_ctl16_tdEventDetailsCell {
+    font-size: 13px;
+    line-height: 18px;
+    border-bottom: 1px dotted #CCC;
+    border-top: 1px dotted #CCC;
+    padding: 10px 0 20px;
+}
+ip-calendarpagelet-mainlist ip-calendar-mainlist,
+#ctl05_ulListMain,
+#ctl04_ulListMain,
+span.ip-calendar-eventtime {
+    margin: 0;
+    padding: 0;
+}
+div#ctl04_pnlCalendarAll span#ctl04_spnFeaturedEvents,
+table#ctl04_tblMain.ip-calendarpagelet-maintable { display: none }
+#ufv_alerts {
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+td.ip-calendar-eventdetailspanel div img { display: none }
+
+div.homeslider div.wt-rotator div.screen div.desc div.inner-text h1
+{
+font-size:14px;
+font-weight:normal;
+font-weight:bold;
+color:#B5FF00; color:#76B900;
+margin:0;
+}
+/* Increase font on slideshow */
+
+.jdGallery .slideInfoZone h2 {
+  font-size: 13px;
+
+}
+
+.jdGallery .slideInfoZone h2 {
+  color: inherit;
+  font-size: 100%;
+  font-weight: normal;
+  margin: 2px 5px;
+  padding: 0;
+  font-size:13px;
+  
+}
+
+html body#thebody table tbody tr td.container div#newstoolsevents_container table tbody tr td.events div#newsevents_content form#IronPointForm_2 div#ctl05_divCalendar.ip-calendarpagelet-content div#ctl05_pnlCalendarAll span#ctl05_spnFeaturedEvents
+{
+	display:none;
+}
+
+ip-calendarpagelet-mainlist ip-calendar-mainlist, #ctl05_ulListMain, #ctl04_ulListMain, span.ip-calendar-eventtime {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+#tools a {
+  font-size:12px;
+}
+#tools a:hover {
+	text-decoration:underline;
+}
+
+#ufvSN a:link
+{
+	margin-right:7px;
+	display:block;
+	width:35px;
+	height:30px;
+	float:left;
+	margin-bottom:2px;
+}
+#ufvSN a:hover
+{
+	background-color:none;
+
+}
+
+<!-- Emergenecy Alert - UFV Home Page - May 2012 -->
+#alert
+{
+padding:10px; border:#900 2px solid; margin-bottom:5px; background-color:#FF9; margin-top:5px;
+}
+
+#alert p {
+	font-size:14px;
+	padding:0; margin:0;
+	line-height:16px;
+	padding-bottom:3px;
+	color:#000;
+}
+#alert a {
+	font-weight:bold;
+	text-decoration:underline;
+
+}
+#alert h2{
+	font-weight:12px;
+	padding:0; margin:0;
+	padding-bottom:7px;
+	padding-top:5px;
+	color:#900;
+}
+
+
+.t4nav02div {
+    height: 20.7px;
+    width: 188px;
+    border-bottom: #030 solid 1px;
+    background-image: url(/media/dev/style-assets/images/left_nav_bg.png);
+    list-style-type: none;
+    padding-top:3px;
+    font-size:12px;
+}
+
+.t4nav02div a {
+    color: #fff;
+    padding:10px;
+    text-transform: uppercase;
+}
+
+.t4nav02div:hover {
+    background-image: none;
+    background-color: #00703c;
+}
+
+
+.nav01_container ul li{
+    border-right: solid 1px white;
+    float:left;
+    list-style-type: none;
+}
+
+.nav01_container ul li a{
+    color: #fff;
+    font-size:12px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.nav01_container ul li:hover{
+    background-color: #8ac53f;
+}
+
+.t4topnav
+{margin-left:-40px;
+margin-top: -7px;
+}
+
+
+.t4topnavli
+{padding: 9px 8px 9px 9px;}
+
+<!-- Blog feed in pagelets - July 2013 -->
+
+#newsevents_pagelet { padding-left: 12px }
+#newsevents_pagelet a {
+    border-bottom: #333 dotted 1px;
+    font-size: 12px;
+    color: #333;
+    display: block;
+    overflow: inherit;
+    margin-bottom: 3px;
+    text-decoration: none;
+    width: 180px;
+    padding: 1px 0 10px;
+}
+#newsevents_pagelet a:hover {
+    color: #063;
+    text-decoration: none;}

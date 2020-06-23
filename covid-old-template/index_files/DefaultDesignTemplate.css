@@ -1,0 +1,609 @@
+@charset "utf-8";
+/* 
+UFV.ca
+Updated: 3/17/2016
+DefaultDesignTemplate.css
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=media&fnno=20&med_id=28575
+*/
+
+body {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url('/media/dev/content-assets/images/bg_stripes.gif') repeat scroll center top;
+  
+  
+  
+    background-attachment: scroll;
+    background-color: #EBEBEB;
+    background-position: left top;
+    background-repeat: repeat;
+    	background-image: url("https://www.ufv.ca/web/images/bg/ufv-bg.png");
+	margin: 0px 0px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px/1em;
+	color:#333333;
+	line-height: 1.3em;
+		line-height: 1.0em;
+}
+
+.dropshadow_left {
+	background:url('/media/dev/content-assets/images/bg_dropshadow_left.gif') repeat-y right top;
+  	background-image: url("https://www.ufv.ca/web/images/bg/bg-l.gif");
+}
+.dropshadow_right {
+	background:url('/media/dev/content-assets/images/bg_dropshadow_right.gif') repeat-y left top;
+  background-image: url("https://www.ufv.ca/web/images/bg/bg-r.gif");
+}
+.container {
+	padding: 0px 12px 12px 12px;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+a:link {
+	color: #006633;
+	text-decoration: none;
+}
+a:visited {
+	color: #006633;
+	text-decoration: none;
+}
+a:hover {
+	color: #8DC641;
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+#nav00 {
+	padding: 0px 9px 0px 0px;
+}
+#nav00 a {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.nav01_container {
+	height:36px;
+	width:874px;
+	background-color: #00703C;
+	margin: 3px 0px 9px 0px;
+}
+.leftcolumn {
+}
+#nav03 {
+	width:172px;
+	margin-bottom:24px;
+}
+#diaspora_nav2 {
+padding-bottom: 8px;
+padding-top: 6px;
+}
+
+.breadcrumbs {
+	padding: 4px;
+	border-bottom:#999999 dotted 1px;
+	margin-bottom:6px;
+	font-size:11px;
+}
+.breadcrumb-clean {
+	border-bottom:#999999 dotted 0px;
+}
+.deptbanner_container {
+	margin-bottom:24px;
+}
+.VAdeptbanner_container {
+	margin-bottom:24px;
+}
+#content {
+	padding: 0px 36px 18px 0px;
+	font-size: 11px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#pagelet {
+	width: 172px;
+	margin-bottom:18px;
+}
+#comments_pagelet {
+	width: 97%;
+	margin: 10px 10px 18px 10px;
+}
+#pageletlogin{
+	width: 350px;
+	margin-bottom:2px;
+}
+#masthead_short {
+	height:103px;
+	width:874px;
+	background: url('/media/dev/content-assets/images/ufv-2015-masthead.jpg') no-repeat top;
+	color:#FFFFFF;
+	font-size:11px;
+}
+#masthead_centres {
+	height:86px;
+	width:874px;
+	/*background: url(../images/bg_masthead_centres.jpg) no-repeat top;*/
+	color:#FFFFFF;
+	font-size:11px;
+}
+#masthead_diaspora {
+	height:86px;
+	width:874px;
+	/*background: url(../images/bg_masthead_diaspora.jpg) no-repeat top;*/
+	color:#FFFFFF;
+	font-size:11px;
+}
+.h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#006633;
+	font-weight:bold;
+}
+.h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#3B494F;
+	font-size:13px;
+	font-weight: bold;
+}
+.h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#62201D;
+	font-weight:bold;
+}
+.h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#006633;
+	text-decoration:underline;
+}
+.caption {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#006633;
+	font-size:9px;
+	font-weight:bold;
+}
+#footer {
+	background:#FFFFFF;
+	padding:9px;
+	border-top:#CCCCCC solid 1px;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;
+	}
+#footer a {
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+#footer a:hover {
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#006633;
+}
+
+/* New - font adjustment 
+April 13, 2012 - Marcom
+*/
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px/1.0em;
+	line-height: 1.1em;
+}
+#content {
+	padding: 0px 36px 18px 0px;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#content a:link {
+	font-weight:bold;
+	}
+#content a:hover {
+	text-decoration:underline;
+	color:#004221;
+	}
+#content a:visited {
+  font-weight: bold;
+}	
+		
+/*Calendar CSS*/
+
+#calendarResults table{border-bottom: 1px solid black;width:440px;}
+#calendarResults table.eventlist th {
+    background-color: #99CB34;
+    padding: 2px;
+    text-align: left;
+    vertical-align: top;
+  font-weight: bold;}
+
+#calendarResults td.odd, #results td.odd {
+    background-color: #F3F3F3;
+}
+
+/* Quick-Links content template*/ 
+
+div#quick-links { width:100%;}
+div#quick-links ul {margin:0; padding: 0;}
+div#quick-links li { list-style: none;}
+ 
+div#quick-links a {
+ color: #00703c;
+ cursor: pointer;
+ display:block;
+ height:3em;
+ line-height: 3em;
+ text-indent: 0.7em;                   
+ text-decoration:none;
+ width:100%;
+}
+ 
+div#quick-links a:hover{
+ background-color: #8dc440;
+            color: #fff;
+}
+
+div#quick-links ul.pale-green { background:#cfe6a9;
+font: normal 1.2em Arial, sans-serif;}
+
+
+ 
+div#quick-links ul.pale-green li {
+ border-bottom: #fff solid;
+ border-width: 0.5em;
+}
+
+/* Call to action content template*/
+
+#content-updated div.call-to-action{padding:1em 0 2em 0;}
+#content-updated div.call-to-action span a {background-color:#e45300;white-space:nowrap;font-size:1.3em;color: #fff; font-weight: normal; text-decoration: none;padding: 0.5em 0.8em}
+#content-updated div.call-to-action span a:hover {background-color: #ccc;}
+
+#content div.call-to-action{padding:1em 0 2em 0;}
+#content div.call-to-action span a {background-color:#e45300;white-space:nowrap;font-size:1.4em;color: #fff; font-weight: normal; text-decoration: none;padding: 0.5em 1em}
+#content div.call-to-action span a:hover {background-color: #ccc;}
+
+
+#pagelet002 div.call-to-action{padding:1em 0 2em 0;}
+#pagelet002 div.call-to-action span a {background-color:#e45300;white-space:nowrap;font-size:1.4em;color: #fff; font-weight: normal; text-decoration: none;padding: 0.5em 1em}
+#pagelet002 div.call-to-action span a:hover {background-color: #ccc;}
+
+/* Promo Boxes content template*/ 
+div.promo-box{
+	overflow:hidden;
+   padding: 20px;
+}
+div.promo-box img{margin:0 auto; display:block; padding-bottom:1em;}
+div.promo-box h2{font: normal 2.6em Arial, sans-serif; line-height: 120%;padding:7px 0 0 0; margin:0;}
+div.promo-box p{font:normal 1.4em Arial, sans-serif; line-height: 140%;padding-bottom:0.6em;}
+#content div.promo-box a:link {font:normal 1.4em Arial, sans-serif; color:#fff;text-decoration:none;}
+#content div.promo-box a:hover {color:#fff;text-decoration:none;}
+div.promo-box span{float: right;  text-align: center; border: none; text-decoration: none;}
+
+
+div.blue{background-color: #00aecf;}
+div.blue span a {color:#fff;background-color:#00703c; border: none; white-space:nowrap;padding: 0.4em 0.6em;font-size:1.3em;}
+div.blue span a:hover {background-color: #e55200; color:#fff; border: none;}
+div.dark-green{background-color: #00703c;}	
+div.dark-green span a {color:#fff;background-color: #8dc440; border: none;white-space:nowrap;padding: 0.4em 0.6em;font-size:1.3em;}
+div.dark-green span a:hover {background-color: #e55200; border: none;}
+div.blue h2 {color: #dbedba;}
+div.blue p {color: #ffffff;}
+div.dark-green p{color: #ffffff;}
+div.dark-green h2{color: #dbedba;}
+div.red {background-color:#c20434;} 
+div.red h2  {color: #fff;}
+div.red p {color: #fff;}
+div.red span a {color:#fff;text-decoration:none;background-color: #00aecf;padding: 0.4em 0.6em; border: none;white-space:nowrap;font-size:1.3em;}
+div.red span a:hover {background-color: #e55200; color:#fff; border: none;}
+
+div.orange {background-color:#e45300;} 
+div.orange h2  {color: #fff;}
+div.orange p {color: #fff;}
+div.orange span a {color:#fff;text-decoration:none;background-color: #00703c;padding: 0.4em 0.6em; border: none;white-space:nowrap;font-size:1.3em;}
+div.orange span a:hover {background-color: #00aecf; color:#fff; border: none;}
+
+div.bright-green span a {color:#fff;text-decoration:none;background-color: #00703c;padding: 0.4em 0.6em; border: none;white-space:nowrap;font-size:1.3em;}
+div.bright-green span a:hover {background-color: #e55200; color:#fff; border: none; }
+div.bright-green p{color: #ffffff;}
+div.bright-green h2{color: #dbedba;padding-top:0;}
+div.bright-green {background-color:#8bc440;}
+
+/* Testimonials content template*/ 
+
+div.testimonial{
+	overflow:hidden;
+}
+div.testimonial img{margin:0 auto; display:block; padding-bottom:1em;}
+div.testimonial p{font:italic 1.2em Arial, sans-serif; line-height: 125%;}
+#content div.testimonial a:link {font:normal 1.4em Arial, sans-serif; color:#fff;text-decoration:none;}
+#content div.testimonial a:hover {color:#fff;text-decoration:none;}
+div.testimonial span{text-align: center; border: none; text-decoration: none;}
+
+
+
+div.grey {background-color:#efebeb;} 
+div.grey p {color: #666;}
+#content div.grey span a {color:#fff;text-decoration:none;background-color: #e45300;padding: 0.4em 0.6em; border: none;white-space:nowrap;font-size:1.3em;}
+#content div.grey span a:hover {background-color: #ccc; color:#fff; border: none;text-decoration:none;}
+div.grey span a {color:#fff;text-decoration:none;background-color: #e45300;padding: 0.4em 0.6em; border: none;white-space:nowrap;font-size:1.3em;}
+#content-updated div.grey span a {color:#fff;text-decoration:none;font-weight:normal;background-color: #e45300;padding: 0.4em 0.6em; border: none;white-space:nowrap;font-size:1.3em;}
+#content-updated div.grey span a:hover {background-color: #ccc; color:#fff; border: none;text-decoration:none;font-weight:normal;}
+div.grey span a {color:#fff;text-decoration:none;background-color: #e45300;padding: 0.4em 0.6em; border: none;white-space:nowrap;font-size:1.3em;}
+div.grey span a:hover {background-color: #ccc; color:#fff; border: none;text-decoration:none;}
+
+/* Tuition Table class*/ 
+
+.tuition-table{
+	width:100%;
+	background: #e0eeca;
+}
+	
+}.tuition-table table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+	display:table;
+	border:1px solid #ffffff;
+}
+
+.tuition-table caption{
+	background: #333333; 
+	color: #ffffff; 
+    text-align: left;
+	font-weight: bold;
+	padding: 10px;
+	border:2px solid #ffffff;
+	display: table-caption;
+    caption-side: top;
+}
+
+.tuition-table tr{
+	color: #333333;
+}
+
+.tuition-table td{
+	border:1px solid #ffffff;
+	text-align:right;
+        padding: 10px;
+}
+
+.tuition-table th{
+	background: #cfe6a9; 
+	color: #333333;
+	text-align:left;
+        padding: 10px;
+}
+
+.tuition-table td:first-child{
+	text-align:left;
+}
+
+.regular-table{
+	width:100%;
+	background: #e0eeca;
+}
+	
+}.regular-table table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+	display:table;
+	border:1px solid #ffffff;
+}
+
+.regular-table caption{
+	background: #333333; 
+	color: #ffffff; 
+    text-align: left;
+	font-weight: bold;
+	padding: 10px;
+	border:2px solid #ffffff;
+	display: table-caption;
+    caption-side: top;
+}
+
+.regular-table tr{
+	color: #333333;
+}
+
+.regular-table td{
+	border:1px solid #ffffff;
+	text-align:left;
+        padding: 10px;
+}
+
+.regular-table th{
+	background: #cfe6a9; 
+	color: #333333;
+	text-align:left;
+        padding: 10px;
+}
+
+.row-highlight {
+    background: #cfe6a9;; 
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* Landing page page layout - July 2013*/ 
+
+.container-updated {
+    background-color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.93em;
+  line-height: 125%;
+  padding: 0 12px;}
+
+/* inner page with blogfeed layout - July 2013*/ 
+
+#content-updated
+{
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 18px;
+  padding-left: 0px;
+  font-size: 13px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+#content-updated a:link {
+	font-weight:bold;
+	}
+#content-updated a:hover {
+	text-decoration:underline;
+	color:#004221;
+	}
+#content-updated a:visited {
+  font-weight: bold;
+}	
+#content-updated h1 {
+  
+  font-weight: bold; 
+  font-size: 1.8em; 
+  color: #7cb232;
+  line-height:140%;
+  letter-spacing: -1px;
+  padding:0;
+  margin:0;
+}
+
+#content-updated h2 {font-size: 1.6em; color: #333333;font-weight: bold; line-height:125%;
+  padding:0px 0px 3px 0px;
+  margin:0;
+}
+#content-updated h3 {font-size: 1.4em; color: #333333;font-weight: normal; line-height:125%;
+  padding:0;
+  margin:0;
+}
+#content-updated h4 {color: #00703c; font-size: 1.2em;font-weight: normal; line-height:125%;
+  padding:0;
+  margin:0;
+}
+#content-updated h5 {font-style: italic; color: #00703c; font-size: 1em; font-weight: normal; line-height:125%;
+  padding:0;
+  margin:0;
+}
+  
+#content-updated div.promo-box a:link {font:normal 1.4em Arial, sans-serif; color:#fff;text-decoration:none;}
+#content-updated div.promo-box a:hover {color:#fff;text-decoration:none;}
+#content-updated div.promo-box p {color:#fff;font-size:1.3em;}
+#content-updated div.promo-box h2{font: normal 2.2em Arial, sans-serif; line-height: 120%;padding:0; margin:0;color: #fff;}
+#content-updated div.blue h2 {color: #dbedba;}
+#content-updated div.dark-green h2 {color: #dbedba;}
+#content-updated div.testimonial a:link {font:normal 1.4em Arial, sans-serif; color:#fff;text-decoration:none;}
+#content-updated div.testimonial a:hover {color:#fff;text-decoration:none;}
+ #content-updated div.span a {border: none;white-space:nowrap;padding: 0.4em 0.6em; margin: 0.4em 0.6em; font-size:1.3em;}
+
+
+/* new program info template - December 2013*/ 
+
+
+div.program-header{color: #ffffff; background-color: #7cb232; padding: 3px 10px 2px 10px;}
+div.program-header h2{font-size: 1.1em; font-weight: bold;text-transform:uppercase;}
+#content-updated div.program-header {color: #ffffff; background-color: #7cb232; padding: 3px 10px 2px 10px;}
+#content-updated div.program-header h2{font-size: 1.1em; font-weight: bold;color: #ffffff;text-transform:uppercase; margin:0.83em 0 0.83em 0;}
+div.quick-facts{
+  color: #333333; background-color: #cfe6a9; padding: 5px 10px 2px 10px;min-height:200px;text-transform:uppercase;font-size:1.1em;}
+
+/* 2-column list*/ 
+
+#content-updated div.hdr-lay {
+	width:96%;
+	padding-bottom: 2px;
+}
+
+#content-updated div.two-column {
+    height:100%;
+    width:92%;
+	padding:20px;
+	overflow:auto;
+}
+#content-updated div.two-column h2 {
+margin:0; 
+font-size:1.8em; 
+color: #fff;
+}
+
+#content-updated div.left-column {
+    float: left;
+    border: 1px;
+    width: 46%;
+	font:normal 1.3em Arial, sans-serif;
+    line-height: 150%;
+}
+
+#content-updated div.right-column {
+    float: left;
+    width: 46%;
+    display: block;
+	font:normal 1.3em Arial, sans-serif;
+    line-height: 150%;
+}
+  
+/* Step by Step reverse engineering*/  
+
+#content div.img-icon{
+  width: 64px; 
+  height: 64px; 
+  background-image: url('https://www.ufv.ca/media/global/icons/list_item.gif'); 
+  float: left;
+  text-align:center;
+}
+
+#content div span.icon-ar {
+  padding-top:24px;
+  color:#006233;; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 30px; 
+  font-weight:bold;
+  display:inline-block;
+  vertical-align:middle;
+}
+#content div.text-icon-content{
+  margin-left:79px;
+  min-height:64px;
+}
+
+#content-updated div.img-icon{
+  width: 64px; 
+  height: 64px; 
+  background-image: url('https://www.ufv.ca/media/global/icons/list_item.gif'); 
+  float: left;
+  text-align:center;
+}
+
+#content-updated div span.icon-ar {
+  padding-top:24px;
+  color:#006233;; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 30px; 
+  font-weight:bold;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+#content-updated div.text-icon-content{
+  margin-left:79px;
+  min-height:64px;
+}
+
+/* UFV Programs template extra CSS for transition*/ 
+
+#content-updated div.UFV-Program-Name h2{font-weight: bold; font-size: 2em; color: #8dc440;line-height:140%;padding:0;margin:0;}
+#content-updated div.box-header {min-height:43px;background-color: #8dc440;color: #ffffff;padding: 3px 10px 2px;font-size:10px;}
+#content-updated div.box-header h2 {float:left;font-size:1.1em; color:#fff;}
+#content-updated div.button-header {float:right;}
+#content-updated div.quick-facts-left {float:left; width:49%;}
+#content-updated div.quick-facts-right {margin-left:50%;}
+
+#content div.UFV-Program-Name h2 {font-weight: bold; font-size: 2em; color: #8dc440;line-height:140%;padding:0;margin:0;}
+#content div.box-header {min-height:43px;background-color: #8dc440;color: #ffffff;padding: 3px 10px 2px;}
+#content div.box-header h2 {float:left; font-size:1.1em;color:#fff;}
+#content div.button-header {float:right;}
+#content div.quick-facts-left {float:left; width:49%;}
+#content div.quick-facts-right {margin-left:50%;}
