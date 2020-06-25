@@ -23,6 +23,31 @@
   <link rel="stylesheet" type="text/css" media="" href="index_files/ufv-print.css"><!-- ufv-print.css -->
   <link rel="stylesheet" type="text/css" media="" href="index_files/ufv-media.css"><!-- ufv-media.css -->
     
+   <!--
+      INSTAGRAM 
+      Feed 01
+  -->
+
+  <script src="dist/InstagramFeed.min.js"></script>
+  <script>
+      (function(){
+          new InstagramFeed({
+              'username': 'goufv',
+              'container': document.getElementById("instagram-feed1"),
+              'display_profile': true,
+              'display_biography': true,
+              'display_gallery': true,
+              'callback': null,
+              'styling': true,
+              'items': 8,
+              'items_per_row': 4,
+              'margin': 1,
+              'lazy_load': true
+          });
+      })();
+  </script>
+
+
   <style>
     .bg-primary-2 {
         background-color: #3779B3;
@@ -214,29 +239,7 @@
 
 <div class="row">
 <div class="col-md-12 ufv-cb">
-  <!--
-      INSTAGRAM 
-      Feed 01
-  -->
-
-    <script src="js/dist/InstagramFeed.min.js"></script>
-    <script>
-        (function(){
-            new InstagramFeed({
-                'username': 'goufv',
-                'container': document.getElementById("instagram-feed1"),
-                'display_profile': true,
-                'display_biography': true,
-                'display_gallery': true,
-                'callback': null,
-                'styling': true,
-                'items': 8,
-                'items_per_row': 4,
-                'margin': 1,
-                'lazy_load': true
-            });
-        })();
-    </script>
+ 
      
      <div id="instagram-feed1" class="instagram_feed"></div>
 
