@@ -5,6 +5,7 @@ Capabilities for Instagram @ ufv.ca
 
 - <a href="https://goufv.github.io/instagram/demo.html">Instagram Demo Link</a>
 - <a href="https://goufv.github.io/instagram/feed-1.html">Feed 1</a>
+- <a href="https://goufv.github.io/instagram/goufv.html">goUFV demos</a>
 
 ## Source Code Examples
 
