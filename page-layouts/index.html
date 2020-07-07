@@ -1,3 +1,19 @@
+<!-- 
+
+****************************
+
+Based on wireframes from:
+
+https://docs.google.com/presentation/d/1UM769SZiJwSmyEHvGwQam0r3kzkVR2rZqhRbyOtuQNk/edit#slide=id.g89f7b44d47_0_59
+
+https://trello.com/c/zQy4eOoo
+
+
+****************************
+
+-->
+
+
 <!DOCTYPE html>
 <html class="sb-init" lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -20,6 +36,27 @@
   <link rel="stylesheet" type="text/css" media="" href="index_files/ufv-print.css"><!-- ufv-print.css -->
   <link rel="stylesheet" type="text/css" media="" href="index_files/ufv-media.css"><!-- ufv-media.css -->
     
+
+<!-- 
+
+***************************************************************************************************
+
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=content&fnno=30&sid=262143&svi=hierarchy:false:30&cid=1014410&cVer=1.0
+
+***************************************************************************************************
+
+-->
+
+<style>
+
+  :root {
+    --ufv-greeen: #00703c;
+    --container-wrap: 100px 0px 160px 0px;
+  }
+
+</style>
+
+
   </head>
   <body id="www-ufv-ca">
 
@@ -201,33 +238,35 @@
 <!--
 *************************************************************************************************************************************
 
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=content&fnno=30&sid=262143&cid=1014409
+
 *************************************************************************************************************************************
 -->
 <STYLE>
-    .home-video
+    .ct-home-video
     {
         width: 100%;
         
-        background-color: #00703c;
+        background-color: var(--ufv-greeen);
         vertical-align: middle;
         text-align: center;
         padding-bottom: 40px;
     }
-    .home-video h2
+    .ct-home-video h2
     {
         font-size: 30px;
         font-weight: bold;
         padding: 40px 0 0px 0px;
         color: #fff;
     }
-    .home-video p
+    .ct-home-video p
     {
         font-size: 16px;
         font-weight: normal;
         padding: 8px 0 20px 0px;
         color: #ebebeb;
     }
-    .home-video-box
+    .ct-home-video-box
     {
         border: 1px #ebebeb solid;
         background-color: #ebebeb;
@@ -236,8 +275,10 @@
     }
     
     </STYLE>
+    
 
-<div class="home-video">
+
+<div class="ct-home-video">
     <div class="container">
         <div class="row">
             <h2>What will your semester look like?</h2>
@@ -255,11 +296,14 @@
 
 
 
-<!--
-*************************************************************************************************************************************
+<!-- 
 
-*************************************************************************************************************************************
+****************************
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=content&fnno=30&sid=262143&svi=hierarchy:false:30&cid=1014411&cVer=1.0
+****************************
+
 -->
+
 
 <style>
 .btn-or
@@ -271,33 +315,33 @@
     border-top-left-radius: 5px;
     padding: 10px;
 }
-.featured-03 .thumbnail
+.ct-featured-03 .thumbnail
 {
     border: none;
 }
-.featured-03 h3
+.ct-featured-03 h3
 {
     font-size: 20px;
 }
-.featured-03 .caption
+.ct-featured-03 .caption
 {
     height: 200px;
     
 }
-.featured-03 .caption p
+.ct-featured-03 .caption p
 {
     font-size: 15px;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
-.featured-03
+.ct-featured-03
 {
     padding-top: 20px;
 }
 
 </style>
 
-<div class="container featured-03">
+<div class="container ct-featured-03">
 
 <h2>UFV online — we’ve got you covered</h2>
 <p>Find out what it’s like to learn online at UFV and take ownership of your post-secondary education.</p>
@@ -305,7 +349,7 @@
 <div class="row">
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-        <img src="https://www.ufv.ca/media/assets/home-page/upgrading-roolover.jpg" alt="...">
+        <img src="https://www.ufv.ca/media/assets/home-page/upgrading-roolover.jpg" alt="Same top-rated education, more flexibility">
         <div class="caption">
           <h3>Same top-rated education, more flexibility</h3>
           <p>Curious about what our online programs look like,  what delivery formats are available, and if online learning learning is right for you? 
@@ -317,7 +361,7 @@
     </div>
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-        <img src="https://www.ufv.ca/media/assets/home-page/upgrading-roolover.jpg" alt="...">
+        <img src="https://www.ufv.ca/media/assets/home-page/upgrading-roolover.jpg" alt="A more connected university experience">
         <div class="caption">
           <h3>A more connected university experience</h3>
           <p>A socially-distanced student life doesn’t have to be boring. Don’t settle for a second-rate university experience</p>
@@ -328,7 +372,7 @@
     </div>
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-        <img src="https://www.ufv.ca/media/assets/home-page/upgrading-roolover.jpg" alt="...">
+        <img src="https://www.ufv.ca/media/assets/home-page/upgrading-roolover.jpg" alt="Increased resources & support">
         <div class="caption">
           <h3>Increased resources & support</h3>
           <p>We’re here to help, every step of the way. <BR>
@@ -345,49 +389,134 @@
 
 
 
+<!-- 
 
+****************************
+****************************
 
-
-
-
-
-
-
-
-
-
-<!--
-*************************************************************************************************************************************
-
-*************************************************************************************************************************************
 -->
-<style>
 
-.student-vt
+<style>
+.ct-v-testimonial
 {
     background-color: #ebebeb;
-    padding: 60px 0px 260px 0px;
-    margin-bottom: 400px;
+    padding: var(--container-wrap);
+    
 }
-
 </style>
 
-<div class="student-vt">
-    <div class="container">
+<div class="ct-v-testimonial">
+  <div class="container">
 
     <h2>Hear what UFV students have to say</h2>
-        
+
     <div class="row">
-        <div class="col-sm-6 col-md-6">
-       Video 1
+      <div class="col-sm-6 col-md-6">
+        Video 1
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        Video 2
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 
+
+***************************************************************************************************
+Upcoming events
+class: ct-upcoming-events
+***************************************************************************************************
+
+-->
+
+<style>
+  .ct-upcoming-events
+  {
+      background-color: #ffffff;
+      padding: var(--container-wrap);
+      
+  }
+  .ct-upcoming-events .event-wrapper
+  {
+    padding: 0px 0px 30px 0px;
+
+  }
+  .ct-upcoming-events .event-title
+  {
+    font-weight: bold;
+    color: #00703c;
+
+  }
+  </style>
+  
+  <div class="ct-upcoming-events">
+    <div class="container">
+  
+      <h2>Upcoming events and info sessions</h2>
+      <p>For returning and future students</p>
+  
+      <div class="row">
+        <div class="col-sm-6 col-md-6 ct-block-left">
+          <h3>All students</h3>
+
+          
+          <div class="event-wrapper" itemscope itemtype="http://schema.org/Event">
+            <div class="event-date" itemprop="startDate" content="2013-09-14T21:30">
+                Date: Sat Sep 14
+            </div>
+            <div class="event-title" itemprop="name">
+                Name: Student online info-session
+            </div>
+            <div class="event-description" itemprop="name">
+              Short description of event
+            </div>
+            <!--
+              <div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                <span itemprop="name">University of the Fraser Valley</span>
+                <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">King Road</span><br>
+                    <span itemprop="addressLocality">Abbotsford</span>, <span itemprop="addressRegion">BC</span> <span itemprop="postalCode">V2S 7M8</span>
+                </div>
+            </div>
+            <div class="event-time">9:30 PM</div>
+          -->
         </div>
-       
-        <div class="col-sm-6 col-md-4">
-       Video 2
+          
+        <div class="event-wrapper" itemscope itemtype="http://schema.org/Event">
+          <div class="event-date" itemprop="startDate" content="2013-09-14T21:30">
+              Date: Sat Sep 14
+          </div>
+          <div class="event-title" itemprop="name">
+              Name: Student online info-session
+          </div>
+          <div class="event-description" itemprop="name">
+            Short description of event
+          </div>
+          <!--
+            <div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+              <span itemprop="name">University of the Fraser Valley</span>
+              <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <span itemprop="streetAddress">King Road</span><br>
+                  <span itemprop="addressLocality">Abbotsford</span>, <span itemprop="addressRegion">BC</span> <span itemprop="postalCode">V2S 7M8</span>
+              </div>
+          </div>
+          <div class="event-time">9:30 PM</div>
+        -->
+      </div>
+        
+          
+        </div>
+  
+        <div class="col-sm-6 col-md-4 ct-block-right">
+          <h3>International students</h3>
         </div>
       </div>
     </div>
-    </div>
+  </div>
 
 <header id="masthead-banner" class="hero-unit home-masthead" 
 style="margin:auto; width: 100%;min-height:400px; height:100%;height:calc(100% - 1px);background-size:cover;">
