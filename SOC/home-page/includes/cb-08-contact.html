@@ -4,15 +4,37 @@
 - Title: Need help? Questions?
 - Lead-in: Email us using the form below or use the chatbot to find additional information on our website.
 https://www.ufv.ca/machforms/view.php?id=767905
+edit:
+https://ufv.ca/machforms/edit_form.php?id=767905
 -->
 <STYLE>
     .ct-questions {
         background: #ebebeb;
         padding: var(--container-wrap);
     }
+
 </STYLE>
 <div class="ct-questions">
-    <div class="container ct-questions">
-        <h2>Need help? Questions?</h2>
+    <div class="container">
+        <div class="row">
+            <!-- 01 -->
+            <div class="col-sm-6 col-md-4">
+                <h2>Need help? Questions?</h2>
+            </div>
+            <div class="col-sm-6 col-md-8">
+                <div id="mf_placeholder" data-formurl="//ufv.ca/machforms/embed.php?id=767905" data-formheight="891"
+                    data-paddingbottom="10">
+                </div>
+                <script>
+                    (function (f, o, r, m) {
+                        r = f.createElement('script');
+                        r.async = 1;
+                        r.src = o + 'js/mf.js';
+                        m = f.getElementById('mf_placeholder');
+                        m.parentNode.insertBefore(r, m);
+                    })(document, '//ufv.ca/machforms/');
+                </script>
+            </div>
+        </div>
     </div>
 </div>

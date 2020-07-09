@@ -5,8 +5,12 @@
     --container-wrap: 40px 10px 40px 10px;
     --h2-size: 40px;
     --h3-size: 24px;
-    --p-font-size: 18px;
+    --p-font-size: 16px;
   }
+
+  .boxed {
+	margin-bottom: 0px;
+}
 h2{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
@@ -72,8 +76,10 @@ Home Video
 {
     font-size: var(--p-font-size);
     font-weight: normal;
-    padding: 8px 0 20px 0px;
+    padding: 5px 20px 5px 20px;
     color: #ebebeb;
+    line-height: 24px;
+
 }
 .ct-home-video-box
 {
@@ -132,7 +138,7 @@ ct-featured-03
 }
 .ct-featured-03 .caption
 {
-    height: 200px;
+    height: 260px;
 }
 .ct-featured-03 .caption p
 {
@@ -189,9 +195,9 @@ Upcoming Events
 }
 .event-bot-info p
 {
-  font-size: 22px;
-  padding: 0;
-  margin: 0;
+    font-size: var(--p-font-size);
+  padding: 0px 250px 0px 250px;
+  
 }
 
 
@@ -239,5 +245,10 @@ Mobile
 {
     
     padding: 0px 0px 0px 20px;
+}
+.event-bot-info p
+{
+  padding: 0px 20px 0px 20px;
+  
 }
 }
