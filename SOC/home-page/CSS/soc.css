@@ -2,17 +2,18 @@
 
 :root {
     --ufv-greeen: #00703c;
-    --container-wrap: 40px 0px 40px 0px;
-    --h2-size: 30px;
+    --container-wrap: 40px 10px 40px 10px;
+    --h2-size: 40px;
     --h3-size: 24px;
-    --p-font-size: 16px;
+    --p-font-size: 18px;
   }
 h2{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     padding: 0;
     margin: 0;
     font-size: var(--h2-size);
+    letter-spacing: -0.5px;
 }
 h3{
     font-family: 'Source Sans Pro', sans-serif;
@@ -63,7 +64,7 @@ Home Video
 .ct-home-video h2
 {
     font-size: var(--h2-size);
-    font-weight: bold;
+    font-weight: 600;
     padding: 40px 0 0px 0px;
     color: #fff;
 }
@@ -207,7 +208,36 @@ Upcoming Events
 .vid-box
 {
     display: block;
-    height: 300px;
-    background-color: white;
-    margin: 20px;
+    height: 600px;
+    margin: 10px;
+}
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*
+Mobile
+*/
+@media screen and (max-width: 600px) {
+
+    .ct-block-left
+{
+    border-right: none;
+    padding: 0px 0px 0px 20px;
+}
+.ct-block-right
+{
+    
+    padding: 0px 0px 0px 20px;
+}
 }

@@ -1,0 +1,55 @@
+<!--
+    cb-07-social
+    Instagram Feed - Join the Conversation
+--
+Social media section:
+- Title: Join the conversation
+- Lead-in: Follow us on Intagram for community updates, news, and stories.
+--
+    ct-instagram
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://www.sowecms.com/demos/statics/prism.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.sowecms.com/demos/statics/prism.css">
+-->
+<STYLE>
+    .ct-instagram {
+        background: #fff;
+        padding: var(--container-wrap);
+    }
+</STYLE>
+<div class="ct-instagram">
+<div class="container">
+    <h2>Join the conversation</h2>
+    <p>Follow us on Intagram for community updates, news, and stories.</p>
+    <div id="instagram-feed1" class="instagram_feed"></div>
+</div>
+</div>
+<script src="InstagramFeed.min.js"></script>
+    <script>
+        (function() {
+            new InstagramFeed({
+                'username': 'goufv',
+                'container': document.getElementById("instagram-feed1"),
+                'display_profile': false,
+                'display_biography': true,
+                'display_gallery': true,
+                'callback': null,
+                'styling': true,
+                'items': 8,
+                'items_per_row': 4,
+                'margin': 1,
+                'lazy_load': true
+            });
+            new InstagramFeed({
+                'username': 'goufv',
+                'get_data': true,
+                'callback': function(data) {
+                    document.getElementById("jsonHere").innerHTML = JSON.stringify(data, null, 2);
+                }
+            });
+        })();
+        (jQuery);
+    </script>
