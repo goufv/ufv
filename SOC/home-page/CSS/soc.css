@@ -1,34 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
-
 :root {
     --ufv-greeen: #00703c;
     --container-wrap: 40px 10px 40px 10px;
-    --h2-size: 40px;
-    --h3-size: 24px;
-    --p-font-size: 16px;
+    --h2-size: 32px;
+    --h3-size: 22px;
+    --p-font-size: 15px;
   }
 
   .boxed {
 	margin-bottom: 0px;
 }
 h2{
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     padding: 0;
     margin: 0;
     font-size: var(--h2-size);
     letter-spacing: -0.5px;
+    padding-bottom: 20px;
 }
 h3{
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     letter-spacing: -0.5px;
     font-size: var(--h3-size);
 }
 p{
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: var(--p-font-size);
 }
+
+.thumbnail
+{
+  border: none;
+  padding: 0px;
+}
+
   /*
 Video Testimonial
 */
@@ -61,6 +64,7 @@ Home Video
 .ct-home-video
 {
     background-color: var(--ufv-greeen);
+    background-color: #696969;
     vertical-align: middle;
     text-align: center;
     padding: var(--container-wrap);
@@ -69,7 +73,7 @@ Home Video
 {
     font-size: var(--h2-size);
     font-weight: 600;
-    padding: 40px 0 0px 0px;
+
     color: #fff;
 }
 .ct-home-video p
@@ -138,7 +142,12 @@ ct-featured-03
 }
 .ct-featured-03 .caption
 {
-    height: 260px;
+    height: 280px;
+}
+.ct-featured-03 p
+{
+    padding-bottom: 30px;
+
 }
 .ct-featured-03 .caption p
 {
