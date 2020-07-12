@@ -1,0 +1,65 @@
+<!-- 
+Content box inner page 
+HTML layout (aml)
+-->
+
+<STYLE>
+  .related-content-box
+  {
+    background: #00aecf;
+    border-radius: 5px;
+    min-height: 170px;
+  }
+  .related-content-box:hover
+  {
+    background: #00703c;
+    transition-duration: 0.25s;
+
+  }
+  .related-content-box h5
+  {
+  
+    padding: 5%;
+    padding-bottom: 0;
+    font-weight: bold;
+  }
+  .related-content-box p
+  {
+    color: #fff;
+    padding: 0px;
+  }
+  .related-content-box a
+  {
+    text-decoration: none;
+    
+  }
+</STYLE>
+
+
+<t4 type="meta" meta="html_anchor" />  
+<t4 type="content" name="Open section?" output="selective-output" modifiers="" format="$value"  />
+
+  
+  <div style="border: 1px solid <t4 type="content" name="Color" output="normal" modifiers="" format="$value" />">
+	<div class="<t4 type="content" name="Color" output="normal" modifiers="" display_field="name" />"  style="padding:3px 5%;margin-bottom:7px;">
+
+      
+<!-- related content box -->
+<a href="" title="<t4 type="content" name="Title" output="normal" modifiers="striptags, nl2br"  />">
+<div class="related-content-box <t4 type="content" name="Color" output="normal" modifiers="" display_field="name" /> col-md-<t4 type="content" name="Width occupied?" output="normal" modifiers="" format="$value" /> col-sm-12" > 
+  <div>
+  	<h5><t4 type="content" name="Title" output="normal" modifiers="striptags, nl2br"  /></h5>
+    <div style="padding:5%; padding-top:0px;">
+      <p><t4 type="content" name="Main Body" output="normal" modifiers="tags"  /></p>
+    </div> 
+  </div>
+</div>
+</a>
+
+<t4 type="content" name="Close and open new row?" output="selective-output" modifiers="" format="$value"  />
+<t4 type="content" name="Close section?" output="selective-output" modifiers="" format="$value"  />
+
+
+
+
+

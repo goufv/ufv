@@ -1,0 +1,20 @@
+<!-- 
+feed/horizon3 
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=345&tfMT=
+formatter="feed/output3"
+-->
+
+
+<STYLE>
+    .rss-title-blogs span { color: #333!important;}
+    .rss-title-blogs span:hover { color: #00703c !important;}
+    a.ip-calendar-eventtitlelink:hover {color: #7cb232 !important; text-decoration: none;}
+    </STYLE>
+    
+    
+    <div id="ufv-rss-news" style="padding-top:15px;">
+    <t4 type="data-obj" method="rss" rss-url="$template.feed-url$" for-each="item" formatter="feed/output3hor" max-number="$template.number$" />
+    </div>
+
+
+    

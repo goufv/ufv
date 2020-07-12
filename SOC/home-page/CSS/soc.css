@@ -30,6 +30,17 @@ p{
 	background-color: #00703c;
 
 }
+.btn:hover
+{
+background: #00703c;
+  background-color: #00703c;
+}
+.btn.btn-block.btn-primary.btn-or:hover {
+	background: #00703c;
+}
+.btn.btn-block.btn-primary:hover {
+	background: #00703c;
+}
 .thumbnail
 {
   border: none;
@@ -119,9 +130,6 @@ Upcoming Events
     margin: 0;
 
 }
-/* 
-ct-featured-03 
-*/
 .btn-or
 {
     background-color: #d46107;
@@ -163,28 +171,11 @@ ct-featured-03
     padding-top: 20px;
     padding: var(--container-wrap);
 }
-/* 
-Video Testim
-*/
 .ct-v-testimonial
 {
     background-color: #ebebeb;
     padding: var(--container-wrap);
 }
-/* 
-
-
-
-
-Upcoming Events 
-
-
-
-
-
-
-*/
-
 .ct-upcoming-events
 {
     background-color: #ffffff;
@@ -194,10 +185,17 @@ Upcoming Events
 {
   padding: 0px 0px 30px 0px;
 }
-.ct-upcoming-events .event-title
+.ct-upcoming-events .event-title,
+.event-title a
 {
   font-weight: bold;
+  font-size: 20px;
   color: #00703c;
+}
+.event-date
+{
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 .event-bot-info
@@ -242,10 +240,42 @@ Upcoming Events
     width:100%;
     position:absolute;
 }
+.ct-community-stories .thumbnail
+{
+    min-height: 250px;
+    background: inherit;
+}
+.ct-community-stories .caption
+{
+  min-height: 260px;
+}
 
-/*
-Mobile
-*/
+
+
+ .btn.btn-default.btn-primary.btn-or.btn-block.btn-w:hover {
+	background: #00703c;
+background-color:#00703c;
+}
+.btn.btn-block.btn-primary.btn-or:hover {
+	background: #00703c;
+background-color:#00703c;
+}
+.btn-primary:hover, .open > .dropdown-toggle.btn-primary {
+	color: #fff;
+	background: #00703c;
+background-color:#00703c;
+}
+.btn-primary:hover{
+	color: #fff;
+	background: #00703c;
+background-color:#00703c;
+}
+
+.home-hero-banner {
+	margin-bottom: 20px;
+}
+
+
 @media screen and (max-width: 600px) {
 
     .ct-block-left
