@@ -5,7 +5,6 @@
     --h3-size: 22px;
     --p-font-size: 15px;
   }
-
   .boxed {
 	margin-bottom: 0px;
 }
@@ -28,7 +27,6 @@ p{
 .btn-primary:hover {
 	color: #fff;
 	background-color: #00703c;
-
 }
 .btn:hover
 {
@@ -46,7 +44,6 @@ background: #00703c;
   border: none;
   padding: 0px;
 }
-
   /*
 Video Testimonial
 */
@@ -68,10 +65,8 @@ Home Hero
 .home-hero-banner h2
 {
     font-size: var(--h2-size);
-    
     border: 0px solid #ccc;
     font-weight: bold;
-    
 }
 /* 
 Home Video
@@ -81,29 +76,49 @@ Home Video
     background-color: var(--ufv-greeen);
     background-color: #D7DBDD;
     text-align: center;
-
     padding: var(--container-wrap);
-    
 }
 .ct-home-video h2
 {
     font-size: var(--h2-size);
-    font-weight: 600;
-
-    
+    font-weight: 400;
 }
 .ct-home-video p
 {
     font-size: var(--p-font-size);
     font-weight: normal;
     line-height: 24px;
-    padding: 0px 250px 0px 250px;
+    padding: 2px 10%;
 }
 .ct-home-video-box
 {
     border: 1px #ebebeb solid;
     background-color: #ebebeb;
     height: 400px;
+}
+/*
+3.5
+*/
+.cb-2col-cta {
+    clear: both;
+    padding: 5% 0;
+}
+.cb-2col-cta h2 {
+    font-weight: 400;
+}
+.cb-2col-cta h3 {
+    font-weight: 400;
+}
+.cta-col-r {
+    border-left: 1px solid #ccc;
+    padding-left: 150px;
+}
+.cb-2col-cta p {
+    font-size: 16px;
+    padding: 5px 10px 10px 0px;
+    line-height: 20px;
+    min-height: unset;
+    clear: both;
 }
 /* 
 Upcoming Events 
@@ -128,7 +143,6 @@ Upcoming Events
 {
     padding: 0;
     margin: 0;
-
 }
 .btn-or
 {
@@ -153,12 +167,12 @@ Upcoming Events
 }
 .ct-featured-03 .caption
 {
-    height: 280px;
+    height: 190px;
+    padding: 0px;
 }
 .ct-featured-03 p
 {
     padding-bottom: 30px;
-
 }
 .ct-featured-03 .caption p
 {
@@ -194,10 +208,9 @@ Upcoming Events
 }
 .event-date
 {
-    text-transform: uppercase;
-    font-weight: lighter;
+    text-transform: initial;
+    font-weight: inherit;
 }
-
 .event-bot-info
 {
   text-align: center;
@@ -207,18 +220,15 @@ Upcoming Events
 {
     font-size: var(--p-font-size);
   padding: 0px 250px 0px 250px;
-  
 }
-
-
 .ct-block-left
 {
     border-right: 1px solid #ccc;
     padding: 0px 100px 0px 100px;
+    padding-left: 15px;
 }
 .ct-block-right
 {
-    
     padding: 0px 10px 0px 100px;
 }
 .vid-box
@@ -240,6 +250,23 @@ Upcoming Events
     width:100%;
     position:absolute;
 }
+
+
+
+
+
+
+
+
+.ct-community-stories {
+    background: #ffffff;
+    padding: var(--container-wrap);
+}
+.ct-community-stories h2
+{
+    margin-bottom: 30px;
+}
+
 .ct-community-stories .thumbnail
 {
     min-height: 250px;
@@ -247,7 +274,20 @@ Upcoming Events
 }
 .ct-community-stories .caption
 {
-  min-height: 260px;
+    height: unset;
+}
+
+
+.story-box
+{
+display: block;
+height: 200px;
+background-color: white;
+}
+.story-button
+{
+text-align: center;
+padding: 30px;
 }
 
 
@@ -270,27 +310,12 @@ background-color:#00703c;
 	background: #00703c;
 background-color:#00703c;
 }
-
+.btn-primary:active,
+.btn-primary:focus{
+	color: #fff;
+	background: #00703c;
+background-color:#00703c;
+}
 .home-hero-banner {
 	margin-bottom: 20px;
-}
-
-
-@media screen and (max-width: 600px) {
-
-    .ct-block-left
-{
-    border-right: none;
-    padding: 0px 0px 0px 20px;
-}
-.ct-block-right
-{
-    
-    padding: 0px 0px 0px 20px;
-}
-.event-bot-info p
-{
-  padding: 0px 20px 0px 20px;
-  
-}
 }

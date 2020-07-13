@@ -17,4 +17,37 @@ formatter="feed/output3"
     </div>
 
 
+
     
+
+
+<!--
+feed/horizon3 
+-->
+<STYLE>
+    .ct-community-stories {
+        background: #ebebeb;
+        padding: var(--container-wrap);
+    }
+    .ct-community-stories h2
+    {
+        margin-bottom: 30px;
+    }
+    .ct-community-stories .caption
+    {
+        height: 180px;
+    }
+    .story-box
+    {
+    display: block;
+    height: 200px;
+    background-color: white;
+    }
+</STYLE>
+<div class="ct-community-stories">
+<div class="container">
+<h2>Stories from the community</h2>
+<div class="row">
+<t4 type="data-obj" method="rss" rss-url="$template.feed-url$" for-each="item" formatter="feed/output3hor" max-number="$template.number$" />
+</div>
+</div>

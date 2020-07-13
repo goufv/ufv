@@ -1,0 +1,84 @@
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 22px;
+        letter-spacing: -.5px;
+    }
+
+    .ct-block-left {
+        border-right: none;
+        padding: 0px 0px 0px 20px;
+    }
+
+    .ct-block-right {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .event-bot-info p {
+        padding: 0px 20px 0px 20px;
+    }
+  .cta-col-r {
+        border: none;
+        padding: 0px 0px 0px 20px;
+    }
+    .cb-2col-cta h2 {
+        font-weight: 400;
+        padding: unset;
+    }
+    .cb-2col-cta p {
+        font-size: 16px;
+        padding: 10px 10px 5px 0px;
+        min-height: unset;
+        clear: both;
+    }
+
+    .cb-2col-cta {
+        height: unset;
+        clear: both;
+        margin-bottom: 30px;
+    }
+
+    .cta-col-r {
+        border: none;
+        padding: 0px 0px 0px 20px;
+    }
+
+    .cb-2col-cta h2 {
+        font-weight: bold;
+        padding: unset;
+    }
+
+    .cb-2col-cta p {
+        font-size: 16px;
+        padding: 10px 10px 5px 0px;
+        min-height: unset;
+        clear: both;
+    }
+
+    .boxed {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .t-image .img-responsive {
+        border-radius: 50%;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .ct-community-stories .caption {
+        height: unset;
+    }
+
+    .ct-community-stories .thumbnail {
+        min-height: inherit;
+    }
+
+    .ct-community-stories h2 {
+        margin-bottom: unset;
+    }
+    .ct-v-testimonial .container footer {
+        margin-bottom: 30px;
+    }
+
+}

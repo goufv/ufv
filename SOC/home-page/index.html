@@ -62,11 +62,24 @@ Home Video
 */
 .ct-home-video { background-color: var(--ufv-greeen); background-color: #D7DBDD; text-align: center; padding: var(--container-wrap); }
 
-.ct-home-video h2 { font-size: var(--h2-size); font-weight: 600; }
+.ct-home-video h2 { font-size: var(--h2-size); font-weight: 400; }
 
-.ct-home-video p { font-size: var(--p-font-size); font-weight: normal; line-height: 24px; padding: 0px 250px 0px 250px; }
+.ct-home-video p { font-size: var(--p-font-size); font-weight: normal; line-height: 24px; padding: 2px 10%; }
 
 .ct-home-video-box { border: 1px #ebebeb solid; background-color: #ebebeb; height: 400px; }
+
+/*
+3.5
+*/
+.cb-2col-cta { clear: both; padding: 5% 0; }
+
+.cb-2col-cta h2 { font-weight: 400; }
+
+.cb-2col-cta h3 { font-weight: 400; }
+
+.cta-col-r { border-left: 1px solid #ccc; padding-left: 150px; }
+
+.cb-2col-cta p { font-size: 16px; padding: 5px 10px 10px 0px; line-height: 20px; min-height: unset; clear: both; }
 
 /* 
 Upcoming Events 
@@ -87,7 +100,7 @@ Upcoming Events
 
 .ct-featured-03 h3 { font-size: var(--h3-size); }
 
-.ct-featured-03 .caption { height: 280px; }
+.ct-featured-03 .caption { height: 190px; padding: 0px; }
 
 .ct-featured-03 p { padding-bottom: 30px; }
 
@@ -103,13 +116,13 @@ Upcoming Events
 
 .ct-upcoming-events .event-title, .event-title a { font-weight: bold; font-size: 20px; color: #00703c; }
 
-.event-date { text-transform: uppercase; font-weight: lighter; }
+.event-date { text-transform: initial; font-weight: inherit; }
 
 .event-bot-info { text-align: center; padding: 30px; }
 
 .event-bot-info p { font-size: var(--p-font-size); padding: 0px 250px 0px 250px; }
 
-.ct-block-left { border-right: 1px solid #ccc; padding: 0px 100px 0px 100px; }
+.ct-block-left { border-right: 1px solid #ccc; padding: 0px 100px 0px 100px; padding-left: 15px; }
 
 .ct-block-right { padding: 0px 10px 0px 100px; }
 
@@ -119,9 +132,17 @@ Upcoming Events
 
 .video-responsive iframe { left: 0; top: 0; height: 100%; width: 100%; position: absolute; }
 
+.ct-community-stories { background: #ffffff; padding: var(--container-wrap); }
+
+.ct-community-stories h2 { margin-bottom: 30px; }
+
 .ct-community-stories .thumbnail { min-height: 250px; background: inherit; }
 
-.ct-community-stories .caption { min-height: 260px; }
+.ct-community-stories .caption { height: unset; }
+
+.story-box { display: block; height: 200px; background-color: white; }
+
+.story-button { text-align: center; padding: 30px; }
 
 .btn.btn-default.btn-primary.btn-or.btn-block.btn-w:hover { background: #00703c; background-color: #00703c; }
 
@@ -131,9 +152,64 @@ Upcoming Events
 
 .btn-primary:hover { color: #fff; background: #00703c; background-color: #00703c; }
 
+.btn-primary:active, .btn-primary:focus { color: #fff; background: #00703c; background-color: #00703c; }
+
 .home-hero-banner { margin-bottom: 20px; }
 
-@media screen and (max-width: 600px) { .ct-block-left { border-right: none; padding: 0px 0px 0px 20px; } .ct-block-right { padding: 0px 0px 0px 20px; } .event-bot-info p { padding: 0px 20px 0px 20px; } }
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 22px;
+    letter-spacing: -.5px; }
+  .ct-block-left {
+    border-right: none;
+    padding: 0px 0px 0px 20px; }
+  .ct-block-right {
+    padding: 0px 0px 0px 20px; }
+  .event-bot-info p {
+    padding: 0px 20px 0px 20px; }
+  .cta-col-r {
+    border: none;
+    padding: 0px 0px 0px 20px; }
+  .cb-2col-cta h2 {
+    font-weight: 400;
+    padding: unset; }
+  .cb-2col-cta p {
+    font-size: 16px;
+    padding: 10px 10px 5px 0px;
+    min-height: unset;
+    clear: both; }
+  .cb-2col-cta {
+    height: unset;
+    clear: both;
+    margin-bottom: 30px; }
+  .cta-col-r {
+    border: none;
+    padding: 0px 0px 0px 20px; }
+  .cb-2col-cta h2 {
+    font-weight: bold;
+    padding: unset; }
+  .cb-2col-cta p {
+    font-size: 16px;
+    padding: 10px 10px 5px 0px;
+    min-height: unset;
+    clear: both; }
+  .boxed {
+    padding-bottom: 0px;
+    margin-bottom: 0px; }
+  .t-image .img-responsive {
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px; }
+  .ct-community-stories .caption {
+    height: unset; }
+  .ct-community-stories .thumbnail {
+    min-height: inherit; }
+  .ct-community-stories h2 {
+    margin-bottom: unset; }
+  .ct-v-testimonial .container footer {
+    margin-bottom: 30px; } }
 
 </STYLE>
 
@@ -287,202 +363,71 @@ Upcoming Events
 -->
 
 
-<style>
-    .ct-hpm-content {
-        padding: 90px 20px 0px 120px;
-        text-align: right;
-    }
+<!-- //@import 'includes/cb-00-program-select.html'; -->
 
-    .ct-hpm-content h2 {
-        color: #fff;
-        font-size: 37px;
-        font-weight: 600;
-        letter-spacing: -1px;
-        padding: 20px;
-    }
+<!-- 
+cb-03-5 
+2 column CTA
+-->
 
-    .ct-hpm-content p {
-        color: #ebebeb;
-        background: #000;
-        background: rgba(0, 0, 0, 0.3);
-        padding: 20px;
-    }
-    .home-choice {
-	padding: 15px 5px 10px 5px;
-	margin: 40px auto;
-	background: rgba(255, 255, 255, 0.8);
-	background: #403f3f;
-	opacity: 0.95;
-	border-top-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	position: relative;
-	z-index: 1006091 !important;
-	background: #403f3f;
-	background: -moz-linear-gradient(top, #403f3f 0%, #6b6a6a 100%);
-	background: -webkit-linear-gradient(top, #403f3f 0%, #6b6a6a 100%);
-	background: linear-gradient(to bottom, #403f3f 0%, #6b6a6a 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#403f3f', endColorstr='#6b6a6a', GradientType=0);
-	/* height: 50vh; */
-}
-.home-choice-h2
-{
-    padding: 5px 0px 20px 0px;
-    text-align: center;
-}
-</style>
-<header id="masthead-banner" class="hero-unit home-masthead"
-    style="background-image: url('https://webdev.ufv.ca/media/2015/headers/South-Asian-Studies-Institute-banner.jpg');margin:auto; width: 100%;min-height:400px; height:100%;height:calc(100% - 1px);background-size:cover;">
-    <div class="container">
+
+<div class="cb-2col-cta" style="background:#ffffff;">
+    <div class="container ">
+        <h2>Become a UFV student</h2>
+        <p>Don’t delay your studies. Set your goal, choose your path, and take the next step.</p>
         <div class="row">
-            <div class="col col-md-2">
-                
+            <div class="col-sm-6 col-md-6 cta-col-l">
+                <h3>Admitted? Congratulations!</h3>
+                <p>We are looking forward to welcoming you to UFV.</p>
+                <p>Helpful resources:</p>
+                <ul>
+                    <li>View <a href="https://www.ufv.ca/future-students/admitted/">your next steps</a></li>
+                    <li>Book an <a href="https://www.ufv.ca/advising/">advising appointment</a></li>
+                </ul>
+                <a href="https://ufv.ca/registration/how-to-register/"><button type="button"
+                        class="btn btn-default btn-primary btn-or btn-block btn-w">Register for
+                        courses</button></a>
             </div>
-            <div class="col col-md-6">
-                <div class="ct-hpm-content">
-                    <h2>Learn something new</h2>
-                    <p>At University of the Fraser Valley, we will take you further with your goals and career pursuits
-                    </p>
-                </div>
-            </div>
-            <div class="col col-md-4">
-                <div class="row home-choice">
-                    <!--
-                    <div class="col col-md-6" style="margin: 0; padding-top:25px;">
-                        <h2 style="text-align:center;">Find Your Program</h2>
-                        <div class="dropdown" style="">
-                            <button class="btn btn-default dropdown-toggle" type="button" id="menu1"
-                                data-toggle="dropdown" aria-expanded="false" style="width:100%">
-                                Choose area of interest &nbsp;<span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li data-toggle="modal" data-target="#ModalcollapseOne" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Agriculture</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseThree" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Aviation</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseFour" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Business and Management</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsesixteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Computer Systems &amp; Technology</a>
-                                </li>
-                                <li data-toggle="modal" data-target="#ModalcollapseSeven" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Creative Arts &amp; Design</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseFive" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Earth &amp; Environmental Sciences</a>
-                                </li>
-                                <li data-toggle="modal" data-target="#ModalcollapseSix" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Education</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseC" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Graduate Studies</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseEight" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Health Sciences &amp; Services</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseA" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">History &amp; Culture</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapseten" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Indigenous Studies</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapseeleven" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="">Interdisciplinary Programs</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsetwelve" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Legal &amp; Criminal Justice</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsethirteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Media &amp; Communications</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsenineteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Office Administration</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsefourteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Sciences</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseNine" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Social Work &amp; Human Services</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseB" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Society, Politics, &amp; Policy</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapseseventeen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Trades</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapseeighteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Upgrading</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    -->
-                    <div class="col col-md-12">
-                        <h2 class="home-choice-h2">Find Your Program</h2>
-                        <div class="dropdown" style="">
-                            <button class="btn btn-default dropdown-toggle" type="button" id="menu1"
-                                data-toggle="dropdown" aria-expanded="false" style="width:100%">
-                                Choose area of interest &nbsp;<span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li data-toggle="modal" data-target="#ModalcollapseOne" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Agriculture</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseThree" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Aviation</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseFour" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Business and Management</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsesixteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Computer Systems &amp; Technology</a>
-                                </li>
-                                <li data-toggle="modal" data-target="#ModalcollapseSeven" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Creative Arts &amp; Design</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseFive" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Earth &amp; Environmental Sciences</a>
-                                </li>
-                                <li data-toggle="modal" data-target="#ModalcollapseSix" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Education</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseC" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Graduate Studies</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseEight" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Health Sciences &amp; Services</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseA" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">History &amp; Culture</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapseten" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Indigenous Studies</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapseeleven" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="">Interdisciplinary Programs</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsetwelve" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Legal &amp; Criminal Justice</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsethirteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Media &amp; Communications</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsenineteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Office Administration</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapsefourteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Sciences</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseNine" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Social Work &amp; Human Services</a></li>
-                                <li data-toggle="modal" data-target="#ModalcollapseB" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Society, Politics, &amp; Policy</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapseseventeen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Trades</a></li>
-                                <li data-toggle="modal" data-target="#Modalcollapseeighteen" role="presentation"><a
-                                        role="menuitem" tabindex="-1" href="#">Upgrading</a></li>
-                            </ul>
-                        </div>
-                        <ul id="ufv-library-buttons">
-                            <li><a href="">Programs A-Z</a></li>
-                            <li><a href="">Ask a Question</a></li>
-                            <li><a href="">Apply to UFV</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-sm-6 col-md-6 cta-col-r">
+                <h3>Not yet a student?</h3>
+                <p>We are still accepting applications for fall 2020 semester.</p>
+                <p>Helpful resources:</p>
+                <ul>
+                    <li>Check <a href="https://ufv.ca/admissions/programs-accepting-applications/">programs open for
+                            application</a></li>
+                    <li>View <a href="https://ufv.ca/admissions/admission-requirements/">admission requirements</a></li>
+                </ul>
+                <a href="https://ufv.ca/admissions/apply/"><button type="button"
+                        class="btn btn-default btn-primary btn-or btn-block btn-w">Apply
+                        now</button></a>
             </div>
         </div>
-    </div>
-</header>
-
-
-<!--
-*************
-cb-01-banner
-*************
--->
-<div class="home-hero-banner">
-    <div class="container">
-        <h2>Build Momentum towards your future</h2>
-                <p>Take ownership of your post-secondary education</p>
-                <a href=""><button type="button" class="btn btn-default btn-primary btn-or btn-block btn-w">Learn
-                        More</button></a>
     </div>
 </div>
 
 
+<!--
+<div class="container cb-2col-cta">
+    <h2>Become a UFV Student</h2>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 cta-col-l">
+            <h3>Admitted?</h3>
+            <p>We are looking forward to welcome you at UFV</p>
+            <a href=""><button type="button" class="btn btn-default btn-primary btn-or btn-block btn-w">Register for
+                    courses</button></a>
+        </div>
+        <div class="col-sm-6 col-md-6 cta-col-r">
+            <h3>Not yet a student?</h3>
+            <p>We are still accepting applications for this fall and for the upcoming winter semester</p>
+            <a href=""><button type="button" class="btn btn-default btn-primary btn-or btn-block btn-w">Apply
+                    Now</button></a>
+        </div>
+    </div>
+</div>
 
+-->
+
+<!-- //@import 'includes/cb-01-banner.html'; -->
 
 <!--
 *************************************************************************************************************************************
@@ -522,6 +467,21 @@ Home Video
     background-color: #ebebeb;
     height: 400px;
 }
+
+
+@media screen and (max-width: 600px) {
+
+    .ct-home-video p {
+	font-size: var(--p-font-size);
+	font-weight: normal;
+	line-height: 24px;
+	padding: 0px 15px 0px 15px;
+	color: #000;
+}
+
+
+}
+
 </style>
 <div class="ct-home-video">
     <div class="container">
@@ -600,76 +560,7 @@ cb-03-overview
   </div>
 </div>
 
-<!-- 
-cb-03-5 
-2 column CTA
--->
-<STYLE>
-    .cb-2col-cta {
-        height: 400px;
-        clear: both;
-    }
 
-    .cb-2col-cta h2 {
-        font-weight: bold;
-    }
-
-    .cb-2col-cta h3 {
-        font-weight: bold;
-    }
-
-    .cb-2col-cta p {
-        font-size: 16px;
-        padding: 10px 100px 20px 0px;
-        min-height: 80px;
-        clear: both;
-    }
-
-    .cta-col-r {
-        border-left: 1px solid #ccc;
-        padding-left: 150px;
-    }
-
-    @media screen and (max-width: 600px) {
-        .cb-2col-cta {
-        height: unset;
-        clear: both;
-        margin-bottom: 30px;
-    }
-    .cta-col-r {
-        border:none;
-        padding: 0px 0px 0px 20px;
-    }
-    .cb-2col-cta h2 {
-        font-weight: bold;
-        padding: unset;
-    }
-    .cb-2col-cta p {
-        font-size: 16px;
-        padding: 10px 10px 5px 0px;
-        min-height: unset;
-        clear: both;
-    }
-
-    }
-</STYLE>
-<div class="container cb-2col-cta">
-    <h2>Become a UFV Student</h2>
-    <div class="row">
-        <div class="col-sm-6 col-md-6 cta-col-l">
-            <h3>Admitted?</h3>
-            <p>We are looking forward to welcome you at UFV</p>
-            <a href=""><button type="button" class="btn btn-default btn-primary btn-or btn-block btn-w">Register for
-                    courses</button></a>
-        </div>
-        <div class="col-sm-6 col-md-6 cta-col-r">
-            <h3>Not yet a student?</h3>
-            <p>We are still accepting applications for this fall and for the upcoming winter semester</p>
-            <a href=""><button type="button" class="btn btn-default btn-primary btn-or btn-block btn-w">Apply
-                    Now</button></a>
-        </div>
-    </div>
-</div>
 
 <!-- 
 ****************************
@@ -722,6 +613,11 @@ cb-05-events
               <p class="event-description" itemprop="name">A series of 4 modules to help you build your skills for academic,
             professional and personal success.</p>
         </div>
+        
+      </div>
+      <div class="col-sm-6 col-md-6 ct-block-right">
+        <h3>International students</h3>
+
         <!-- Event 02 -->
         <div class="event-wrapper" itemscope itemtype="http://schema.org/Event">
           
@@ -739,22 +635,8 @@ cb-05-events
             permits and visas, inviting family members, immigration rules on academic standing, non-study, and change of
             program.</p>
         </div>
-      </div>
-      <div class="col-sm-6 col-md-6 ct-block-right">
-        <h3>International students</h3>
 
-        <div class="event-wrapper" itemscope itemtype="http://schema.org/Event">
-          
-          <p class="event-title" itemprop="name">Name: Student online info-session</p>
-          <p class="event-date" itemprop="startDate" content="2013-09-14T21:30">Date: Sat Sep 14</p>
-          <p class="event-description" itemprop="name">Short description of event</p>
-        </div>
-        <div class="event-wrapper" itemscope itemtype="http://schema.org/Event">
         
-          <p class="event-title" itemprop="name">Name: Student online info-session</p>
-          <p class="event-date" itemprop="startDate" content="2013-09-14T21:30">Date: Sat Sep 14</p>
-            <p class="event-description" itemprop="name">Short description of event</p>
-        </div>
       </div>
     </div>
     <div class="row event-bot-info">
@@ -778,24 +660,7 @@ Stories section: Latest content to display:
 - Shelby Klassen earns 2020 Governor General’s Bronze Medal with 4.24 GPA
 -->
 <STYLE>
-    .ct-community-stories {
-        background: #ebebeb;
-        padding: var(--container-wrap);
-    }
-    .ct-community-stories h2
-    {
-        margin-bottom: 30px;
-    }
-    .ct-community-stories .caption
-    {
-        height: 180px;
-    }
-    .story-box
-    {
-    display: block;
-    height: 200px;
-    background-color: white;
-    }
+
 </STYLE>
 <div class="ct-community-stories">
     <div class="container">
@@ -853,58 +718,7 @@ Stories section: Latest content to display:
 </div>
 
 
-<!--
-    cb-07-social
-    Instagram Feed - Join the Conversation
-Social media section:
-- Title: Join the conversation
-- Lead-in: Follow us on Intagram for community updates, news, and stories.
-    ct-instagram
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://www.sowecms.com/demos/statics/prism.js"></script>
-<link rel="stylesheet" type="text/css" href="https://www.sowecms.com/demos/statics/prism.css">
--->
-<STYLE>
-    .ct-instagram {
-        background: #fff;
-        padding: var(--container-wrap);
-    }
-</STYLE>
-<div class="ct-instagram">
-<div class="container">
-    <h2>Join the conversation</h2>
-    <div id="instagram-feed1" class="instagram_feed"></div>
-</div>
-</div>
-<script src="InstagramFeed.min.js"></script>
-    <script>
-        (function() {
-            new InstagramFeed({
-                'username': 'goufv',
-                'container': document.getElementById("instagram-feed1"),
-                'display_profile': false,
-                'display_biography': true,
-                'display_gallery': true,
-                'callback': null,
-                'styling': true,
-                'items': 8,
-                'items_per_row': 4,
-                'margin': 1,
-                'lazy_load': true
-            });
-            new InstagramFeed({
-                'username': 'goufv',
-                'get_data': true,
-                'callback': function(data) {
-                    document.getElementById("jsonHere").innerHTML = JSON.stringify(data, null, 2);
-                }
-            });
-        })();
-        (jQuery);
-    </script>
+<!-- //@import 'includes/cb-07-social.html'; -->
 
 
 <!--
