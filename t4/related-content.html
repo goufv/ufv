@@ -1,0 +1,78 @@
+<!-- 
+Related Content Box
+-->
+<STYLE>
+    .related-content-box {
+      background: #00aecf;
+      border-radius: 5px;
+      min-height: 170px;
+    }
+  
+    .related-content-box:hover {
+      background: #00703c;
+      transition-duration: 0.25s;
+    }
+  
+    .related-content-box h5 {
+      padding: 5%;
+      padding-bottom: 0;
+      font-weight: bold;
+      padding-top: 0px;
+      margin-top: 10px;
+    }
+  
+    .related-content-box p {
+      color: #fff;
+      padding: 0px;
+    }
+  
+    .related-content-box a {
+      text-decoration: none;
+    }
+  
+    .pad {
+      padding: 2%;
+    }
+  
+    .relkeywords {
+      text-transform: uppercase;
+      padding: 5%;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      color: #fff;
+      font-size: 15px;
+    }
+  
+    @media screen and (max-width: 600px) {
+      .related-content-class {
+        margin-bottom: 5%;
+      }
+    }
+  </STYLE>
+  <t4 type="meta" meta="html_anchor" />
+  <t4 type="content" name="Open section?" output="selective-output" modifiers="" format="$value" />
+  
+  <!-- related content box -->
+  <a href="<t4 type="content" name="Listing link" output="linkurl" modifiers="nav_sections, htmlentities, nl2br"  />" title="<t4 type=" content" name="Title" output="normal" modifiers="striptags, nl2br" />">
+    
+    <!-- <t4 type=" content" name="Width occupied?" output="normal" modifiers="" format="$value" /> -->
+  <div class="col-md-3 col-xs-6 related-content-class" >
+  <div id="related-content-box" class="related-content-box pad <t4 type=" content" name="Color" output="normal" modifiers="" display_field="name" />">
+  <div>
+    <div class="relkeywords">
+      <t4 type="content" name="Keywords" output="normal" modifiers="striptags, nl2br" />
+    </div>
+    <h5>
+      <t4 type="content" name="Title" output="normal" modifiers="striptags, nl2br" />
+    </h5>
+    <div style="padding:5%; padding-top:0px;">
+      <p>
+        <t4 type="content" name="Main Body" output="normal" modifiers="tags" />
+      </p>
+    </div>
+  </div>
+  </div><!-- pad -->
+  </div>
+  </a>
+  <t4 type="content" name="Close and open new row?" output="selective-output" modifiers="" format="$value" />
+  <t4 type="content" name="Close section?" output="selective-output" modifiers="" format="$value" />
