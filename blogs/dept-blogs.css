@@ -1,0 +1,106 @@
+.post-image-above-header .inside-article .post-image, .post-image-above-header .inside-article .featured-image {
+	margin-top: 0;
+	margin-bottom: 2em;
+	display: none;
+}
+.byline, 
+.single .byline, 
+.group-blog .byline,
+.comments-link 
+{
+	
+}
+.main-title a, .main-title a:hover, .main-title a:visited {
+	color: #f5f5f5;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: -1px;
+	text-shadow: 0px -1px -1px #555;
+	line-height: 40px;
+	float: left;
+	font-size: 24px;
+	text-align: left;
+	text-transform: none;
+}
+.main-navigation .main-nav ul li a, .main-navigation .mobile-bar-items a, .menu-toggle {
+	text-transform: none;
+}
+.site-content {
+    margin-top: 20px;
+}
+.byline, .single .byline, .group-blog .byline, .comments-link {
+	display: none;
+}
+.wp-post-image {
+    margin-top: 0;
+	margin-right: 2em;
+	float: left;
+	text-align: left;
+    width: 250px;
+}
+
+.attachment-full.size-full {
+	width: 100%;
+}
+@media only screen 
+  and (min-width : 768px) and (max-width: 1024px)
+{ 
+  .main-title a, .main-title a:hover, .main-title a:visited {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .site-description {
+    font-size: 14px;
+    letter-spacing: 0px;
+  }
+  .site-branding {
+    display: inline-block;
+    float: left;
+    margin:4% 0;
+    padding: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 600px){
+
+   .main-title a, .main-title a:hover, .main-title a:visited {
+    line-height: 22px;
+    font-size: 16px;
+     font-weight: normal;
+     letter-spacing: 0px;
+     margin-bottom: 10px;
+
+  }
+  .site-description {
+    font-size: 13px;
+    letter-spacing: 0px;
+  }
+  .site-branding {
+    display: inline-block;
+    float: left;
+   padding: 0px 0px 0xp 0px;
+    max-width: 70%;
+  } 
+  .site-logo {
+	width: 100px;
+	height: 60px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	margin-right: 0px;
+
+}
+  .entry-title a {
+	font-size: 20px;
+}
+.wp-post-image {
+	max-width: 375px;
+	float: left;
+	margin: 0px 10px 20px 0px;
+	clear: both;
+}
+}
+
