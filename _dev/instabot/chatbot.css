@@ -1,0 +1,94 @@
+// example custom CSS that will customize the UI of the persistent button, *and* the Instabot widget
+
+iframe.roko-instabot-widget {
+  background: rgba(255, 255, 255, 0.5);
+  background-image: none;
+}
+
+// CSS properties for the persistent button
+.roko-instabot-widget-button {
+    -webkit-box-shadow: 0 4px 20px 0 rgba(17,17,17,0.2);
+    box-shadow: 0 4px 20px 0 rgba(17,17,17,0.2);
+    position: fixed;
+    border-radius: 10px;
+    height: 120px;
+    width: 60px;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    background-color: #fff000;
+    }
+
+// CSS props for the teaser message
+.roko-instabot-widget.rokoinstabot-preview .conversation .message-container {
+    background-color: Yellow;
+}
+
+.roko-instabot-widget-button .roko-instabot-widget-button-avatar {
+            border-radius: 5px;
+            background-color: rgb( 43, 184, 133 );
+            background-image: url('url("https://roko-mobi.s3.amazonaws.com/09ee4caf-4d8e-41d7-a203-a98f279a3ccc/ca02fe84-c372-4370-8380-3527a735b873")');
+            background-position: center center;
+            background-repeat: no-repeat;
+            box-shadow: 0 4px 20px 0 rgba(17,17,17,0.2);
+            right: 20px;
+            bottom: 20px;
+            width: 100px;
+            height: 100px;
+            z-index: 2147483647;
+            cursor: pointer;
+            bottom: 85px;
+            border-radius: 0px;
+            border-top-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+
+// CSS properties for the Instabot widget itself
+.roko-instabot-widget .response {
+  background-color: rgb(197, 27, 53);
+  color: White;
+}
+
+.roko-instabot-widget .response .tail {
+  border-left-color: rgb(197, 27, 53);
+}
+
+.roko-instabot-widget .conversation .message .question {
+  background-color: rgb(36, 44, 255);
+  color: White;
+}
+
+.roko-instabot-widget .conversation .message .question .tail {
+  border-right-color: rgb(36, 44, 255);
+}
+
+.roko-instabot-widget .conversation .message .avatar {
+  background-image: url('https://instabotdemo.roko.mobi/bell/bellperformance-logo.png');
+}
+
+.roko-instabot-widget .conversation .message .avatar::after {
+  content: ""
+}
+
+.roko-instabot-widget .multi-select .options .option.selected,
+.roko-instabot-widget.mobile-view.more .multi-select .options .option.selected,
+.roko-instabot-widget .multi-select-mobile-options .option.selected {
+  background-color: rgb(197, 27, 53);
+  border-color: rgb(197, 27, 53);
+  box-shadow: 2px 4px 20px 0px rgba(197, 27, 53, 0.6);
+  color: White;
+}
+
+.roko-instabot-widget .conversation .message.type-3 .actions-container,
+.roko-instabot-widget .conversation .message.type-4 .actions-container,
+.roko-instabot-widget .conversation .message.type-3 .actions-container .action,
+.roko-instabot-widget .conversation .message.type-4 .actions-container .action .card-action,
+.roko-instabot-widget .conversation .message.type-4 .actions-container .action .card-box .card-info {}
+
+.roko-instabot-widget-button {
+
+}
+
+.roko-instabot-widget {
+	bottom: 150px;
+}
