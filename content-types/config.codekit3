@@ -395,6 +395,14 @@
 		"oA": 0,
 		"oAP": "/related-content-box/t4.new.html",
 		"oF": 0
+		},
+	"/ufv-programs/ct-ufv-programs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/ufv-programs/ct-ufv-programs.html",
+		"oF": 0
 		}
 	},
 "hooks": [

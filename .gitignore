@@ -6,3 +6,6 @@ SOC/config.codekit3
 .DS_Store
 .DS_Store
 _dev/.DS_Store
+dev/3col-videos/config.codekit3
+dev/3col-videos/test-animated.gif
+content-types/config.codekit3

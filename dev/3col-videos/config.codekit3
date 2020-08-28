@@ -590,6 +590,14 @@
 		"oAP": "/index_files/yfGZjCKSLuA_data/www-player-2x-webp-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/test-animated.gif": {
+		"ft": 4194304,
+		"iS": 12337,
+		"oA": 0,
+		"oAP": "/test-animated.gif",
+		"oF": 0,
+		"opt": 0
 		}
 	},
 "hooks": [
