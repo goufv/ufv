@@ -1,0 +1,17 @@
+/*
+pl_inner
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=media&fnno=20&med_id=994695
+*/
+
+/*
+Photo rollover boxes
+*/  
+#pl_inner div.list-131 {
+	width: 850px;
+	margin: 0;
+	padding: 0;
+}
+
+.ufv-section-nav {
+	margin-bottom: 20px;
+}

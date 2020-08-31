@@ -1,6 +1,8 @@
-Action Box Mobile Layout
+# Action Box Mobile Layout
 
 Readme File
 
-Demo.html
+<a href="demo.html">View demo</a> in desktop and tablet or mobile view
+
+
 
