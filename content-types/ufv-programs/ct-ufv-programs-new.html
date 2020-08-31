@@ -1,0 +1,132 @@
+<style>
+    @media only screen and (max-width: 991px) {
+        a.program-tel {
+            font-weight: 400 !important;
+        }
+    }
+    a.program-tel {
+        font-weight: 400;
+    }
+</style>
+<t4 type="meta" meta="html_anchor" />
+<div style="100%;">
+    <div class="UFV-Program-Name">
+        <t4 type="content" name="Program name" output="selective-output" modifiers="striptags"
+            format="<h2>$value</h2><br/>" />
+    </div>
+    <div class="box-header row">
+        <div class="col-md-10 col-sm-9 col-xs-8">
+            <h2>QUICK FACTS</h2>
+        </div>
+        <div class="call-to-action button-header col-md-2 col-sm-3 col-xs-4 fl-right"><span><a
+                    href="https://www.ufv.ca/admissions/apply/" target="_blank"
+                    onClick="_gaq.push(['_trackEvent', 'Program page', 'Apply', '<t4 type=" content" name="Program name"
+                    output="normal" modifiers="striptags" />']);">Apply online</a></span></div>
+    </div>
+    <div class="quick-facts row">
+        <div class="quick-facts-left col-md-6">
+            <p><strong>Credential</strong>:<br />
+                <t4 type="content" name="Credential earned" output="normal" modifiers="" />
+                <br />
+                <br />
+                <strong>Duration</strong>:<br />
+                <t4 type="content" name="Duration" output="normal" modifiers="" />
+                <br />
+                <br />
+                <strong>Start date</strong>:<br />
+                <t4 type="content" name="Start date" output="normal" modifiers="" />&nbsp;
+                <t4 type="content" name="Optional start date year" output="selective-output"
+                    modifiers="striptags, htmlentities" format="$value" />
+                <br />
+                <br />
+                <strong>Cost</strong>:<br />
+                <t4 type="content" name="Cost" output="selective-output" modifiers="" format="$value &nbsp;" /><a
+                    href="<t4 type=" content" name="Cost details" output="linkurl" modifiers="nav_sections" />">
+                <t4 type="content" name="Cost details" output="linktext" modifiers="" /></a>
+            </p>
+           
+        </div>
+        <div class="quick-facts-right col-md-6">
+            <p>
+                <t4 type="content" output="selective-output" modifiers="" name="Format"
+                    format="<strong>Format:</strong><br/> $value<br/>" />
+                <t4 type="content" output="selective-output" modifiers="" name="Options"
+                    format="<strong>Options:</strong><br/> $value<br/>" />
+                <strong>Location</strong>:<br />
+                <t4 type="content" name="Location" output="normal" modifiers="" display_field="value" />
+                <t4 type="content" output="selective-output" modifiers="" name="Enter location" format="$value" /><br />
+            </p>    <p><a href="<t4 type=" content" name="How to apply link" output="linkurl" modifiers="nav_sections" />
+                    <t4 type="content" name="How to apply external link" output="normal" modifiers="" />"
+                    target="_blank">How to apply</a></p>
+        </div>
+    </div>
+    <div style="clear:left;"></div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="program-text">
+                <p><strong>FEATURES:</strong></p>
+                <ul>
+                    <t4 type="content" name="Apprenticeship available?" output="selective-output" modifiers=""
+                        format="<li>$value</li>" />
+                    <t4 type="content" name="Field trips available?" output="selective-output" modifiers=""
+                        format="<li>$value</li>" />
+                    <t4 type="content" name="Practicum available?" output="selective-output" modifiers=""
+                        format="<li>$value</li>" />
+                    <t4 type="content" name="Co-op available?" output="selective-output" modifiers=""
+                        format="<li>$value</li>" />
+                    <t4 type="content" name="Additional feature" output="selective-output" modifiers=""
+                        format="<li>$value</li>" />
+                    <t4 type="content" name="Additional feature2" output="selective-output" modifiers=""
+                        format="<li>$value</li>" />
+                    <t4 type="content" name="Program eligible for financial aid?" output="selective-output" modifiers=""
+                        format="<li>$value</li>" />
+                    <t4 type="content" name="Student-Instructor ratio" output="selective-output" modifiers=""
+                        format="<li>Small class sizes: student/instructor ratio is $value</li>" />
+                </ul>
+            </div>
+            <div class="program-header">
+                <h2>PROGRAM DESCRIPTION</h2>
+            </div>
+            <div class="program-text">
+                <t4 type="content" name="Program description" output="normal" modifiers="tags" />
+            </div>
+            <t4 type="content" name="Career outlook" output="selective-output" modifiers="" format="<div class=&quot;program-header&quot;>
+    <h2>CAREER EXPECTATIONS</h2>
+  </div><div class=&quot;program-text&quot;>$value</div>" />
+            <div class="program-header">
+                <h2>ENTRANCE REQUIREMENTS</h2>
+            </div>
+            <div class="program-text">
+                <t4 type="content" name="Entrance requirements" output="normal" modifiers="tags" />
+            </div>
+            <t4 type="content" name="Other admission categories" output="selective-output" modifiers="" format="<div class=&quot;program-header&quot;>
+    <h2>OTHER ADMISSION CATEGORIES</h2>
+  </div><div class=&quot;program-text&quot;>$value</div>" />
+            <t4 type="content" name="Upgrading options" output="selective-output" modifiers="" format="<div class=&quot;program-header&quot;>
+    <h2>UPGRADING OPTIONS</h2>
+  </div><div class=&quot;program-text&quot;>$value</div>" />
+            <t4 type="content" name="Learning outcomes" output="selective-output" modifiers="" format="<div class=&quot;program-header&quot;>
+    <h2>LEARNING OUTCOMES</h2>
+  </div><div class=&quot;program-text&quot;>$value</div>" />
+            <div class="program-header">
+                <h2>QUESTIONS?</h2>
+            </div>
+            <div class="program-text">
+                <p>
+                    <t4 type="content" output="selective-output" modifiers="" name="Contact person"
+                        format="<strong>$value<br/></strong>" />
+                    <t4 type="content" output="selective-output" modifiers="" name="Contact phone"
+                        format="<strong>Phone:</strong> <a class=&quot;program-tel&quot; href=&quot;tel:$value&quot; rel=&quot;nofollow&quot;>$value</a><br/>" />
+                    <t4 type="content" output="selective-output" modifiers="" name="Toll free"
+                        format="<strong>Toll free:</strong> $value<br/>" />
+                    <t4 type="content" output="selective-output" modifiers="" name="Contact fax"
+                        format="<strong>Fax:</strong> $value<br/>" />
+                    <t4 type="content" output="selective-output" modifiers="" name="Contact email"
+                        format="<strong>Email:</strong> <a href=&quot;mailto:$value&quot; rel=&quot;nofollow&quot;>$value</a><br/>" />
+                    <t4 type="content" name="Contact form link" output="selective-output" modifiers="nav_sections"
+                        format="$value" />
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
