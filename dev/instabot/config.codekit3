@@ -580,6 +580,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/instabot-ufv.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/instabot-ufv-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/readme.html": {
 		"cB": 0,
 		"ft": 8192,

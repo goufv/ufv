@@ -11,6 +11,8 @@ https://docs.google.com/spreadsheets/d/1l7N8vdz-8Gp8AqqQGvmDNix-vLlCRuF_RRe2psq8
 - <a href="../dev/action-box-mobile-layout/">Action Links for Mobile & Tablets</a>
 - <a href="../dev/instagram/">Instagram</a>
 - <a href="../dev/online-soc-sept/">Instagram with SOC online demo</a>
+- <a href="../dev/online-soc-sept/">Instabot layout</a>
+
 
 
 
