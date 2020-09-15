@@ -2,9 +2,6 @@
 
 ## Working
 
-- <a href="../instagram">Instagram layouts</a>
-- <a href="../instagram">Page layouts</a>
-Page layout options
 
 ## In development
 
@@ -13,6 +10,9 @@ https://docs.google.com/spreadsheets/d/1l7N8vdz-8Gp8AqqQGvmDNix-vLlCRuF_RRe2psq8
 - <a href="../dev/3col-videos/">3 Column Video Layout</a> - testing to see how 3 videos render in one row
 - <a href="../dev/action-box-mobile-layout/">Action Links for Mobile & Tablets</a>
 - <a href="../dev/instagram/">Instagram</a>
+- <a href="../dev/online-soc-sept/">Instagram with SOC online demo</a>
+
+
 
 - Animated Gif / Video Gifs
 - Mega-menu
