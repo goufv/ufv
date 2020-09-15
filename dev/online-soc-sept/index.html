@@ -280,6 +280,41 @@ h2 { font-weight: 400; padding: 0; margin: 0; font-size: var(--h2-size); letter-
 <!-- /Banner Image Related Branch -->
       <!-- Header Image --><!-- /Header Image -->
 
+<STYLE>
+  .ct-instagram
+  {
+    padding:30px 0px 30px 0px;
+    background-color: #ffffff;
+  }
+</STYLE>
+<div class="ct-instagram">
+  <div class="container">
+    <div class="row">
+      <div id="instagram-feed2" class="instagram_feed"></div>
+      <script src="https://goufv.github.io/instagram/dist/InstagramFeed.min.js"></script>
+      <script>
+        (function () {
+          new InstagramFeed({
+            'username': 'goufv',
+            'container': document.getElementById("instagram-feed2"),
+            'display_profile': false,
+            'display_biography': false,
+            'display_gallery': true,
+            'callback': null,
+            'styling': true,
+            'items': 8,
+            'items_per_row': 4,
+            'margin': 1
+          });
+        })();
+        (function ($) {
+
+        })(jQuery);
+      </script>
+    </div>
+  </div>
+</div>
+
 
 
 <!-- ct-embed-code -->
