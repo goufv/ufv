@@ -580,6 +580,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/qr-community-report.png": {
+		"ft": 32768,
+		"iS": 2037,
+		"oA": 0,
+		"oAP": "/qr-community-report.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/readme.html": {
 		"cB": 0,
 		"ft": 8192,
