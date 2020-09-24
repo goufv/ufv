@@ -1,0 +1,70 @@
+<!--
+Continuing Ed courses
+text/list 
+-->
+<style>
+    .wrapper {
+    width:55px;
+  }
+  
+  .date-tile{
+    display: inline-block;
+    border-radius: 7px;
+    font-family: sans-serif;
+    color: #00703c;
+    width:45px;
+  }
+  
+  .due-label {
+    border: 1px solid #00703c;
+    padding: 5px 7px 4px;
+    Text-transform:uppercase;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    background: #00703c;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px 6px 0px 0px;
+  }
+  
+  .date-info {
+    border: 1px solid #00703c;
+    margin-top: -2px;
+    border-radius: 0px 0px 6px 6px;
+  }
+  
+  .due-day {
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-weight: 500;
+  }
+  .daterow {
+   display: flex;
+   align-items: center;
+  }
+  </style>
+  <div class="daterow">
+  <div style="float:left;">
+     
+    <div class="wrapper">
+    <div class="date-tile">
+      <div class="due-label"><t4 type="content" name="Start date 1" output="normal" modifiers="" date_format="MMM" /></div>
+      <div class="date-info">
+        <div class="due-day"><t4 type="content" name="Start date 1" output="normal" modifiers="" date_format="d" /></div>     
+      </div>
+    </div>
+  </div>
+    </div>
+  
+      <div>
+      <span style="vertical-align:middle;"><a href="<t4 type="content" name="Title" output="fulltext" formatter="text/html" modifiers="" use-element="true" filename-element="Title"  />"><strong><t4 type="content" name="Title" output="normal" modifiers=""  /></strong></a><br/></span>
+    </div>
+  </div>
+  <hr/>
+  <!-- / text/list  -->
+  
