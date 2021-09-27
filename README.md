@@ -24,6 +24,10 @@ New content types
 
 # Changelog
 
+-- Monday Sept 27
+
+- QR Code UFV
+
 
 
 
