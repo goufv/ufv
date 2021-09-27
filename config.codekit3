@@ -1424,22 +1424,6 @@
       "oAP" : "\/ce-marketing\/head.html",
       "oF" : 0
     },
-    "\/ce-marketing\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/ce-marketing\/index.html",
-      "oF" : 0
-    },
-    "\/ce-marketing\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/ce-marketing\/index.html",
-      "oF" : 0
-    },
     "\/ce-marketing\/marketing.code-workspace" : {
       "cB" : 0,
       "ft" : 8192,
