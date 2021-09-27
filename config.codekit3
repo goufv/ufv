@@ -750,20 +750,20 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/ce-marketing\/_dev.html" : {
+    "\/ce-marketing\/01-dev.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/ce-marketing\/_dev.html",
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/01-dev.html",
       "oF" : 0
     },
-    "\/ce-marketing\/_dev.kit" : {
+    "\/ce-marketing\/01-dev.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/ce-marketing\/_dev.html",
+      "oAP" : "\/ce-marketing\/01-dev.html",
       "oF" : 1
     },
     "\/ce-marketing\/assets.html" : {
@@ -1446,6 +1446,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/ce-marketing\/marketing.code-workspace",
+      "oF" : 0
+    },
+    "\/ce-marketing\/readme.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/readme.html",
       "oF" : 0
     },
     "\/ce-marketing\/readme.md" : {
