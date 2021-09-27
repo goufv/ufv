@@ -737,6 +737,95 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/ce-marketing\/assets.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/assets.html",
+      "oF" : 0
+    },
+    "\/ce-marketing\/assets.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/assets.html",
+      "oF" : 0
+    },
+    "\/ce-marketing\/assets\/1 (1) (1).jpg" : {
+      "ft" : 16384,
+      "iS" : 1028020,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/assets\/1 (1) (1).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/ce-marketing\/assets\/2 (1) (1).jpg" : {
+      "ft" : 16384,
+      "iS" : 699323,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/assets\/2 (1) (1).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/ce-marketing\/assets\/3 (1) (1).jpg" : {
+      "ft" : 16384,
+      "iS" : 667252,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/assets\/3 (1) (1).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/ce-marketing\/assets\/draft.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/assets\/draft.pdf",
+      "oF" : 0
+    },
+    "\/ce-marketing\/assets\/mockup.jpg" : {
+      "ft" : 16384,
+      "iS" : 231376,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/assets\/mockup.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/ce-marketing\/assets\/UFV WEBSITE LANDING PAGE (Sized)-2 (1).jpg" : {
+      "ft" : 16384,
+      "iS" : 905144,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/ce-marketing\/assets\/UFV WEBSITE LANDING PAGE (Sized)-2 (1).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/ce-marketing\/demo_files\/ad_status.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -25135,6 +25224,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,

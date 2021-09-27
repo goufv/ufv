@@ -11,6 +11,9 @@ Web Producer, University Relations
 
 https://goufv.github.io/ce-marketing/
 
+https://goufv.github.io/ce-marketing/assets.html
+
+
 ## t4 Page Titles
 
 To add page titles to existing marketing tempalates and web pages
