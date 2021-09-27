@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" class="embed" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download your "How to apply" tip sheet</title>
+<link rel="stylesheet" type="text/css" href="embed_data/view.css" media="all">
+<link rel="stylesheet" type="text/css" href="embed_data/view_002.css" media="all">
+<link rel="stylesheet" type="text/css" href="embed_data/theme_49.css" media="all">
+
+<script type="text/javascript" src="embed_data/jquery.js"></script>
+<script type="text/javascript" src="embed_data/effect.js"></script>
+<script type="text/javascript" src="embed_data/view.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+
+
+function mf_handler_11(){
+
+	var element_3_1 = $('input[name=element_3]:checked').next().text().toLowerCase();
+	if(element_3_1 == 'other'){
+		var condition_element_3_1 = true;
+	}else{
+		var condition_element_3_1 = false; 
+	}
+
+	if(condition_element_3_1){
+		$('#li_11').show();
+	}else{
+		$('#li_11').hide();
+	}
+
+	if($(".total_payment").length > 0){
+		calculate_total_payment();
+	}
+	if($("html").hasClass("embed")){
+		$.postMessage({mf_iframe_height: $('body').outerHeight(true)}, '*', parent );
+	}
+}
+
+function mf_handler_12(){
+
+	var element_5_5_1 = $('#element_5_5').prop('checked');
+	if(element_5_5_1 == true){
+		var condition_element_5_5_1 = true;
+	}else{
+		var condition_element_5_5_1 = false; 
+	}
+
+	if(condition_element_5_5_1){
+		$('#li_12').show();
+	}else{
+		$('#li_12').hide();
+	}
+
+	if($(".total_payment").length > 0){
+		calculate_total_payment();
+	}
+	if($("html").hasClass("embed")){
+		$.postMessage({mf_iframe_height: $('body').outerHeight(true)}, '*', parent );
+	}
+}
+
+$('input[name=element_3]').on('change click', function() {
+	mf_handler_11();
+});
+$('#element_5_5').on('keyup mouseout change click', function() {
+	mf_handler_12();
+});
+
+mf_handler_11();
+mf_handler_12();
+
+
+});
+</script>
+<script type="text/javascript" src="embed_data/jquery_002.js"></script>
+<script type="text/javascript">
+    $(function(){
+    	$.postMessage({mf_iframe_height: $('body').outerHeight(true)}, '*', parent );
+    });
+</script>
+
+</head>
+<body id="main_body" class="">
+	
+	<div id="form_container" class="">
+	
+		<h1><a>Download your "How to apply" tip sheet</a></h1>
+		<form id="form_856237" class="appnitro top_label" method="post" data-highlightcolor="transparent" action="/machforms/embed.php">
+									
+			<ul>
+			
+			
+			
+					<li id="li_1" class="simple_name column_2">
+		<fieldset>
+		<legend style="display: none">Name</legend>
+		<span class="description">Name <span id="required_1" class="required">*</span></span>
+		<span class="simple_name_1">
+			<input id="element_1_1" name="element_1_1" type="text" class="element text" maxlength="255" size="8">
+			<label for="element_1_1">First</label>
+		</span>
+		<span class="simple_name_2">
+			<input id="element_1_2" name="element_1_2" type="text" class="element text" maxlength="255" size="14">
+			<label for="element_1_2">Last</label>
+		</span></fieldset> 
+		</li>		<li id="li_2" class="column_2">
+		<label class="description" for="element_2">Email <span id="required_2" class="required">*</span></label>
+		<div>
+			<input id="element_2" name="element_2" class="element text large" type="text" maxlength="255"> 
+		</div> 
+		</li>
+				<li id="li_6">
+		<label class="description" for="element_6">I currently live in: </label>
+		<div>
+			<input id="element_6" name="element_6" class="element text medium" type="text">
+			 
+		</div><p class="guidelines" id="guide_6"><small>Please enter a city, province, or country.</small></p> 
+		</li>		<li id="li_8" class="section_break">
+			<h3></h3>
+			<p></p>
+		</li>		<li id="li_3" class="multiple_choice">
+		<span class="description">I am a: </span>
+		<div>
+			<fieldset>
+				<legend style="display: none">I am a:</legend>
+				<span><input id="element_3_1" name="element_3" class="element radio" type="radio" value="1">
+<label class="choice" for="element_3_1">domestic student (Canadian)</label>
+</span>
+<span><input id="element_3_2" name="element_3" class="element radio" type="radio" value="2">
+<label class="choice" for="element_3_2">international student</label>
+</span>
+<span><input id="element_3_3" name="element_3" class="element radio" type="radio" value="3">
+<label class="choice" for="element_3_3">parent</label>
+</span>
+<span><input id="element_3_4" name="element_3" class="element radio" type="radio" value="4">
+<label class="choice" for="element_3_4">other</label>
+</span>
+
+			</fieldset>
+		</div> 
+		</li>		<li id="li_11" style="display: none;">
+		<label class="description" for="element_11">Please specify </label>
+		<div>
+			<input id="element_11" name="element_11" class="element text medium" type="text">
+			 
+		</div> 
+		</li>		<li id="li_4" class="multiple_choice">
+		<span class="description">My current status: </span>
+		<div>
+			<fieldset>
+				<legend style="display: none">My current status:</legend>
+				<span><input id="element_4_1" name="element_4" class="element radio" type="radio" value="1">
+<label class="choice" for="element_4_1">prospective student</label>
+</span>
+<span><input id="element_4_5" name="element_4" class="element radio" type="radio" value="5">
+<label class="choice" for="element_4_5">prospective high school student</label>
+</span>
+<span><input id="element_4_2" name="element_4" class="element radio" type="radio" value="2">
+<label class="choice" for="element_4_2">current student</label>
+</span>
+
+			</fieldset>
+		</div> 
+		</li>		<li id="li_5" class="checkboxes">
+		<span class="description">I am interested in: </span>
+		<div>
+			<fieldset>
+				<legend style="display: none">I am interested in:</legend>
+				<span><input id="element_5_1" name="element_5_1" class="element checkbox" type="checkbox" value="1">
+<label class="choice" for="element_5_1">science</label>
+</span>
+<span><input id="element_5_2" name="element_5_2" class="element checkbox" type="checkbox" value="1">
+<label class="choice" for="element_5_2">arts</label>
+</span>
+<span><input id="element_5_3" name="element_5_3" class="element checkbox" type="checkbox" value="1">
+<label class="choice" for="element_5_3">trades &amp; technology</label>
+</span>
+<span><input id="element_5_4" name="element_5_4" class="element checkbox" type="checkbox" value="1">
+<label class="choice" for="element_5_4">I am not sure yet</label>
+</span>
+<span><input id="element_5_5" name="element_5_5" class="element checkbox" type="checkbox" value="1">
+<label class="choice" for="element_5_5">other</label>
+</span>
+
+			</fieldset>
+		</div><p class="guidelines" id="guide_5"><small>Select all that apply.</small></p> 
+		</li>		<li id="li_12" style="display: none;">
+		<label class="description" for="element_12">Please specify </label>
+		<div>
+			<input id="element_12" name="element_12" class="element text medium" type="text">
+			 
+		</div> 
+		</li>		<li id="li_7" class="section_break">
+			<h3></h3>
+			<p><font size="1"><a href="https://www.ufv.ca/informationprivacy/" target="_blank">Collection &amp; use of personal information</a></font></p>
+		</li>		<li id="li_captcha">
+		<label class="description" for="captcha_response_field">
+			Spam Protection. Please answer this simple question: <br>
+			What is "four hundred" as a number?
+		</label>
+		<div>
+			<input id="captcha_response_field" name="captcha_response_field" class="element text small" type="text">
+			<input id="captcha_response_challenge" name="captcha_response_challenge" type="hidden" value="adKM1aDQsXK2BoFw9uOhr+Q3ZceN/E5x7SvhUpguDn7kkyZ2Se3+qI1hBQQQ5cIh168W">
+		</div>	 
+		 
+		</li>
+			
+			
+			
+					<li id="li_buttons" class="buttons">
+			    <input type="hidden" name="form_id" value="856237">
+			    
+			    <input type="hidden" id="mfsid" name="mfsid" value="enqcsjk8mp8vbq7c0faogo3dp0">
+			    
+			    <input type="hidden" name="submit_form" value="1">
+			    <input type="hidden" name="page_number" value="1">
+				<input id="submit_form" class="button_text" type="submit" name="submit_form" value="Submit">
+		</li>
+			</ul>
+		</form>	
+		<div id="footer">
+			
+		</div>
+	</div>
+	
+	
+</body></html>
