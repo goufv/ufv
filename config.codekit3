@@ -1813,6 +1813,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/.sitemap.html.swp" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.sitemap.html.swp",
+      "oF" : 0
+    },
     "\/.vscode\/settings.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -1853,12 +1861,12 @@
       "oAP" : "\/1_ce\/assets.html",
       "oF" : 0
     },
-    "\/1_ce\/assets\/1 (1) (1).jpg" : {
+    "\/1_ce\/assets\/1_ce.jpg" : {
       "ft" : 16384,
       "iS" : 1028020,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/1_ce\/assets\/1 (1) (1).jpg",
+      "oAP" : "\/1_ce\/assets\/1_ce.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1866,12 +1874,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/1_ce\/assets\/2 (1) (1).jpg" : {
+    "\/1_ce\/assets\/2_ce.jpg" : {
       "ft" : 16384,
       "iS" : 699323,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/1_ce\/assets\/2 (1) (1).jpg",
+      "oAP" : "\/1_ce\/assets\/2_ce.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1879,12 +1887,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/1_ce\/assets\/3 (1) (1).jpg" : {
+    "\/1_ce\/assets\/3_ce.jpg" : {
       "ft" : 16384,
       "iS" : 667252,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/1_ce\/assets\/3 (1) (1).jpg",
+      "oAP" : "\/1_ce\/assets\/3_ce.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/1_ce\/assets\/ce_banner.jpg" : {
+      "ft" : 16384,
+      "iS" : 905144,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/1_ce\/assets\/ce_banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1906,19 +1927,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/1_ce\/assets\/mockup.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/1_ce\/assets\/UFV WEBSITE LANDING PAGE (Sized)-2 (1).jpg" : {
-      "ft" : 16384,
-      "iS" : 905144,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/1_ce\/assets\/UFV WEBSITE LANDING PAGE (Sized)-2 (1).jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -27825,6 +27833,2615 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/docker\/.env" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/.env",
+      "oF" : 0
+    },
+    "\/docker\/docker-compose.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/docker-compose.yml",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-config-sample.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-config-sample.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/admin-bar.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/admin-bar.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/atomlib.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/atomlib.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/blocks.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/blocks.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/bookmark-template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/bookmark-template.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/bookmark.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/bookmark.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/cache-compat.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/cache-compat.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/cache.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/cache.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/canonical.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/canonical.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/capabilities.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/capabilities.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/category-template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/category-template.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/category.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/category.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/certificates\/ca-bundle.crt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/certificates\/ca-bundle.crt",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-IXR.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-IXR.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-json.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-json.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-oembed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-oembed.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-phpass.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-phpass.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-phpmailer.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-phpmailer.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-pop3.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-pop3.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-requests.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-requests.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-smtp.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-smtp.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-walker-category-dropdown.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-walker-category-dropdown.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-walker-category.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-walker-category.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-walker-comment.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-walker-comment.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-walker-nav-menu.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-walker-nav-menu.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-walker-page-dropdown.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-walker-page-dropdown.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-ajax-response.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-ajax-response.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-application-passwords.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-application-passwords.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-block-list.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-block-list.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-block-pattern-categories-registry.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-block-pattern-categories-registry.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-block-supports.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-block-supports.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-block-type.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-block-type.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-block.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-block.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-comment.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-comment.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-customize-nav-menus.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-customize-nav-menus.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-customize-section.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-customize-section.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-date-query.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-date-query.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-editor.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-editor.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-error.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-error.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-hook.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-hook.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-http-curl.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-http-curl.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-http-encoding.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-http-encoding.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-image-editor-gd.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-image-editor-gd.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-image-editor.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-image-editor.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-locale-switcher.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-locale-switcher.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-locale.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-locale.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-matchesmapregex.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-matchesmapregex.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-meta-query.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-meta-query.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-network.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-network.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-oembed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-oembed.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-paused-extensions-storage.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-paused-extensions-storage.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-post.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-post.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-recovery-mode-cookie-service.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-recovery-mode-cookie-service.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-recovery-mode-email-service.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-recovery-mode-email-service.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-recovery-mode-key-service.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-recovery-mode-key-service.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-recovery-mode-link-service.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-recovery-mode-link-service.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-session-tokens.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-session-tokens.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-taxonomy.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-taxonomy.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-user.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-user.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp-xmlrpc-server.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp-xmlrpc-server.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class-wp.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class-wp.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class.wp-dependencies.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class.wp-dependencies.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class.wp-scripts.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class.wp-scripts.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/class.wp-styles.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/class.wp-styles.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/comment-template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/comment-template.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/comment.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/comment.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/compat.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/compat.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/cron.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/cron.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/admin-bar-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/admin-bar-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/admin-bar-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/admin-bar-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/admin-bar.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/admin-bar-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/admin-bar.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/admin-bar.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/buttons-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/buttons-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/buttons-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/buttons-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/buttons.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/buttons-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/buttons.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/buttons.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/customize-preview-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/customize-preview-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/customize-preview-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/customize-preview-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/customize-preview.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/customize-preview-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/customize-preview.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/customize-preview.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dashicons.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dashicons-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dashicons.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dashicons.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-directory\/style-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-directory\/style-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-directory\/style-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-directory\/style-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-directory\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-directory\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-directory\/style.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-directory\/style.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-editor\/style-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-editor\/style-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-editor\/style-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-editor\/style-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-editor\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-editor\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-editor\/style.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-editor\/style.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/common-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/common-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/common-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/common-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/common.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/common-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/common.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/common.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/editor-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/editor-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/editor-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/editor-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/editor.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/editor-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/editor.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/editor.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/style-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/style-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/style-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/style-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/style.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/style.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/theme-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/theme-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/theme-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/theme-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/theme.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/theme-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/theme.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/block-library\/theme.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/components\/style-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/components\/style-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/components\/style-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/components\/style-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/components\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/components\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/components\/style.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/components\/style.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/edit-post\/style-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/edit-post\/style-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/edit-post\/style-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/edit-post\/style-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/edit-post\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/edit-post\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/edit-post\/style.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/edit-post\/style.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/editor-styles-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/editor-styles-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/editor-styles-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/editor-styles-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/editor-styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/editor-styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/editor-styles.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/editor-styles.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/style-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/style-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/style-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/style-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/style.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/editor\/style.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/format-library\/style-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/format-library\/style-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/format-library\/style-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/format-library\/style-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/format-library\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/format-library\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/format-library\/style.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/format-library\/style.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/list-reusable-blocks\/style-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/list-reusable-blocks\/style-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/list-reusable-blocks\/style-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/list-reusable-blocks\/style-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/list-reusable-blocks\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/list-reusable-blocks\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/list-reusable-blocks\/style.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/list-reusable-blocks\/style.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/nux\/style-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/nux\/style-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/nux\/style-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/nux\/style-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/nux\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/nux\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/dist\/nux\/style.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/dist\/nux\/style.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/editor-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/editor-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/editor-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/editor-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/editor.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/editor-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/editor.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/editor.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/jquery-ui-dialog-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/jquery-ui-dialog-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/jquery-ui-dialog-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/jquery-ui-dialog-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/jquery-ui-dialog.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/jquery-ui-dialog-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/jquery-ui-dialog.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/jquery-ui-dialog.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/media-views-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/media-views-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/media-views-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/media-views-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/media-views.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/media-views-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/media-views.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/media-views.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-auth-check-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-auth-check-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-auth-check-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-auth-check-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-auth-check.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-auth-check-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-auth-check.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-auth-check.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-embed-template-ie.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-embed-template-ie-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-embed-template-ie.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-embed-template-ie.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-embed-template.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-embed-template-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-embed-template.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-embed-template.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-pointer-rtl.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-pointer-rtl-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-pointer-rtl.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-pointer-rtl.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-pointer.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-pointer-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/css\/wp-pointer.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/css\/wp-pointer.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/date.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/date.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/embed-template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/embed-template.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/embed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/embed.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/error-protection.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/error-protection.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/feed-atom-comments.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/feed-atom-comments.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/feed-rss.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/feed-rss.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/feed-rss2-comments.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/feed-rss2-comments.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/feed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/feed.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/formatting.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/formatting.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/functions.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/functions.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/functions.wp-styles.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/functions.wp-styles.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/general-template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/general-template.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/http.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/http.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-base64.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-base64.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-client.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-client.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-clientmulticall.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-clientmulticall.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-date.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-date.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-error.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-error.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-introspectionserver.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-introspectionserver.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-message.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-message.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-request.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-request.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-server.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-server.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-value.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/IXR\/class-IXR-value.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/backbone.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/backbone.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/codemirror\/codemirror.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/codemirror\/codemirror.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/codemirror\/codemirror.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/codemirror\/codemirror.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/codemirror\/csslint.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/codemirror\/csslint-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/codemirror\/esprima.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/codemirror\/esprima-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/codemirror\/fakejshint.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/codemirror\/fakejshint-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/codemirror\/htmlhint-kses.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/codemirror\/htmlhint-kses-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/codemirror\/htmlhint.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/codemirror\/htmlhint-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/codemirror\/jsonlint.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/codemirror\/jsonlint-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/customize-preview-nav-menus.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/customize-preview-nav-menus.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/dist\/api-fetch.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/dist\/api-fetch-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/dist\/block-serialization-default-parser.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/dist\/block-serialization-default-parser-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/dist\/components.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/dist\/components-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/dist\/date.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/dist\/date.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/dist\/list-reusable-blocks.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/dist\/list-reusable-blocks.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/js\/dist\/notices.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/js\/dist\/notices.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/kses.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/kses.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/link-template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/link-template.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/media.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/media.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/ms-default-constants.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/ms-default-constants.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/ms-default-filters.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/ms-default-filters.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/ms-files.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/ms-files.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/ms-load.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/ms-load.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/ms-network.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/ms-network.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/ms-settings.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/ms-settings.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/ms-site.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/ms-site.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/nav-menu-template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/nav-menu-template.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/nav-menu.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/nav-menu.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/pluggable-deprecated.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/pluggable-deprecated.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/pluggable.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/pluggable.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/post-formats.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/post-formats.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/post.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/post.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/query.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/query.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/byte_safe_strings.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/byte_safe_strings.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/cast_to_int.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/cast_to_int.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/error_polyfill.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/error_polyfill.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_com_dotnet.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_com_dotnet.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_dev_urandom.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_dev_urandom.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_libsodium_legacy.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_libsodium_legacy.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_libsodium.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_libsodium.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_mcrypt.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/random_bytes_mcrypt.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/random_int.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/random_int.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/random_compat\/random.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/random_compat\/random.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/registration.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/registration.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/class-wp-rest-request.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/class-wp-rest-request.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/class-wp-rest-response.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/class-wp-rest-response.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/class-wp-rest-server.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/class-wp-rest-server.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-application-passwords-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-application-passwords-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-attachments-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-attachments-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-autosaves-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-autosaves-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-block-directory-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-block-directory-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-block-renderer-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-block-renderer-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-block-types-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-block-types-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-blocks-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-blocks-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-comments-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-comments-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-plugins-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-plugins-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-post-statuses-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-post-statuses-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-post-types-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-post-types-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-posts-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-posts-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-revisions-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-revisions-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-search-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-search-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-settings-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-settings-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-site-health-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-site-health-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-taxonomies-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-taxonomies-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-terms-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-terms-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-themes-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-themes-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-users-controller.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/endpoints\/class-wp-rest-users-controller.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-comment-meta-fields.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-comment-meta-fields.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-meta-fields.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-meta-fields.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-post-meta-fields.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-post-meta-fields.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-term-meta-fields.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-term-meta-fields.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-user-meta-fields.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/fields\/class-wp-rest-user-meta-fields.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/search\/class-wp-rest-post-format-search-handler.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/search\/class-wp-rest-post-format-search-handler.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/search\/class-wp-rest-post-search-handler.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/search\/class-wp-rest-post-search-handler.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/search\/class-wp-rest-search-handler.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/search\/class-wp-rest-search-handler.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rest-api\/search\/class-wp-rest-term-search-handler.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rest-api\/search\/class-wp-rest-term-search-handler.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/revision.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/revision.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rewrite.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rewrite.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/robots-template.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/robots-template.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rss-functions.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rss-functions.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/rss.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/rss.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/shortcodes.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/shortcodes.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/sitemaps.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/sitemaps.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/spl-autoload-compat.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/spl-autoload-compat.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/taxonomy.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/taxonomy.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/theme.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/theme.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/vars.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/vars.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/wlwmanifest.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/wlwmanifest.xml",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/wp-db.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/wp-db.php",
+      "oF" : 0
+    },
+    "\/docker\/wp-app\/wp-includes\/wp-diff.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/docker\/wp-app\/wp-includes\/wp-diff.php",
+      "oF" : 0
     },
     "\/index.html" : {
       "cB" : 0,
