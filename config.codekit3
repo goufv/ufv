@@ -3722,11 +3722,11 @@
       "oAP" : "\/1_ce\/virtual-tour.html",
       "oF" : 0
     },
-    "\/2_coa\/1\/expand.png" : {
+    "\/2_coa\/ct_1\/ct_1.png" : {
       "ft" : 32768,
       "iS" : 26419,
       "oA" : 0,
-      "oAP" : "\/2_coa\/1\/expand.png",
+      "oAP" : "\/2_coa\/ct_1\/ct_1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3735,28 +3735,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/2_coa\/1\/expand2.png" : {
-      "ft" : 32768,
-      "iS" : 26419,
-      "oA" : 0,
-      "oAP" : "\/2_coa\/1\/expand2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/2_coa\/1\/readme.html" : {
+    "\/2_coa\/ct_1\/readme.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/2_coa\/1\/readme.html",
+      "oAP" : "\/2_coa\/ct_1\/readme.html",
       "oF" : 0
     },
-    "\/2_coa\/1\/readme.md" : {
+    "\/2_coa\/ct_1\/readme.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -3766,7 +3753,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/2_coa\/1\/readme.html",
+      "oAP" : "\/2_coa\/ct_1\/readme.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -3775,38 +3762,12 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/2_coa\/2\/2-1.png" : {
-      "ft" : 32768,
-      "iS" : 438880,
-      "oA" : 0,
-      "oAP" : "\/2_coa\/2\/2-1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/2_coa\/2\/2-2.png" : {
-      "ft" : 32768,
-      "iS" : 780836,
-      "oA" : 0,
-      "oAP" : "\/2_coa\/2\/2-2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/2_coa\/2\/banner.jpeg" : {
+    "\/2_coa\/ct_2\/ct-banner.jpeg" : {
       "ft" : 16384,
       "iS" : 606945,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/2_coa\/2\/banner.jpg",
+      "oAP" : "\/2_coa\/ct_2\/ct-banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3814,12 +3775,38 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/2_coa\/2\/demo-home.jpg" : {
+    "\/2_coa\/ct_2\/ct2-1.png" : {
+      "ft" : 32768,
+      "iS" : 438880,
+      "oA" : 0,
+      "oAP" : "\/2_coa\/ct_2\/ct2-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/2_coa\/ct_2\/ct2-2.png" : {
+      "ft" : 32768,
+      "iS" : 780836,
+      "oA" : 0,
+      "oAP" : "\/2_coa\/ct_2\/ct2-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/2_coa\/ct_2\/demo-home.jpg" : {
       "ft" : 16384,
       "iS" : 914549,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/2_coa\/2\/demo-home.jpg",
+      "oAP" : "\/2_coa\/ct_2\/demo-home.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3827,12 +3814,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/2_coa\/2\/demo-page.jpg" : {
+    "\/2_coa\/ct_2\/demo-page.jpg" : {
       "ft" : 16384,
       "iS" : 684872,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/2_coa\/2\/demo-page.jpg",
+      "oAP" : "\/2_coa\/ct_2\/demo-page.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3840,15 +3827,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/2_coa\/2\/readme.html" : {
+    "\/2_coa\/ct_2\/readme.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/2_coa\/2\/readme.html",
+      "oAP" : "\/2_coa\/ct_2\/readme.html",
       "oF" : 0
     },
-    "\/2_coa\/2\/readme.md" : {
+    "\/2_coa\/ct_2\/readme.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -3858,7 +3845,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/2_coa\/2\/readme.html",
+      "oAP" : "\/2_coa\/ct_2\/readme.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -3879,22 +3866,6 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
-    },
-    "\/2_coa\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/2_coa\/index.html",
-      "oF" : 0
-    },
-    "\/2_coa\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/2_coa\/index.html",
-      "oF" : 0
     },
     "\/2_coa\/readme.html" : {
       "cB" : 0,
@@ -4165,6 +4136,336 @@
       "oAP" : "\/assets\/slickmap\/slickmap-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/base\/base_files\/analytics.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/analytics-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/app.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/app-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/bootstrap.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/bootstrap-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/box-dfc01efbdc94bb0936d9a35a502b0b64.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/box-dfc01efbdc94bb0936d9a35a502b0b64.html",
+      "oF" : 0
+    },
+    "\/base\/base_files\/buttons.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/buttons-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/carousels.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/carousels-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/dataTables.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/dataTables-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/f8d944b6e4.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/f8d944b6e4-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/font-awesome.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/font-awesome-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/base\/base_files\/gtm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/gtm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/hotjar-2119243.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/hotjar-2119243-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/jquery_002.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/jquery_002-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/jquery_003.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/jquery_003-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/jquery_004.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/jquery_004-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/jquery.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/jquery-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/base\/base_files\/jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/js" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/js",
+      "oF" : 0
+    },
+    "\/base\/base_files\/modules.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/modules-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/slidebars.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/slidebars-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/UFV_University-of-the-Fraser-Valley.png" : {
+      "ft" : 32768,
+      "iS" : 22937,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/UFV_University-of-the-Fraser-Valley.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/base\/base_files\/ufv-2015.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/ufv-2015-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/base\/base_files\/UFV-Abbotsford-campus.jpg" : {
+      "ft" : 16384,
+      "iS" : 167799,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/UFV-Abbotsford-campus.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/base\/base_files\/ufv-ac.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/ufv-ac-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/ufv-logo-footer.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/base\/base_files\/ufv-logo-footer.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/base\/base_files\/ufv-marcom.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/ufv-marcom-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/base\/base_files\/ufv-print.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/ufv-print-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/base\/base_files\/ufv-v.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/ufv-v-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/base\/base_files\/ufv.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/ufv-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base_files\/wow.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/base\/base_files\/wow-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/base\/base.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/base\/base.html",
+      "oF" : 0
     },
     "\/dev\/3col-videos\/index_files\/a_data\/1f44b.png" : {
       "ft" : 32768,
