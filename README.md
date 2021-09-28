@@ -7,22 +7,25 @@ Web Producer, University Relations
 
 # Active Projects
 
-## CE Landing Page (CE Marketing)
+# (1_ce) CE Landing Page (CE Marketing)
 
-https://goufv.github.io/ce-marketing/
+- https://goufv.github.io/1_ce/
+- https://goufv.github.io/1_ce/assets.html
+- https://goufv.github.io/1_ce/demo.html
+- https://goufv.github.io/1_ce/ufv-online.html
+- https://goufv.github.io/1_ce/virtual-tour.html
 
-https://goufv.github.io/ce-marketing/assets.html
+# (2_coa) College of Arts
 
 
-## t4 Page Titles
+# (3_pt) Page titles
 
 To add page titles to existing marketing tempalates and web pages
 
-## COA College of Arts Home Page
-
-New content types
 
 # Changelog
+
+Tuesday
 
 -- Monday Sept 27
 
