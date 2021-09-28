@@ -2028,6 +2028,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/_coa\/2\/readme.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_coa\/2\/readme.html",
+      "oF" : 0
+    },
     "\/_coa\/2\/readme.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -2059,6 +2067,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/_coa\/index.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_coa\/index.html",
+      "oF" : 0
     },
     "\/_coa\/readme.html" : {
       "cB" : 0,
