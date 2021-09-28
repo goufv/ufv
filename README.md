@@ -11,9 +11,16 @@ Web Producer, University Relations
 
 - https://goufv.github.io/1_ce/
 - https://goufv.github.io/1_ce/assets.html
+    - Submitted assets by vendor
 - https://goufv.github.io/1_ce/demo.html
+    - Current Marketing template ( 2 column )
 - https://goufv.github.io/1_ce/ufv-online.html
+    - Full width layout using ufv.ca/online
 - https://goufv.github.io/1_ce/virtual-tour.html
+
+## Development
+
+- https://goufv.github.io/1_ce/01-dev.html
 
 # (2_coa) College of Arts
 
