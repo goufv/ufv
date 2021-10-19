@@ -1,0 +1,107 @@
+<style>
+.cb-style {
+	border: #ebebeb solid 1px;
+	border-radius: 15px;
+	padding: 30px;
+}
+
+.ctnr {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	justify-content: space-around;
+	gap: 2%;
+}
+
+.ctnr-child {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0;
+}
+
+.ctnr-btn {
+	margin-top: auto;
+}
+
+.button-boxed-orange {
+	display: block;
+	text-align: center;
+	margin-top: -20px;
+}
+
+.container-pic {
+	border-radius: 50%;
+}
+
+.ctnr-child .img-responsive {
+	min-width: 100%;
+}
+
+/*TESTIMONIALS*/
+
+.testimonials {
+	text-align: left;
+}
+
+.container-pic .img-responsive {
+	border-radius: 50%;
+}
+
+.cb-style .button-boxed-green {
+	display: block;
+	text-align: center;
+}
+
+/*EVENTS*/
+
+.container-events {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container-events> :first-child :after {
+	content: "";
+	background-color: darkgrey;
+	position: absolute;
+	width: 1px;
+	height: 80%;
+	bottom: 10px;
+	left: 48.5%;
+	display: block;
+}
+
+.container-events {
+	gap: 30px;
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	div#first {
+		margin-bottom: 9%;
+	}
+}
+
+@media screen and (min-width:767px) {
+	.container-events {
+		flex-wrap: nowrap;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.ctnr {
+		display: block;
+	}
+	.ctnr-child {
+		margin-bottom: 10%;
+	}
+	.container-pic .img-responsive {
+		margin: 0 auto 5%;
+	}
+	.container-text {
+		margin-bottom: 10%;
+	}
+	.container-events> :first-child :after {
+		content: normal;
+	}
+}
+</style>

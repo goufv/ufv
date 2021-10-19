@@ -1829,6 +1829,30 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/1_ce\/_ce.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/1_ce\/_ce-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/1_ce\/_scratch.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/1_ce\/_scratch-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/1_ce\/01-dev.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1844,6 +1868,14 @@
       "oA" : 0,
       "oAP" : "\/1_ce\/01-dev.html",
       "oF" : 1
+    },
+    "\/1_ce\/alumni.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/1_ce\/alumni.html",
+      "oF" : 0
     },
     "\/1_ce\/assets.html" : {
       "cB" : 0,
@@ -3993,6 +4025,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/2_coa\/ct_2\/_ct_hero_cta.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/2_coa\/ct_2\/_ct_hero_cta.html",
+      "oF" : 0
+    },
     "\/2_coa\/ct_2\/_ct_hero_cta.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -4015,6 +4055,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/2_coa\/ct_2\/_header.html",
+      "oF" : 1
+    },
+    "\/2_coa\/ct_2\/_inc_return.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/2_coa\/ct_2\/_inc_return.html",
+      "oF" : 0
+    },
+    "\/2_coa\/ct_2\/_inc_return.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/2_coa\/ct_2\/_inc_return.html",
       "oF" : 1
     },
     "\/2_coa\/ct_2\/ct-banner.jpeg" : {
@@ -4096,6 +4152,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/2_coa\/ct_2\/demo.html",
+      "oF" : 0
+    },
+    "\/2_coa\/ct_2\/demo2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/2_coa\/ct_2\/demo2.html",
+      "oF" : 0
+    },
+    "\/2_coa\/ct_2\/demo2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/2_coa\/ct_2\/demo2.html",
       "oF" : 0
     },
     "\/2_coa\/ct_2\/readme.html" : {
