@@ -4,6 +4,9 @@ URL:
 
 https://goufv.github.io/ce-marketing/
 
+https://goufv.github.io/campaign/ce/
+
+
 <ul>
 <li><a href="assets.html">Assets - Collected assets from F&S</a></li>
 <li><a href="demo-landing.html">CSS grid demo - not for production</a></li>

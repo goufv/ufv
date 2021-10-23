@@ -10,6 +10,11 @@ t4 - Hero + CTA
 
 https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=hierarchy&fnno=10&nNS1=0&ddm=1&dl=1&sid=264420
 
+## Demo Pages on webdev.ufv.ca
+
+- https://webdev.ufv.ca/t4-content-types/hero--cta-coa-dev/
+- https://webdev.ufv.ca/t4-content-types/hero--cta-coa-dev/full-width-example/
+
 
 
 ### Full Width
