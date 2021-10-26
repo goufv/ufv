@@ -147,6 +147,17 @@
         display: none;
     }
 
+    .portal-name {
+        display: none;
+    }
+    .header-full-dark #custom-search-input
+    {
+        display: none;
+    }
+    #contact-bar {
+        display: none;
+    }
+
     @media (max-width:499px) {
         .ce-hero h1 {
             font-size: 2.8em;
