@@ -2,7 +2,10 @@
 
 What lives here:
 
-## Hero + CTA
+## 
+Hero + CTA
 
 Masthead banner with content and CTA
+
+[Hero + CTA](hero-cta/)
 
