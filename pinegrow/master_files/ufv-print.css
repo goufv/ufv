@@ -1,0 +1,162 @@
+/* 
+UFV.ca Print Styles 
+9/16/2016
+*/
+@media print {
+
+@page {
+margin: 0.5cm;
+}
+
+body:before {
+content: url(https://www.ufv.ca/media/2015/brand/UFV_250.svg);
+width:100% !important;
+clear:both;
+}
+body {
+padding: 0px;
+margin: 0px;
+font-family: Arial;
+background: none;
+color: black;
+background:white; color:black; margin:0;
+font-size:12px;
+
+color:#000;
+float: none;
+width: auto;
+background:white;
+font-size:10pt;
+margin:0;
+padding:20px;
+line-height: 20px;
+}
+
+html
+{
+padding: 20px;
+padding-top: 30px;
+}
+
+#sidebar,
+.content-box.red,
+.content-box.orange,
+.content-box.dark-green,
+#contact-bar.row,
+#back-top,
+#header, #menu-bar, #sidebar, h2#postcomment, form#commentform, 
+.promo-box.orange,
+.pagelet01
+{
+display:none;
+}
+html.sb-init body div#sb-site div.boxed header.main-header div.container p.page-title
+{
+	display: inline;
+	padding: 20px;
+	color: #000;
+	font-size: 30px;
+}
+#header { height:75px; }
+#content{ margin-left:0;
+float:none;
+width:auto; }
+.demo .red { color:black;
+font-weight:bold; }
+#content a { font-weight:bold;
+color:#000066;
+text-decoration:underline; }
+#content{ margin-left:0;
+float:none;
+width:auto; }
+#footer, .ad { display:none; }
+h1, h2, h3, h4, h5, h6 { page-break-after:avoid;
+page-break-inside:avoid; }
+h3 { margin-left:10px;
+margin-bottom:0px;
+padding-bottom:0px; }
+blockquote, table, pre { page-break-inside:avoid; }
+ul, ol, dl  { page-break-before:avoid; }
+img.centered { display: block;
+margin-left: auto;
+margin-right: auto; }
+img.right { padding: 4px;
+margin: 0 0 2px 7px;
+display: inline; }
+img.left { padding: 4px;
+margin: 0 7px 2px 0;
+display: inline; }
+.right { float: right; }
+.left { float: left; }
+img { page-break-inside:avoid;
+page-break-after:avoid; }
+#page {
+width: 100%;
+margin: 0; padding: 0;
+background: none;
+}
+.entry a:after {
+content: " [" attr(href) "] ";
+}
+#printed-article {
+border: 1px solid #666;
+padding: 10px;
+}
+#footer-links,
+#footer,
+#sidebar,
+.ufv-social,
+.ufv-top-nav,
+#custom-search-input,
+.breadcrumb,
+.sb-slidebar,
+.quick-links,
+.side-links,
+.header-full-title,
+.header-full-top,
+.portal-name,
+.main-header
+{
+display:none;
+}
+/* TYPOGRAPHY  */
+p
+{
+padding: 0;
+margin: 0;
+padding-bottom: 10px;
+
+}
+p, a, a:link
+{
+font-size: 13px;
+color: #000;
+line-height: 15px;
+text-decoration: none;
+}
+h1, h2, h3, h4, h5
+{
+font-size: 16px;
+padding: 0px;
+margin: 0px;
+padding-bottom: 5px;
+}
+a:link:after, a:visited:after {
+content: "";
+}
+
+
+h1.section-name
+{
+	border-bottom: 1px solid #666;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+img {
+max-width: 500px;
+}
+
+
+
+}

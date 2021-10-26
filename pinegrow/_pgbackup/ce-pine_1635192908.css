@@ -1,0 +1,17 @@
+.ufv-top-nav {
+    display: none;
+}
+
+.navbar-header-full.navbar-inverse {
+    display: none;
+}
+
+@media (max-width:499px) {
+    .ce-hero h1 {
+        font-size: 3em;
+    }
+
+    .ce-hero h2 {
+        font-size: 2em;
+    }
+}

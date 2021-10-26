@@ -1,0 +1,22 @@
+#header {
+    display: none;
+}
+
+.portal-name {
+    display: none;
+}
+
+#custom-search-input {
+    display: none;
+}
+
+.ufv-top-nav {
+    display: none;
+}
+
+@media (max-width:499px) {
+    .ce-testimonials p {
+        min-height: 0px;
+        font-size: 20px;
+    }
+}

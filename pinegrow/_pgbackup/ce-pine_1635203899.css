@@ -1,0 +1,30 @@
+.ufv-top-nav {
+    display: none;
+}
+
+.navbar-header-full.navbar-inverse {
+    display: none;
+}
+
+@media (max-width:499px) {
+    .ce-hero h1 {
+        font-size: 3em;
+    }
+
+    .ce-hero h2 {
+        font-size: 3em;
+    }
+
+    .ce-hero {
+        padding: 10px 0px 30px 0px;
+    }
+
+    .ce-testimonials {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .ce-testimonials p {
+        min-height: 10px;
+    }
+}
+

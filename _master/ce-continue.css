@@ -1,0 +1,215 @@
+    /*
+    re-written for Bootstrap 3
+    */
+    .ce-hero {
+        padding: 100px 1px 100px 0px;
+        background-image: url('assets/ce_banner.jpg');
+        background-image: url('https://webdev.ufv.ca/media/assets/continuing-studies/marketing-campaign/ce-bg.jpg');
+    }
+
+    .bg-work {
+        background-color: #ebebeb;
+    }
+
+    .bg-tr {
+        background: white;
+        background: rgba(255, 255, 255, .85);
+        border: 1px solid #ccc;
+        padding: 30px;
+    }
+
+    .ce-hero h1 {
+        color: #00703c;
+        font-weight: 700;
+        text-align: left;
+        font-size: 4em;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .ce-hero h2 {
+        color: #8dc640;
+        font-weight: 700;
+        font-size: 5rem;
+    }
+
+    .ce-btn {
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .ce-testimonials .ce-btn {
+        font-size: 1em;
+    }
+
+    .ce-testimonials {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .ce-testimonials h2 {
+        color: #8dc640;
+        font-weight: 600;
+        padding: 15px 0px 10px 0px;
+    }
+
+    .ce-testimonials p {
+        font-size: 0.9em;
+        min-height: 350px;
+    }
+
+
+    /*
+.ce-features
+
+*/
+
+    .ce-features {
+        background-color: white;
+        padding: 100px 0px 100px 0px;
+    }
+
+    .ce-features h3 {
+        font-size: 3em;
+        font-weight: 700;
+        text-align: center;
+        color: #403f3f;
+        letter-spacing: -0.75px;
+    }
+
+    .ce-features h4 {
+        font-size: 1.8em;
+        text-align: left;
+        font-weight: 700;
+        color: #00703c;
+        letter-spacing: -0.75px;
+    }
+
+    .ce-features p {
+        font-size: 0.9em;
+        min-height: 80px;
+        padding: 0px 15px 0px 0px;
+        color: #403f3f;
+    }
+
+
+    .ce-features li {
+        padding: 4px;
+    }
+
+    .ce-features ul {
+        padding-left: 20px;
+    }
+
+
+
+    .ce-cta {
+        text-align: center;
+        padding: 200px 0px 200px 0px;
+        background: url('assets/ce_banner.jpg') no-repeat, rgba(139, 198, 63, 0.1);
+        background: url('https://webdev.ufv.ca/media/assets/continuing-studies/marketing-campaign/ce-bg.jpg') rgba(139, 198, 63, 0.1);
+        background-blend-mode: overlay;
+    }
+
+    .ce-cta h4 {
+        font-size: 4em;
+        font-weight: 700;
+        color: white;
+    }
+
+    .ce-cta p {
+        font-size: 2em;
+        padding: 30px 20% 30px 20%;
+        line-height: 1.5;
+        color: white;
+    }
+
+    .ce-cta .ce-btn {
+        width: 50%;
+    }
+
+    .ce-cta .ce-btn em {
+        border-bottom: 2px solid white;
+        font-style: normal;
+    }
+
+    .ufv-top-nav {
+        display: none;
+    }
+
+    .navbar-header-full.navbar-inverse {
+        display: none;
+    }
+
+    #footer-links {
+        display: none;
+    }
+
+    @media (max-width:499px) {
+        .ce-hero h1 {
+            font-size: 2.8em;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .ce-hero h2 {
+            font-size: 2.5em;
+        }
+
+        .ce-hero {
+            padding: 10px 0px 30px 0px;
+        }
+
+        .ce-testimonials {
+            padding: 30px 0px 30px 0px;
+        }
+
+        .ce-testimonials h2 {
+            padding: 10px 0px 10px 0px;
+            font-size: 1.8em;
+        }
+
+        .ce-testimonials p {
+            min-height: 10px;
+        }
+
+        .ce-testimonials .ce-btn {
+            margin-bottom: 30px;
+        }
+
+        .ce-features {
+            padding: 10px 0px 20px 0px;
+        }
+
+        .ce-features h3 {
+            font-size: 2em;
+        }
+
+        .ce-features li {
+            padding: 4px;
+            font-size: 1.1em;
+        }
+
+        .ce-cta {
+            padding: 60px 0px 60px 0px;
+        }
+
+        .ce-cta h4 {
+            font-size: 2.2em;
+        }
+
+        .ce-cta p {
+            font-size: 1.2em;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .ce-cta .ce-btn {
+            font-size: 1.2em;
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+        }
+    }
