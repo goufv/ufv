@@ -1,0 +1,129 @@
+<!--
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=10&tid=401&gid=55
+edit
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=401&tfMT=text%2Fhtml
+web
+https://webdev.ufv.ca/content-types/dev/coa---student-faq-1/
+
+<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+
+
+-->
+<STYLE>
+    .ct-faq {
+        padding: 10px;
+        background-color: #ebebeb;
+    }
+    .ct-faq-half {
+        padding: 10px;
+        
+    }
+    @media only screen and (max-width: 600px) {
+        .ufv-cb {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .ct-faq {
+            padding: 5px 0px 5px 0px;
+            background-color: cornsilk;
+        }
+    }
+
+.faq-caret .faq-toggle2:before { font-size: 15px; }
+
+
+.faq-caret .faq-toggle2:not(.collapsed):before 
+{ font-family: FontAwesome; 
+    
+    content: "(far fa-chevron-circle-down)";
+    margin-right: 0px; }
+
+.faq-caret .faq-toggle2.collapsed:before
+{  font-family: FontAwesome; 
+    content: "fal fa-user";
+    margin-right: 10px;
+font-weight: 700;
+font-size: 20px;
+
+
+}
+
+
+.faq-inner { padding-left: 15px; padding-bottom: 12px; }
+
+.faq-question { font-size: 1.1em; font-weight: 500; }
+
+</STYLE>
+
+<style>
+    .icon::before {
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+  
+    .login::before {
+      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f13a";
+    }
+  
+    .tps::before {
+      font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
+    }
+  
+    .twitter::before {
+      font-family: "Font Awesome 5 Brands"; content: "\f099";
+    }
+  </style>
+  
+  <ul style="margin: 0;">
+    <li><span class="icon login"></span> Login</li>
+    <li><span class="icon tps"></span> TPS Reports</li>
+    <li><span class="icon twitter"></span> Twitter</li>
+  </ul>
+<!--
+    Full Column
+-->
+
+<i class="fas fa-camera"></i>
+
+<i class="far fa-camera"></i>
+
+<i class="far fa-chevron-circle-up"></i>
+
+<i class="far fa-chevron-circle-down"></i>
+
+
+<div class="ct-faq col-md-12 col-sm-12">
+    
+    <div class="faq-group faq-caret">
+        <div class="faq-heading">
+
+       
+            <p style="margin-top:5px;" class="faq-toggle2 faq-question collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false">
+                What is this Student FAQ?
+             </p>
+            
+            
+        </div>
+        <div id="collapseOne" class="faq-body collapse" aria-expanded="false">
+            <div class="faq-inner">
+                <p>THis is the answer here with a textarea</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+    HALF
+-->
+<section>
+    <div class="row">
+
+        <!-- @import 'ct-faq_half.kit' -->
+        <!-- @import 'ct-faq_half.kit' -->
+        <!-- @import 'ct-faq_half.kit' -->
+        <!-- @import 'ct-faq_half.kit' -->
+        
+    </div>
+</section>
