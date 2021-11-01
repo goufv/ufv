@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="sb-init" lang="en">
+<head>
+    <!-- @import '_css.kit' -->
+    <!-- @import '_head.kit' -->
+    <script src="https://kit.fontawesome.com/c0d073437b.js" crossorigin="anonymous"></script>
+    <link href="/font5/css/all.css" rel="stylesheet">
+    <STYLE>
+        .accordion-toggle:hover {
+            text-decoration: none;
+        }
+        #ct-faq-student.panel-group.ufv-cb a:hover {
+            text-decoration: none !important;
+            transition: all 0.5s ease;
+        }
+        .accordion-toggle:hover,
+        .accordion-toggle:active {
+            text-decoration: none !important;
+            transition: all 0.5s ease;
+        }
+        .panel-default>.panel-heading {
+            color: #000;
+            background-color: #FFF;
+            border-color: #fff;
+            text-decoration: none;
+        }
+        .panel {
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid transparent;
+            border: none;
+            border-radius: 4px;
+            border-radius: 0px;
+            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: none;
+            text-decoration: none;
+        }
+        .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #ebebeb;
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+	border-top: 1px solid #ebebeb;
+}
+        .panel-body {
+            margin: 0px 0px 0px 30px;
+        
+        }
+        .anthony {
+            transition: all 1s ease;
+        }
+        .panel-title:hover {}
+    </STYLE>
+</head>
+<!-- @import '_nav.kit' -->
+<div class="container">
+    <div class="row">
+        <div class="container nobtm">
+            <div class="col-md-9 ufv-cb">
+                <div id="ct-faq-student" class="panel-group">
+
+                    <!-- @import 'ct-faq/t4-ct-faq.kit' -->
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse"
+                                    data-parent="#accordion" href="#collapseThree3">
+                                    <i class="far fa-plus"></i> My Collapsable item #3
+                                </a> </h4>
+                        </div>
+                        <div id="collapseThree3" class="panel-collapse collapse">
+                            <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 ufv-sb">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- @import '__footer.kit' -->
+<script>
+    $(document).ready(function () {
+        $('.collapse').on('shown.bs.collapse', function () {
+            $(this).parent().find(".fa-plus").removeClass("fa-plus").addClass("fa-minus anthony");
+        }).on('hidden.bs.collapse', function () {
+            $(this).parent().find(".fa-minus").removeClass("fa-minus anthony").addClass("fa-plus");
+        });
+    });
+</script>

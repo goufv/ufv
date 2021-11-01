@@ -8,8 +8,53 @@
       <link rel="stylesheet" type="text/css" media="print" href="master_files/ufv-print.css">
     
     <script src="https://kit.fontawesome.com/c0d073437b.js" crossorigin="anonymous"></script>
-    <link href="/font5/css/all.css" rel="stylesheet"> <!--load all styles 
-    -->
+    <link href="/font5/css/all.css" rel="stylesheet">
+    <STYLE>
+        .accordion-toggle:hover {
+            text-decoration: none;
+        }
+        #ct-faq-student.panel-group.ufv-cb a:hover {
+            text-decoration: none !important;
+            transition: all 0.5s ease;
+        }
+        .accordion-toggle:hover,
+        .accordion-toggle:active {
+            text-decoration: none !important;
+            transition: all 0.5s ease;
+        }
+        .panel-default>.panel-heading {
+            color: #000;
+            background-color: #FFF;
+            border-color: #fff;
+            text-decoration: none;
+        }
+        .panel {
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid transparent;
+            border: none;
+            border-radius: 4px;
+            border-radius: 0px;
+            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: none;
+            text-decoration: none;
+        }
+        .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #ebebeb;
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+	border-top: 1px solid #ebebeb;
+}
+        .panel-body {
+            margin: 0px 0px 0px 30px;
+        
+        }
+        .anthony {
+            transition: all 1s ease;
+        }
+        .panel-title:hover {}
+    </STYLE>
 </head>
 <div class="ufv-top-nav">
     <div class="container">
@@ -138,234 +183,137 @@
     </div>
     <!-- /Banner Image Related Branch -->
 </nav>
-
-
 <div class="container">
     <div class="row">
         <div class="container nobtm">
             <div class="col-md-9 ufv-cb">
-                <!-- //@import '_promobox.kit' -->
-                <!--
-                https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=10&tid=401&gid=55
-                edit
-                https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=401&tfMT=text%2Fhtml
-                web
-                https://webdev.ufv.ca/content-types/dev/coa---student-faq-1/
-                
-                <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
-                
-                
-                -->
-                
-                
-                <STYLE>
-                    .ct-faq {
-                        padding: 10px;
-                        background-color: #ebebeb;
-                    }
-                    .ct-faq-half {
-                        padding: 10px;
-                        
-                    }
-                    @media only screen and (max-width: 600px) {
-                        .ufv-cb {
-                            padding-left: 20px;
-                            padding-right: 20px;
-                        }
-                        .ct-faq {
-                            padding: 5px 0px 5px 0px;
-                            background-color: cornsilk;
-                        }
-                    }
-                
-                .faq-caret .faq-toggle2:before { font-size: 15px; }
-                
-                
-                .faq-caret .faq-toggle2:not(.collapsed):before 
-                { font-family: FontAwesome; 
+                <div id="ct-faq-student" class="panel-group">
+
+                    <!--
+                    t4 FAQ Student
+                    Unique class:
+                    t4-ct-faq
                     
-                    content: "(far fa-chevron-circle-down)";
-                    margin-right: 0px; }
-                
-                .faq-caret .faq-toggle2.collapsed:before
-                {  font-family: FontAwesome; 
-                    content: "fal fa-user";
-                    margin-right: 10px;
-                font-weight: 700;
-                font-size: 20px;
-                
-                
-                }
-                
-                
-                .faq-inner { padding-left: 15px; padding-bottom: 12px; }
-                
-                .faq-question { font-size: 1.1em; font-weight: 500; }
-                
-                </STYLE>
-                
-                <style>
-                    .icon::before {
-                      display: inline-block;
-                      font-style: normal;
-                      font-variant: normal;
-                      text-rendering: auto;
-                      -webkit-font-smoothing: antialiased;
-                    }
-                  
-                    .login::before {
-                      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f13a";
-                    }
-                  
-                    .tps::before {
-                      font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
-                    }
-                  
-                    .twitter::before {
-                      font-family: "Font Awesome 5 Brands"; content: "\f099";
-                    }
-                  </style>
-                  
-                  <ul style="margin: 0;">
-                    <li><span class="icon login"></span> Login</li>
-                    <li><span class="icon tps"></span> TPS Reports</li>
-                    <li><span class="icon twitter"></span> Twitter</li>
-                  </ul>
-                <!--
-                    Full Column
-                -->
-                
-                <i class="fas fa-camera"></i>
-                
-                <i class="far fa-camera"></i>
-                
-                <i class="far fa-chevron-circle-up"></i>
-                
-                <i class="far fa-chevron-circle-down"></i>
-                
-                
-                <div class="ct-faq col-md-12 col-sm-12">
+                    https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=404&tfMT=text%2Fhtml
                     
-                    <div class="faq-group faq-caret">
-                        <div class="faq-heading">
-                
-                       
-                            <p style="margin-top:5px;" class="faq-toggle2 faq-question collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false">
-                                What is this Student FAQ?
-                             </p>
-                            
-                            
+                    -->
+                    <div class="panel col-md-6 col-sm-12 t4-ct-faq">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="#UniqueID" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion">
+                                    <i class="far fa-plus"></i>
+                                    My Collapsable item #1
+                                </a>
+                            </h4>
                         </div>
-                        <div id="collapseOne" class="faq-body collapse" aria-expanded="false">
-                            <div class="faq-inner">
-                                <p>THis is the answer here with a textarea</p>
+                        <div id="UniqueID" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <!--
+                    https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=404&tfMT=text%2Fhtml
+                    
+                    -->
+                    <t4 type="meta" meta="html_anchor" />
+                    <t4 type="content" name="Open section?" output="selective-output" modifiers="" format="$value"  />
+                    
+                    <div class="col-md-<t4 type="content" name="Width occupied?" output="normal" modifiers="" format="$value" /> col-sm-12" style="padding-bottom:12px;"> 
+                    
+                      <div class="faq-group faq-caret">
+                          <div class="faq-heading">
+                              <p style="margin-top:5px;" class="faq-toggle faq-question collapsed" data-toggle="collapse" href="#<t4 type="content" name="Unique ID number" output="normal" modifiers="" format="$value" />">
+                                 <t4 type="content" name="Question" output="normal" modifiers="striptags, htmlentities, nl2br"  />
+                              </p>
+                          </div>
+                      
+                          <div id="<t4 type="content" name="Unique ID number" output="normal" modifiers="" format="$value" />" class="faq-body collapse">
+                              <div class="faq-inner">
+                                <p><t4 type="content" name="General Answer" output="normal" modifiers="tags"  /></p>
+                              </div>
+                          </div>
+                      </div>
+                    
+                    </div>
+                    
+                    <t4 type="content" name="Close and open new row?" output="selective-output" modifiers="" format="$value"  />
+                    
+                    <t4 type="content" name="Close section?" output="selective-output" modifiers="" format="$value"  />
+                    
+                    <!--
+                    Student FAQ
+                    -->
+                    
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse"
+                                    data-parent="#accordion" href="#collapseThree3">
+                                    <i class="far fa-plus"></i> My Collapsable item #3
+                                </a> </h4>
+                        </div>
+                        <div id="collapseThree3" class="panel-collapse collapse">
+                            <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum.
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--
-                    HALF
-                -->
-                <section>
-                    <div class="row">
-                
-                        <!--
-                            ct-faq_half.kit
-                        -->
-                        <div class="ct-faq-half col-md-6 col-sm-12">
-                            <div class="faq-group faq-caret">
-                                <div class="faq-heading">
-                                    <p class="faq-toggle faq-question collapsed" data-toggle="collapse"
-                                        href="#collapse1" aria-expanded="false">
-                                        Half - This is 1/2 for FAQ
-                                    </p>
-                                </div>
-                                <div id="collapse1" class="faq-body collapse" aria-expanded="false">
-                                    <div class="faq-inner">
-                                        <p>THis is one of two here</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--
-                                    ct-faq_half.kit
-                                -->
-                                <div class="ct-faq-half col-md-6 col-sm-12">
-                                    <div class="faq-group faq-caret">
-                                        <div class="faq-heading">
-                                            <p class="faq-toggle faq-question collapsed" data-toggle="collapse"
-                                                href="#collapse1" aria-expanded="false">
-                                                Half - This is 1/2 for FAQ
-                                            </p>
-                                        </div>
-                                        <div id="collapse1" class="faq-body collapse" aria-expanded="false">
-                                            <div class="faq-inner">
-                                                <p>THis is one of two here</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                        <!--
-                                            ct-faq_half.kit
-                                        -->
-                                        <div class="ct-faq-half col-md-6 col-sm-12">
-                                            <div class="faq-group faq-caret">
-                                                <div class="faq-heading">
-                                                    <p class="faq-toggle faq-question collapsed" data-toggle="collapse"
-                                                        href="#collapse1" aria-expanded="false">
-                                                        Half - This is 1/2 for FAQ
-                                                    </p>
-                                                </div>
-                                                <div id="collapse1" class="faq-body collapse" aria-expanded="false">
-                                                    <div class="faq-inner">
-                                                        <p>THis is one of two here</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                        <!--
-                                                    ct-faq_half.kit
-                                                -->
-                                                <div class="ct-faq-half col-md-6 col-sm-12">
-                                                    <div class="faq-group faq-caret">
-                                                        <div class="faq-heading">
-                                                            <p class="faq-toggle faq-question collapsed" data-toggle="collapse"
-                                                                href="#collapse1" aria-expanded="false">
-                                                                Half - This is 1/2 for FAQ
-                                                            </p>
-                                                        </div>
-                                                        <div id="collapse1" class="faq-body collapse" aria-expanded="false">
-                                                            <div class="faq-inner">
-                                                                <p>THis is one of two here</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                        
-                    </div>
-                </section>
             </div>
             <div class="col-md-3 ufv-sb">
-                <div id="quick-links">
-                    <!-- n_197 -->
-                    <ul id="nav-197" class="pale-green"><a href="https://www.ufv.ca/future-students/ask-a-question/">
-                            <li> Ask a question</li>
-                        </a> <a target="_self" href="https://www.ufv.ca/future-students/book-a-phone-call-with-a-student-recruiter/">
-                            <li> Book a call with a recruiter</li>
-                        </a> <a href="https://www.ufv.ca/future-students/apply/how-to-apply/">
-                            <li> Apply now</li>
-                        </a> </ul>
-                </div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- //@import '_contact_bar.kit' -->
+
+
+<div class="row" id="contact-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ufv-footer-contact">
+          <div id="contact-us">
+            <ul style="padding-left:12px;">
+              <li>1-604-504-7441</li>
+              <li><a href="mailto:info@ufv.ca" rel="nofollow">info@ufv.ca</a></li>
+            </ul>
+          </div><!-- /id:contact-us -->
+        </div><!-- /ufv-footer-contact -->
+        <div style="padding-right:40px;" class="col-md-4 ufv-social">
+          <ul style="float:right;" class="social-buttons colored-bg-on-hover round clearfix">
+            <li><a href="https://www.facebook.com/goUFV/" target="_blank"><i class="fa fa-facebook"
+                  aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/goUFV" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://www.flickr.com/photos/ufv/" target="_blank"><i class="fa fa-flickr"
+                  aria-hidden="true"></i></a></li>
+            <li><a href="http://blogs.ufv.ca/" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/goufv/" target="_blank"><i class="fa fa-instagram"
+                  aria-hidden="true"></i></a></li>
+          </ul>
+        </div><!-- /ufv-social -->
+      </div><!-- /row -->
+    </div><!-- /container -->
+  </div>
 
 <div class="row" id="footer-links">
   <div class="container">
@@ -495,3 +443,12 @@
   <script type="text/javascript" id="" src="master_files/f8d944b6e4.js"></script>
  
 </html>
+<script>
+    $(document).ready(function () {
+        $('.collapse').on('shown.bs.collapse', function () {
+            $(this).parent().find(".fa-plus").removeClass("fa-plus").addClass("fa-minus anthony");
+        }).on('hidden.bs.collapse', function () {
+            $(this).parent().find(".fa-minus").removeClass("fa-minus anthony").addClass("fa-plus");
+        });
+    });
+</script>

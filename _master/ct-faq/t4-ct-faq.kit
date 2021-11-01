@@ -1,0 +1,65 @@
+<!--
+t4 FAQ Student
+Unique class:
+t4-ct-faq
+
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=404&tfMT=text%2Fhtml
+
+-->
+<div class="panel col-md-6 col-sm-12 t4-ct-faq">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a href="#UniqueID" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion">
+                <i class="far fa-plus"></i>
+                My Collapsable item #1
+            </a>
+        </h4>
+    </div>
+    <div id="UniqueID" class="panel-collapse collapse">
+        <div class="panel-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
+        </div>
+    </div>
+</div>
+
+
+<!--
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=404&tfMT=text%2Fhtml
+
+-->
+<t4 type="meta" meta="html_anchor" />
+<t4 type="content" name="Open section?" output="selective-output" modifiers="" format="$value"  />
+
+<div class="col-md-<t4 type="content" name="Width occupied?" output="normal" modifiers="" format="$value" /> col-sm-12" style="padding-bottom:12px;"> 
+
+  <div class="faq-group faq-caret">
+      <div class="faq-heading">
+          <p style="margin-top:5px;" class="faq-toggle faq-question collapsed" data-toggle="collapse" href="#<t4 type="content" name="Unique ID number" output="normal" modifiers="" format="$value" />">
+             <t4 type="content" name="Question" output="normal" modifiers="striptags, htmlentities, nl2br"  />
+          </p>
+      </div>
+  
+      <div id="<t4 type="content" name="Unique ID number" output="normal" modifiers="" format="$value" />" class="faq-body collapse">
+          <div class="faq-inner">
+            <p><t4 type="content" name="General Answer" output="normal" modifiers="tags"  /></p>
+          </div>
+      </div>
+  </div>
+
+</div>
+
+<t4 type="content" name="Close and open new row?" output="selective-output" modifiers="" format="$value"  />
+
+<t4 type="content" name="Close section?" output="selective-output" modifiers="" format="$value"  />
+
+<!--
+Student FAQ
+-->
