@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="herowidecta">Hero Wide + CTA</h1>
+
+<ul>
+<li>Demo
+https://webdev.ufv.ca/!arts/</li>
+<li>CT https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&amp;fnno=110&amp;tid=403&amp;tfMT=text%2Fhtml</li>
+</ul>
+
+<pre><code>&lt;!-- ct-hero-cta --&gt;
+&lt;section class=&quot;section-hero-full&quot;&gt;
+    &lt;div class=&quot;ct-hero-cta&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-md-6 col-lg-push-6 col-banner&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;col-md-6 uc1 col-lg-pull-6 vcenter col-content&quot;&gt;
+                    &lt;h1&gt;
+                        &lt;t4 type=&quot;content&quot; name=&quot;Heading-Title&quot; output=&quot;normal&quot; modifiers=&quot;striptags&quot; /&gt;
+                    &lt;/h1&gt;
+                    &lt;p&gt;
+                        &lt;t4 type=&quot;content&quot; name=&quot;Heading-Tagline&quot; output=&quot;normal&quot; modifiers=&quot;striptags&quot; /&gt;
+                    &lt;/p&gt;
+                    &lt;a href=&quot;&lt;t4 type=&quot; content&quot; name=&quot;Section-link&quot; output=&quot;linkurl&quot; modifiers=&quot;&quot; /&gt;
+                    &lt;t4 type=&quot;content&quot; name=&quot;External link&quot; output=&quot;selective-output&quot; modifiers=&quot;&quot; format=&quot;$value&quot; /&gt;&quot;
+                    target=&quot;
+                    &lt;t4 type=&quot;content&quot; name=&quot;Open in new window?&quot; output=&quot;selective-output&quot; modifiers=&quot;tags&quot;
+                        format=&quot;$value&quot; /&gt;&quot;&gt;
+                    &lt;button class=&quot;btn-change&quot;&gt;
+                        &lt;t4 type=&quot;content&quot; name=&quot;Button-Text&quot; output=&quot;normal&quot; modifiers=&quot;&quot; /&gt;
+                    &lt;/button&gt;
+                    &lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- / ct-hero-cta --&gt;
+
+
+&lt;STYLE&gt;
+    .col-content {
+        background: rgba(46, 49, 49, 0.8);
+        padding: 20px;
+    }
+
+    .col-content h1,
+    .col-content p {
+        color: #FFF;
+    }
+
+    .col-banner {
+        background-image: url('&lt;t4 type=&quot;content&quot; name=&quot;MastheadImage&quot; output=&quot;normal&quot; modifiers=&quot;&quot; formatter=&quot;path/*&quot; /&gt;');
+        background-size: cover;
+        min-height: 200px;
+    }
+
+    .ct-hero-cta {
+        padding: 30px;
+        background: #b1b1b1;
+        background-image: url('&lt;t4 type=&quot;content&quot; name=&quot;MastheadImage&quot; output=&quot;normal&quot; modifiers=&quot;&quot; formatter=&quot;path/*&quot; /&gt;');
+        background-size: cover;
+        min-height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .hero-2col {
+        background-size: contain;
+        min-height: 100px;
+        background-position: left;
+    }
+
+    .col-content button {
+        display: inline-block;
+        padding: 10px;
+        border: none;
+        background: #00703c;
+        color: #FFF;
+    }
+
+    /* mobile */
+    @media(max-width:767px) {
+        .ct-hero-cta {
+            background-image: none;
+            padding: 10px;
+            background: #FFF;
+        }
+
+        .ct-hero-cta .container {
+            padding: 0px;
+        }
+
+        .col-content {
+            background: rgba(46, 49, 49, 1);
+            padding: 20px;
+        }
+    }
+
+    /* desktop */
+    @media(min-width:768px) {
+        .col-banner {
+            background-image: none;
+        }
+
+        .col-content {
+            padding: 40px;
+        }
+
+        .col-content h1 {
+            font-size: 2em;
+            font-weight: 400;
+            letter-spacing: -1px;
+        }
+
+        .vcenter {
+            vertical-align: middle;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+    }
+
+
+    .btn-change {
+
+        -webkit-transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+
+    }
+
+    .btn-change:hover {
+        box-shadow: 120px 0 0 #7cb232 inset;
+        -webkit-transition-duration: 0.2s;
+    }
+
+
+    @media(min-width:992px) {}
+
+    @media(min-width:1200px) {}
+&lt;/STYLE&gt;
+
+
+</code></pre>
+
+</body>
+</html>
+

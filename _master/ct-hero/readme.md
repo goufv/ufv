@@ -1,0 +1,143 @@
+# Hero Wide + CTA
+
+- Demo
+https://webdev.ufv.ca/!arts/
+- CT https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=403&tfMT=text%2Fhtml
+
+
+```
+<!-- ct-hero-cta -->
+<section class="section-hero-full">
+    <div class="ct-hero-cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-push-6 col-banner"></div>
+                <div class="col-md-6 uc1 col-lg-pull-6 vcenter col-content">
+                    <h1>
+                        <t4 type="content" name="Heading-Title" output="normal" modifiers="striptags" />
+                    </h1>
+                    <p>
+                        <t4 type="content" name="Heading-Tagline" output="normal" modifiers="striptags" />
+                    </p>
+                    <a href="<t4 type=" content" name="Section-link" output="linkurl" modifiers="" />
+                    <t4 type="content" name="External link" output="selective-output" modifiers="" format="$value" />"
+                    target="
+                    <t4 type="content" name="Open in new window?" output="selective-output" modifiers="tags"
+                        format="$value" />">
+                    <button class="btn-change">
+                        <t4 type="content" name="Button-Text" output="normal" modifiers="" />
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- / ct-hero-cta -->
+
+
+<STYLE>
+    .col-content {
+        background: rgba(46, 49, 49, 0.8);
+        padding: 20px;
+    }
+
+    .col-content h1,
+    .col-content p {
+        color: #FFF;
+    }
+
+    .col-banner {
+        background-image: url('<t4 type="content" name="MastheadImage" output="normal" modifiers="" formatter="path/*" />');
+        background-size: cover;
+        min-height: 200px;
+    }
+
+    .ct-hero-cta {
+        padding: 30px;
+        background: #b1b1b1;
+        background-image: url('<t4 type="content" name="MastheadImage" output="normal" modifiers="" formatter="path/*" />');
+        background-size: cover;
+        min-height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .hero-2col {
+        background-size: contain;
+        min-height: 100px;
+        background-position: left;
+    }
+
+    .col-content button {
+        display: inline-block;
+        padding: 10px;
+        border: none;
+        background: #00703c;
+        color: #FFF;
+    }
+
+    /* mobile */
+    @media(max-width:767px) {
+        .ct-hero-cta {
+            background-image: none;
+            padding: 10px;
+            background: #FFF;
+        }
+
+        .ct-hero-cta .container {
+            padding: 0px;
+        }
+
+        .col-content {
+            background: rgba(46, 49, 49, 1);
+            padding: 20px;
+        }
+    }
+
+    /* desktop */
+    @media(min-width:768px) {
+        .col-banner {
+            background-image: none;
+        }
+
+        .col-content {
+            padding: 40px;
+        }
+
+        .col-content h1 {
+            font-size: 2em;
+            font-weight: 400;
+            letter-spacing: -1px;
+        }
+
+        .vcenter {
+            vertical-align: middle;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+    }
+
+
+    .btn-change {
+
+        -webkit-transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+
+    }
+
+    .btn-change:hover {
+        box-shadow: 120px 0 0 #7cb232 inset;
+        -webkit-transition-duration: 0.2s;
+    }
+
+
+    @media(min-width:992px) {}
+
+    @media(min-width:1200px) {}
+</STYLE>
+
+
+```
