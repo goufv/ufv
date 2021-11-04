@@ -1985,6 +1985,18 @@
       "oAP" : "\/_master\/ce.html",
       "oF" : 0
     },
+    "\/_master\/ct-faq-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-faq-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/_master\/ct-faq.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2092,6 +2104,121 @@
       "oA" : 1,
       "oAP" : "\/_master\/ct-faq\/t4-ct-faq.html",
       "oF" : 0
+    },
+    "\/_master\/ct-hero\/ct-hero-cta.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/ct-hero-cta.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-hero\/index.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/index.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-hero\/readme.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/readme.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-hero\/readme.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/readme.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/_master\/ct-hero\/t4-hero-2col.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/t4-hero-2col.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-hero\/t4-hero-wide.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/t4-hero-wide.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-hero\/test.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/test.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-rss-h.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-rss-h.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-rss-h\/ct-rss-h.jpg" : {
+      "ft" : 16384,
+      "iS" : 420773,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-rss-h\/ct-rss-h.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_master\/ct-rss-h\/readme.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-rss-h\/readme.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-rss-h\/readme.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-rss-h\/readme.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/_master\/font5\/attribution.js" : {
       "bF" : 0,
