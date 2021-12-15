@@ -2,17 +2,20 @@
 
 Hero 2 col v2
 https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=402&tfMT=text%2Fhtml
+22.11.21 aml
+* h1 to h2
+* 1024 size
 
 -->
 <section class="section-hero-2col">
     <div class="ct-hero-cta hero-2col">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-push-4 col-banner"></div>
-                <div class="col-md-4 uc1 col-lg-pull-6 vcenter col-content">
-                    <h1>
+                <div class="col-sm-6 col-md-6 col-lg-push-4 col-md-push-4 col-sm-push-4 col-banner"></div>
+                <div class="col-sm-4 col-md-4 uc1 col-lg-pull-6 col-md-pull-6 col-sm-pull-6 vcenter col-content">
+                    <h2>
                         <t4 type="content" name="Heading-Title" output="normal" modifiers="striptags" />
-                    </h1>
+                    </h2>
                     <p>
                         <t4 type="content" name="Heading-Tagline" output="normal" modifiers="striptags" />
                     </p>
@@ -36,11 +39,13 @@ https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=402&tfM
     }
 
     .col-content h1,
+    .col-content h2,
     .col-content p {
         color: #FFF;
     }
 
     .col-banner {
+        background-image: url('https://webdev.ufv.ca/media/webdev-media/ct/ct-banner.jpeg');
         background-image: url('<t4 type="content" name="MastheadImage" output="normal" modifiers="" formatter="path/*" />');
         background-size: cover;
         height: 100px;
@@ -49,6 +54,7 @@ https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=402&tfM
     .ct-hero-cta {
         padding: 0px 30px 0px 30px;
         background: #b1b1b1;
+        background-image: url('https://webdev.ufv.ca/media/webdev-media/ct/ct-banner.jpeg');
         background-image: url('<t4 type="content" name="MastheadImage" output="normal" modifiers="" formatter="path/*" />');
         background-size: cover;
         min-height: 500px;
@@ -60,6 +66,7 @@ https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=402&tfM
 
     .hero-2col {
         background-size: contain;
+        background-size: cover;
         min-height: 100px;
         background-position: left;
     }
@@ -100,7 +107,7 @@ https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=402&tfM
             
         }
 
-        .col-content h1 {
+        .col-content h2 {
             font-size: 2em;
             font-weight: 400;
             letter-spacing: -1px;
@@ -130,5 +137,6 @@ https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=402&tfM
 
     @media(min-width:1200px) {}
 </STYLE>
+
 
 

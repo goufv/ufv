@@ -1,0 +1,46 @@
+<!--
+Continuing Ed courses
+text/html 
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=346&tfMT=text%2Fhtml
+25.11.21 aml
+-->
+
+<t4 type="meta" meta="html_anchor" /> 
+<div class="row ct-ce-courses">    
+<div style="padding-bottom: 12px;" class="col-md-12">
+<div style="border: 1px solid <t4 type="content" name="Course category" output="normal" modifiers=""format="$value" />;">
+  <div style="background-color:<t4 type="content" name="Course category" output="normal" modifiers=""format="$value" />; padding: 3px 20px;margin-bottom:7px;"><h5 class="content-box-title"><t4 type="content" name="Title" output="normal" modifiers="striptags, htmlentities"  /></h5></div>
+  <div style="padding:10px 20px 10px 20px;">
+    <!-- cost -->
+    <p style="font-size:15px;"> <t4 type="content" name="Image" output="normal" modifiers=""  formatter="ce/course" /><strong><t4 type="content" name="Price" output="selective-output" modifiers="striptags, htmlentities"  format="Cost:&nbsp;$value"/></strong>
+        <!-- prerequisite -->
+      <t4 type="content" name="Prerequisite" output="selective-output" modifiers="striptags, htmlentities"  format="<br/><em>Prerequisite:&nbsp;$value</em>"/></p>
+      <!-- description -->
+    <t4 type="content" name="Description" output="normal" modifiers="tags"  /> 
+    <t4 type="content" name="Notes" output="selective-output" modifiers="" format=" <div class=&quot;well&quot;>$value</div>"/>
+    <hr>
+
+      <t4 type="content" name="Delivery method" output="selective-output" modifiers="" format="<p style=&quot;margin-bottom:0px;&quot;><strong>Delivery method:</strong> $value</p><br />"/>
+
+     <t4 type="content" name="Location 1" output="selective-output" modifiers="" display_field="value" format=" <p style=&quot;text-transform:uppercase;margin-bottom:0px;padding-top:7px;&quot;>$value</p>"/>
+
+    <t4 type="content" name="CRNs and schedules 1" output="selective-output" modifiers="" format="<div style=&quot;line-height:50px;&quot;>$value</div>" />
+      
+        <t4 type="content" name="Delivery method2" output="selective-output" modifiers="" format="<p style=&quot;margin-bottom:0px;&quot;><strong>Delivery method:</strong> $value</p><br />"/>
+
+    <t4 type="content" name="Location 2" output="selective-output" modifiers="" display_field="value" format=" <p style=&quot;text-transform:uppercase;margin-bottom:0px;padding-top:7px;&quot;>$value</p>"/>
+    <t4 type="content" name="Additional CRNs and schedules 2" output="selective-output" modifiers="" format="<div style=&quot;line-height:50px;&quot;>$value</div>" />
+    <t4 type="content" name="Location 3" output="selective-output" modifiers="" display_field="value" format=" <p style=&quot;text-transform:uppercase;margin-bottom:0px;padding-top:7px;&quot;>$value</p>"/>
+   <t4 type="content" name="Additional CRNs and schedules 3" output="selective-output" modifiers="" format="<div style=&quot;line-height:50px;&quot;>$value</div>" />
+
+
+<t4 type="content" name="Registration period" output="selective-output" modifiers="" format="$value" />    
+    
+  </div>
+</div>
+</div>
+</div>
+  
+  <!-- text/html -->
+  
+  

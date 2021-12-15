@@ -7,7 +7,7 @@
       "uuidString" : "511CC8EB-BCAC-409D-BADA-7581A3B95845"
     }
   ],
-  "creatorBuild" : "34214",
+  "creatorBuild" : "34264",
   "files" : {
     "\/_dev\/_readme.md" : {
       "cB" : 0,
@@ -1969,6 +1969,30 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/_master\/ce-courses\/ct-ce-courses.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ce-courses\/ct-ce-courses.html",
+      "oF" : 0
+    },
+    "\/_master\/ce-courses\/original.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ce-courses\/original.html",
+      "oF" : 0
+    },
+    "\/_master\/ce-programs-list.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ce-programs-list.html",
+      "oF" : 0
+    },
     "\/_master\/ce.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1983,6 +2007,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_master\/ce.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-content-offset.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-content-offset.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-content-offset.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-content-offset.html",
       "oF" : 0
     },
     "\/_master\/ct-faq-min.css" : {
@@ -2113,6 +2153,459 @@
       "oAP" : "\/_master\/ct-hero\/ct-hero-cta.html",
       "oF" : 0
     },
+    "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/ad_status.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/ad_status-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/base.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/base-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/embed.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/embed-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/fetch-polyfill.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/fetch-polyfill-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/IDOD8C4CBaKZ_NWTTkU4YSP0GrQsu4HTxIRjNmv5cpY.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/IDOD8C4CBaKZ_NWTTkU4YSP0GrQsu4HTxIRjNmv5cpY-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/www-embed-player.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/www-embed-player-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/www-player.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM_data\/www-player-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/0yE2Zq5XTEM.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/app.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/app-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/Arts-talent.jpg" : {
+      "ft" : 16384,
+      "iS" : 22076,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/Arts-talent.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/Be-career-ready.jpg" : {
+      "ft" : 16384,
+      "iS" : 101666,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/Be-career-ready.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/bootstrap.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/bootstrap-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/buttons.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/buttons-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/carousels.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/carousels-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/dataTables.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/dataTables-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/f8d944b6e4.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/f8d944b6e4-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/font-awesome.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/font-awesome-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/gtm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/gtm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/jquery_002.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/jquery_002-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/jquery_003.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/jquery_003-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/jquery_004.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/jquery_004-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/jquery.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/jquery-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/kZwhaYXlvDU.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/kZwhaYXlvDU.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/Linda-Dahl-web.jpg" : {
+      "ft" : 16384,
+      "iS" : 15575,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/Linda-Dahl-web.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/nZ8KBGrGyVc.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/nZ8KBGrGyVc.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/pl_inner.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/pl_inner-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/slidebars.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/slidebars-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/uD8RqK0Fol0.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/uD8RqK0Fol0.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/UFV_University-of-the-Fraser-Valley.png" : {
+      "ft" : 32768,
+      "iS" : 22937,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/UFV_University-of-the-Fraser-Valley.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/ufv-2015.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/ufv-2015-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/ufv-ac.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/ufv-ac-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/ufv-logo-footer.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/ufv-logo-footer.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/ufv-marcom.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/ufv-marcom-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/ufv-media.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/ufv-media-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/ufv-print.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/ufv-print-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/ufv-sm-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/ufv-sm-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/ufv-v.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 1,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/ufv-v-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/ufv.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/ufv-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col_files\/wow.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col_files\/wow-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_master\/ct-hero\/hero-2col.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-hero\/hero-2col.html",
+      "oF" : 0
+    },
     "\/_master\/ct-hero\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2170,6 +2663,35 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_master\/ct-hero\/test.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-offset\/ct-offset.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-offset\/ct-offset.html",
+      "oF" : 0
+    },
+    "\/_master\/ct-offset\/image.jpg" : {
+      "ft" : 16384,
+      "iS" : 26448,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-offset\/image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_master\/ct-offset\/t4-ct-offset.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_master\/ct-offset\/t4-ct-offset.html",
       "oF" : 0
     },
     "\/_master\/ct-rss-h.kit" : {
@@ -83383,6 +83905,22 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/alumni-dev\/Alumni-Dev\/.nova\/Configuration.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alumni-dev\/Alumni-Dev\/.nova\/Configuration-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/alumni-dev\/Alumni-Dev\/.nova\/Publishing\/Alumni.UFV.ca.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alumni-dev\/Alumni-Dev\/.nova\/Publishing\/Alumni.UFV.ca-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/anthony.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -111378,6 +111916,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/t4\/pl\/INT" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/t4\/pl\/INT",
+      "oF" : 0
+    },
     "\/t4\/related-content-new.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -112561,6 +113107,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
