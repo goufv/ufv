@@ -1,0 +1,85 @@
+/* 2.19.18 3.58 ufv-media.css - Sass generated CSS for mobile devices on UFV.ca Issues? - Email: myweb@ufv.ca or visit https://www.ufv.ca/myweb/request/help-support/ */
+@media only screen and (max-width: 480px) { .testimonial-title { font-size: 14px; }
+  .service-header-list { font-size: 0.6em; }
+  .panel-heading-link, .panel-plus-link { font-size: 1.4em; }
+  .program-header p { font-size: 1.4em; }
+  #masthead-banner { min-height: 80px; }
+  .home-choice { padding: 1px 1px 1px 1px; margin: 10px 5px 0px 0px; background: rgba(255, 255, 255, 0.8); background: #403f3f; opacity: 1; border-top-left-radius: 20px; border-bottom-right-radius: 10px; background: #403f3f; background: -moz-linear-gradient(top, #403f3f 0%, #6b6a6a 100%); background: -webkit-linear-gradient(top, #403f3f 0%, #6b6a6a 100%); background: linear-gradient(to bottom, #403f3f 0%, #6b6a6a 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#403f3f', endColorstr='#6b6a6a', GradientType=0); /* height: 50vh; */ }
+  .home-masthead { min-height: 150px; }
+  #footer .ufv-address { padding-top: 10px; }
+  #footer .ufv-address p { text-align: center; }
+  #footer .ufv-social { padding: 10px 0px 10px 40px; } }
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) { .ufv-top-nav { display: none; }
+  .home-choice { padding: 5px 5px 5px 5px; margin: 20px auto; background: rgba(255, 255, 255, 0.8); background: #403f3f; opacity: 1; border-top-left-radius: 10px; border-bottom-right-radius: 10px; } }
+
+@media only screen and (max-width: 768px) { .ct-action-boxes a:link { font-weight: 400; text-decoration: none; letter-spacing: 0.25px; font-weight: 200; font-size: 18px; }
+  .ct-contact { margin: 0; padding: 0; border: 1px solid #ebebeb; padding: 7px 0px 7px 5px; background: #fff; border-radius: 0; margin-bottom: 10px; }
+  .ct-contact a.btn-default { background: #fff; padding: 7px; border-radius: 0; margin: 10px 0 5px 0; border: 1px #ccc solid; display: inline-block; font-size: 12px; font-weight: 400; text-decoration: none; border-radius: 0; }
+  .contact_name, .contact_title, .contact_dept, .contact_loc, .contact_phone, .contact_email, .contact_profile, .ct-contact h3 { font-size: 13px; padding: 0; margin: 0; line-height: 15px; font-weight: 400; }
+  .ct-contact h3 { font-weight: 600; font-size: 15px; letter-spacing: 0; margin-bottom: 5px; color: #333; }
+  .nopadding { padding: 0 !important; margin: 0 !important; }
+  .profile-img { padding: 0px 10px 0px 0px; float: left; }
+  .profile-img img { width: 110px; float: left; margin: 0px 0px 0px 0px; padding-bottom: 0px; }
+  .ufv-cb { padding-left: 20px; padding-right: 20px; }
+  .ufv-cb h1, .ufv-cb h2, .ufv-cb h3, .ufv-cb h4, .ufv-cb h5 { margin: 0; padding: 0; margin: 5px 0px 10px 0px; font-weight: 600; font-family: 'Open Sans', sans-serif; }
+  .ufv-cb h1 { font-size: 20px; font-family: 'Open Sans', sans-serif; padding-top: 0px; font-weight: 600; letter-spacing: -1px; color: #333; border-bottom: 1px solid #ebebeb; padding-bottom: 15px; margin-bottom: 15px; margin-top: 10px; color: #222222; }
+  .ufv-cb p.h2, .ufv-cb h2 { font-size: 19px; /* font-weight: 300; */ padding-top: 0px; letter-spacing: -1px; padding-bottom: 10px; color: #333; }
+  .ufv-cb p.h3, .ufv-cb h3 { font-size: 18px; /* font-weight: 300; */ letter-spacing: -1px; line-height: 25px; }
+  .ufv-cb p.h4, .ufv-cb h4 { font-size: 17px; /* font-weight: 300; */ padding-top: 0px; letter-spacing: -1px; }
+  section p, p { padding: 0; margin: 0; font-size: 15px; line-height: 24px; margin-bottom: 10px; font-family: 'Open Sans', sans-serif; /* font: 15px/1.5em georgia,"times new roman",times,serif; */ }
+  .ufv-cb a:link { font-weight: bold; text-decoration: underline; }
+  div.breadcrumb.nobtm a { color: #777777; font-family: Open Sans; font-size: 11px; font-weight: 500; letter-spacing: -0.75px; margin-right: 2px; padding-left: 5px; padding-right: 3px; text-transform: uppercase; color: #00703c; }
+  .navbar-default.navbar-inverse + .main-header .page-title, html.sb-init body div#sb-site div.boxed header.main-header div.container p.page-title { color: #00703c; font-family: Open Sans; font-size: 22px; letter-spacing: -1px; font-weight: 400; padding-left: 0px; font-weight: normal; text-transform: uppercase; margin-bottom: 0; padding-bottom: 5px; clear: both; text-align: center; }
+  .navbar-default.navbar-inverse + .main-header { background-color: #f1f1f1; border-bottom: 1px solid #ebebeb; color: #333; }
+  .navbar-header { background: #165F2C; }
+  h1.section-name { color: #111111; }
+  /* addressss the slider button on mobile */
+  .sb-slidebar .input-group .btn { display: none; }
+  .sb-slidebar.sb-right.sb-active div.input-group input.form-control { font-size: 16px; height: 49px; padding-left: 20px; /* font-weight: 400; */ color: #000; background-color: #f1f1f1; }
+  /* fppter social */
+  #footer .ufv-social { padding: 0; margin-top: 25px; }
+  .social-buttons { text-align: center; }
+  .social-buttons .fa { display: block; font-size: 30px; line-height: 50px; text-align: center; width: 45px; }
+  #footer .ufv-address p, #footer .ufv-address p a:link { text-align: center; font-size: 14px; line-height: 25px; color: #aaa; font-weight: 100; }
+  #footer .ufv-address p a, #footer .ufv-address p a span { font-size: 16px; font-weight: 400; color: #ebebeb; }
+  #contact-us ul { /* text-align: left; */ list-style: outside none none; padding: 0px; font-size: 17px; font-weight: 100; line-height: 30px; }
+  i.fa.fa-rss { display: none; }
+  /* 9/16/2016 */
+  .jobsallbuttonc { font-family: Arial; color: #ffffff; font-size: 20px; background: #3498db; padding: 10px 20px 10px 20px; text-decoration: none; }
+  .jobsallbuttonc { background-color: #ccc; padding: 10px; float: left; }
+  div.red span a, div.orange span a, div.dark-green span a, div.bright-green div span a, div.content-box.blue div span a { border-top-left-radius: 7px; border-bottom-right-radius: 7px; }
+  div.red span a, div.orange span a, div.dark-green span a { border-top-left-radius: 7px; border-bottom-right-radius: 7px; }
+  /* PDF within boxed */
+  [href$=".pdf"]::after { content: unset; }
+  [href$=".pdf"]::after { content: ""; }
+  .modal-open .modal { z-index: 40000000 !important; }
+  header#header-full-top.hidden-xs.header-full-dark div.container div.col-md-3.hidden-sm div#custom-search-input div.input-group.col-md-12 form#cse-search-box span.input-group-btn button.btn.btn-success, form#cse-search-box span.input-group-btn button.btn.btn-success { background: #e5e5e5 none repeat scroll 0 0; border: none; font-size: 17px; padding-left: 10px; padding-right: 10px; padding-top: 9px; color: #00703c; } }
+
+@media (min-width: 768px) and (max-width: 1024px) { .navbar-default .navbar-nav > li > a { text-transform: uppercase; font-size: 13px; padding-left: 5px; padding-right: 5px; } }
+
+@media (max-width: 991px) { h1 { font-size: 22px; }
+  h2, h3, h4, h5 { font-size: 18px; }
+  .navbar-header { background: #00703c; }
+  .navbar-inverse .navbar-brand { background: url("https://www.ufv.ca/media/2015/brand/ufv-logo-footer.svg"); background: transparent url("https://www.ufv.ca/media/2015/brand/ufv-logo-footer.svg") no-repeat scroll 25px 8px/95px 30px; margin-left: 30px; text-indent: -2000px; width: 142px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { #custom-search-input .search-query { width: 79%; }
+  #custom-search-input .search-query { height: 45px; } }
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { .ufv-users, .ufv-tools { font-size: 10px; margin: 0; padding: 0; }
+  .ufv-tools ul li a { font-size: 10px; margin: 0; padding: 0; } 
+  .boxed { padding-bottom: 0px; margin-bottom: 0px; }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { .ufv-users, .ufv-tools { font-size: 10px; margin: 0; padding: 0; }
+  .ufv-tools ul li a { font-size: 10px; margin: 0; padding: 0; } 
+.boxed { padding-bottom: 0px; margin-bottom: 0px; }
+}
+
+/*
+Submit changes to: myweb@ufv.ca
+*/
