@@ -25,3 +25,13 @@ div#ufvlogin a {
 div#ufvlogin a:hover {
 	background-color: #00703c;
 }
+
+div#ultraCourseCatalogLink a {
+	text-decoration: none !important;
+	padding: 1em 2em;
+	margin-bottom: 10px;
+	border-radius: 2em;
+	font-size: 14px !important;
+	border-radius: 0px;
+	color: #ebebeb;
+}
