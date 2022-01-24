@@ -1,5 +1,5 @@
 /*
-* UFV.ca - * f 13, 2018
+* UFV.ca - * 2022 Jan 05
 *
 *      UUU  UUU  FFFFFF VVV     VVV
 *      UUU  UUU  FFF     VVV   VVV
@@ -31,7 +31,7 @@ h1.section-name { border-bottom: 1px solid #ebebeb; color: #333333; font-size: 3
 
 h1.page-title { font-size: 28px; }
 
-h2 { font-size: 26px; font-weight: 400; margin: 0; padding-bottom: 15px; padding-top: 10px; }
+h2 { font-size: 26px; font-weight: 400; margin: 0; padding-bottom: 1px; padding-top: 5px; }
 
 h3, h2 { color: #333333; font-weight: 400; }
 
