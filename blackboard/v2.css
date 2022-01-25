@@ -1,0 +1,132 @@
+.blackboard-container {
+	/* margin: auto; */
+	/* margin-top: 100px; */
+	/* padding: 20px; */
+	/* width: auto; */
+	margin: 5% 40%;
+}
+.ufv-announce {
+	padding: 0px;
+    padding: 10px;
+    margin: 0px;
+	border: 3px solid white;
+    max-width: 440px;
+    margin-bottom: 20px;
+}
+
+.ufv-login {
+	padding: 20px;
+	text-align: left;
+	background: #ebebeb;
+	border: 3px solid white;
+	transition: .8s;
+    width: 440px;
+	max-width: 440px;
+}
+.bb-login .login-logo {
+	text-align: left;
+	
+}
+.bb-login .new-logo.customized-logo img {
+	
+	max-width: 120px;
+    margin:0px;
+}
+h1.login-logo.new-logo.customized-logo {
+	/* margin: 5% 0; */
+	margin: 0px;
+}
+
+.ufv-login:hover {
+text-align: unset;
+}
+.ufv-login:hover {
+	padding: 20px;
+	text-align: unset;
+	background: white;
+	border: 3px solid #ccc;
+	transition: .8s;
+}
+
+div#ufvlogin a {
+	text-align: left;
+	background-color: #f8a21e;
+	background-color: #00703c;
+	text-decoration: none !important;
+    text-transform:capitalize;
+	
+	font-size: 15px !important;
+	font-family: 'Open Sans', sans-serif;
+	width: auto;
+    margin: auto;
+	border-left: #7cb333 solid 5px;
+    color: #fff;
+	border-color: #0067b8;
+	background-color: #0067b8;
+    width: fit-content !important;
+    display: inline;
+    width: 120px;
+	
+}
+
+
+.button.primary {
+	color: #fff;
+	border-color: #0067b8;
+	background-color: #0067b8;
+	display: block;
+	width: 100%;
+}
+
+
+div#ufvpassword a {
+    text-align: left;
+	color: #0067b8 !important;
+
+	text-align: center;
+	color: black !important;
+	text-decoration: none !important;
+	padding: 0px;
+	margin-bottom: 20px;
+	font-size: 13px !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#course-catalog
+{
+    margin-top: 10px;
+    
+    
+    font-size: 13px !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+div#ufvpassword a:hover {
+	color: black !important;
+	text-decoration: none !important;
+}
+
+
+
+.ufv-mobile-links {
+	padding: 20px 30px 20px 40px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	opacity: .9;
+	transition: .5s;
+    max-width: 440px;
+}
+
+.ufv-announce h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #00703c;
+    font-family: 'Open Sans', sans-serif;
+}
+.vtbegenerated p
+{
+    font-size: 13px;
+}
