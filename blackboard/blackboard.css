@@ -35,3 +35,27 @@ div#ultraCourseCatalogLink a {
 	border-radius: 0px;
 	color: #ebebeb;
 }
+/* add here */
+
+.blackboard-container {
+	/* margin: auto; */
+	/* margin-top: 100px; */
+	/* padding: 20px; */
+	/* width: auto; */
+	margin: auto;
+}
+.ufv-login:hover {
+	text-align: center;
+}
+.ufv-login {
+	padding: 20px;
+	text-align: center;
+	background: #ebebeb;
+	border: 3px solid white;
+	transition: .8s;
+	width: 440px;
+	max-width: 440px;
+}
+.bb-login .login-logo {
+	text-align: center;
+}

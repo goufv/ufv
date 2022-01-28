@@ -1,4 +1,8 @@
-.blackboard-container {
+/*
+New additions
+*/
+
+{
 	/* margin: auto; */
 	/* margin-top: 100px; */
 	/* padding: 20px; */
@@ -8,7 +12,7 @@
 .ufv-announce {
 	padding: 0px;
     padding: 10px;
-    margin: 0px;
+    
 	border: 3px solid white;
     max-width: 440px;
     margin-bottom: 20px;
@@ -129,4 +133,38 @@ div#ufvpassword a:hover {
 .vtbegenerated p
 {
     font-size: 13px;
+}
+
+.blackboard-container {
+	/* margin: auto; */
+	/* margin-top: 100px; */
+	/* padding: 20px; */
+	/* width: auto; */
+	margin: auto;
+}
+.ufv-login:hover {
+	text-align: center;
+}
+.ufv-login {
+	padding: 20px;
+	text-align: center;
+	background: #ebebeb;
+	border: 3px solid white;
+	transition: .8s;
+	width: 440px;
+	max-width: 440px;
+}
+.bb-login .login-logo {
+	text-align: center;
+}		
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+
+	.blackboard-container {
+	margin-top: 50px;
+	}
 }
