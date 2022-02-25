@@ -180,6 +180,139 @@ display: none !important;
                     </div>
                 </div>
             </nav>
+
+
+<!-- 
+    Hero > Wide > Content + CTA
+    https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=403&tfMT=text%2Fhtml
+    aml - 11/19/2021 v2
+ -->
+ <section class="section-hero-full">
+  <div class="ct-hero-cta" style="background-image: url('https://webdev.ufv.ca/media/2015/test-images/UFV_BannerVirtualTour_1700x672.jpg'); ">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 col-lg-push-6 col-md-push-6 col-banner" style="background-image: url('https://webdev.ufv.ca/media/2015/test-images/UFV_BannerVirtualTour_1700x672.jpg'); "></div>
+          <div class="col-md-6 uc1 col-lg-pull-6 col-md-pull-6 vcenter col-content">
+              <h2>
+                  Responsive Banner Image
+              </h2>
+              <p>
+                  Short paragraph to invite students to get a feel for
+their future campus. If the virtual tour experience is not ready in 
+time for launch, we can replace it with an invitation to book a campus 
+tour.  
+              </p>
+              <a href="#" target="_self">
+              <button class="btn-change">
+                  Take a virtual tour of UFV campuses
+              </button>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+<!-- / ct-hero-cta -->
+<style>
+.col-content {
+  background: rgba(46, 49, 49, 0.8);
+  padding: 20px;
+}
+.col-content h2,
+.col-content p {
+  color: #FFF;
+}
+.col-banner {
+  height: 100px;
+  background-repeat: no-repeat;
+  visibility: hidden;
+}
+.ct-hero-cta {
+  padding: 30px;
+  padding-bottom: 0px;
+  background: #b1b1b1;
+  background-size: cover;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-2col {
+  background-size: contain;
+  min-height: 100px;
+  background-position: left;
+}
+.col-content button {
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  background: #00703c;
+  color: #FFF;
+}
+.section-hero-full
+{
+  margin-top:0px;
+}
+/* mobile */
+@media(max-width:767px) {
+  .ct-hero-cta {
+      background-image: none;
+      padding: 10px;
+      padding-bottom: 0px;
+      background: #FFF;
+      min-height: 1px;
+      padding-top: 0px;
+  }
+  .ct-hero-cta .container {
+      padding: 0px;
+  }
+  .col-content {
+      background: rgba(46, 49, 49, 1);
+      padding: 20px;
+  }
+  .col-banner {
+  height: 160px;
+  background-repeat: no-repeat;
+  visibility:visible;
+  background-size: cover;
+  }
+}
+/* desktop */
+@media(min-width:768px) {
+  .col-banner {
+      background-image: none;
+  }
+  .col-content {
+      padding: 40px;
+  }
+  .col-content h2 {
+      font-size: 2em;
+      font-weight: 400;
+      letter-spacing: -1px;
+  }
+  .vcenter {
+      vertical-align: middle;
+      margin-top: 10%;
+      margin-bottom: 5%;
+  }
+}
+.btn-change {
+  -webkit-transition-duration: 0.15s;
+  -webkit-transition-timing-function: linear;
+}
+.btn-change:hover {
+/* box-shadow: 220px 0 0 #7cb232 inset; */
+/* -webkit-transition-duration: 0.2s; */
+background-color: #7cb232;
+color: white;
+}
+@media(min-width:992px) {}
+@media(min-width:1200px) {}
+</style>
+
+            
+
+
           <!-- Header Image -->
 <!-- 2015 Header Image text/headerimage -->
 <div id="masthead-banner" class="hero-unit">
@@ -272,188 +405,13 @@ Marketing template - open wide row
 	padding: 40px 5px 40px 5px;
 }
 </style>
-<div class="ct-marketing-row" style="background:#3b5b59;">
-  <div class="container" style="text-align:left;">
-    <div class="row">
-      <div class="col-md-12">
-<!-- Page Content: text/html -->
-<a id="d.en.1026669"></a>
-<div class="ct-page-content">
-<div class="white-text" style="text-align: center;">
-<h2>Admission next steps</h2>
-<p>To confirm your intention to attend UFV and to become eligible to register for courses, <br>you need to accept your offer of admission and pay your tuition deposit.</p>
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="pc" style="clear:left; padding-bottom:10px;"></div>
-<!-- Page Content: text/html -->
-<a id="d.en.1026802"></a>
-<div class="ct-page-content">
-<div class="container-steps white-text">
-<div class="step-blocks" style="text-align: center;">
-<p class="step-number">1</p>
-<p>&nbsp;</p>
-<p>Accept your offer online to secure your space</p>
-<p class="cta"><a title="Home%20%BB%20UFV%20%BB%20.webdev.ufv.ca%20%BB%20Congratulations%2C%20you%26%2339%3Bre%20in%21%20%BB%20After%20you%20have%20been%20admitted%3A%20Step%201%20--%20page%20content" class="button-boxed-orange" href="https://webdev.ufv.ca/welcome/admitted/#d.en.1026808">Save your space at UFV</a></p>
-</div>
-<div class="step-blocks" style="text-align: center;">
-<p class="step-number">2</p>
-<p>&nbsp;</p>
-<p>Pay your $200 tuition deposit prior to registering for courses</p>
-<p class="cta"><a title="Home%20%BB%20UFV%20%BB%20.webdev.ufv.ca%20%BB%20Congratulations%2C%20you%26%2339%3Bre%20in%21%20%BB%20After%20you%20have%20been%20admitted%3A%20Step%202%20--%20page%20content" class="button-boxed-orange cta" href="https://webdev.ufv.ca/welcome/admitted/#d.en.1026817">Pay your tuition deposit</a></p>
-</div>
-<div class="step-blocks" style="text-align: center;">
-<p class="step-number">3</p>
-<p>&nbsp;</p>
-<p>Confirm your registration time and sign up for courses</p>
-<p class="cta"><a title="Home%20%BB%20UFV%20%BB%20.webdev.ufv.ca%20%BB%20Congratulations%2C%20you%26%2339%3Bre%20in%21%20%BB%20After%20you%20have%20been%20admitted%3A%203%20-%20Open%20colored%20row" class="button-boxed-orange cta" href="https://webdev.ufv.ca/welcome/admitted/#d.en.1027005">Register for your classes</a></p>
-</div>
-<div class="step-blocks" style="text-align: center;">
-<p class="step-number">4</p>
-<p>&nbsp;</p>
-<p>Send UFV your final transcript and prepare for the semester</p>
-<p class="cta"><a title="Home%20%BB%20UFV%20%BB%20.webdev.ufv.ca%20%BB%20Congratulations%2C%20you%26%2339%3Bre%20in%21%20%BB%20After%20you%20have%20been%20admitted%3A%204%20-%20Open%20colored%20row" class="button-boxed-orange cta" href="https://webdev.ufv.ca/welcome/admitted/#d.en.1027011">Get ready for day one</a></p>
-</div>
-</div>
-</div>
-<div class="pc" style="clear:left; padding-bottom:10px;"></div>
-      </div>
-    </div>
-  </div>
-</div>
+
 <!--
 Marketing template - close wide row
 -->
 <!--
 Marketing template - close wide row
 -->
-<!-- 
-    Hero > Wide > Content + CTA
-    https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=template&fnno=110&tid=403&tfMT=text%2Fhtml
-    aml - 11/19/2021 v2
- -->
- <section class="section-hero-full">
-    <div class="ct-hero-cta" style="background-image: url('/media/2015/test-images/UFV_BannerVirtualTour_1700x672.jpg'); ">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-lg-push-6 col-md-push-6 col-banner" style="background-image: url('/media/2015/test-images/UFV_BannerVirtualTour_1700x672.jpg'); "></div>
-            <div class="col-md-6 uc1 col-lg-pull-6 col-md-pull-6 vcenter col-content">
-                <h2>
-                    Explore your future home
-                </h2>
-                <p>
-                    Short paragraph to invite students to get a feel for
- their future campus. If the virtual tour experience is not ready in 
-time for launch, we can replace it with an invitation to book a campus 
-tour.  
-                </p>
-                <a href="#" target="_self">
-                <button class="btn-change">
-                    Take a virtual tour of UFV campuses
-                </button>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-<!-- / ct-hero-cta -->
-<style>
-.col-content {
-    background: rgba(46, 49, 49, 0.8);
-    padding: 20px;
-}
-.col-content h2,
-.col-content p {
-    color: #FFF;
-}
-.col-banner {
-    height: 100px;
-    background-repeat: no-repeat;
-    visibility: hidden;
-}
-.ct-hero-cta {
-    padding: 30px;
-    padding-bottom: 0px;
-    background: #b1b1b1;
-    background-size: cover;
-    min-height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.hero-2col {
-    background-size: contain;
-    min-height: 100px;
-    background-position: left;
-}
-.col-content button {
-    display: inline-block;
-    padding: 10px;
-    border: none;
-    background: #00703c;
-    color: #FFF;
-}
-.section-hero-full
-{
-    margin-top:0px;
-}
-/* mobile */
-@media(max-width:767px) {
-    .ct-hero-cta {
-        background-image: none;
-        padding: 10px;
-        padding-bottom: 0px;
-        background: #FFF;
-        min-height: 1px;
-        padding-top: 0px;
-    }
-    .ct-hero-cta .container {
-        padding: 0px;
-    }
-    .col-content {
-        background: rgba(46, 49, 49, 1);
-        padding: 20px;
-    }
-    .col-banner {
-    height: 100px;
-    background-repeat: no-repeat;
-    visibility:visible;
-    background-size: cover;
-    }
-}
-/* desktop */
-@media(min-width:768px) {
-    .col-banner {
-        background-image: none;
-    }
-    .col-content {
-        padding: 40px;
-    }
-    .col-content h2 {
-        font-size: 2em;
-        font-weight: 400;
-        letter-spacing: -1px;
-    }
-    .vcenter {
-        vertical-align: middle;
-        margin-top: 10%;
-        margin-bottom: 5%;
-    }
-}
-.btn-change {
-    -webkit-transition-duration: 0.15s;
-    -webkit-transition-timing-function: linear;
-}
-.btn-change:hover {
-	/* box-shadow: 220px 0 0 #7cb232 inset; */
-	/* -webkit-transition-duration: 0.2s; */
-	background-color: #7cb232;
-	color: white;
-}
-@media(min-width:992px) {}
-@media(min-width:1200px) {}
-</style>
 <!--
 Marketing template - open wide row
 -->
