@@ -111711,6 +111711,14 @@
       "oAP" : "\/html\/welcome\/_01.html",
       "oF" : 1
     },
+    "\/html\/welcome\/_02.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/html\/welcome\/_02.html",
+      "oF" : 1
+    },
     "\/html\/welcome\/_banners.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -111720,7 +111728,7 @@
       "oF" : 0
     },
     "\/html\/welcome\/_banners.kit" : {
-      "cB" : 0,
+      "cB" : 1,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
@@ -111741,6 +111749,58 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/html\/welcome\/banner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/html\/welcome\/banner2\/home.png" : {
+      "ft" : 32768,
+      "iS" : 12564,
+      "oA" : 0,
+      "oAP" : "\/html\/welcome\/banner2\/home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/html\/welcome\/banner2\/UFV_BannerVirtualTour_1700x672_Feb24_BottomLayer.jpg" : {
+      "ft" : 16384,
+      "iS" : 226033,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/welcome\/banner2\/UFV_BannerVirtualTour_1700x672_Feb24_BottomLayer.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/html\/welcome\/banner2\/UFV_BannerVirtualTour_1700x672_Feb24_NEWMerge.jpg" : {
+      "ft" : 16384,
+      "iS" : 76240,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/welcome\/banner2\/UFV_BannerVirtualTour_1700x672_Feb24_NEWMerge.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/html\/welcome\/banner2\/ufv-mobile-home.jpg" : {
+      "ft" : 16384,
+      "iS" : 76240,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/welcome\/banner2\/ufv-mobile-home.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -111877,6 +111937,32 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/html\/welcome\/banners\/ufv-mobile-home.jpg" : {
+      "ft" : 16384,
+      "iS" : 76240,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/welcome\/banners\/ufv-mobile-home.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/html\/welcome\/CentreforExperientialandCareerEd_CYMK_halfrev_332x176.png" : {
+      "ft" : 32768,
+      "iS" : 10104,
+      "oA" : 0,
+      "oAP" : "\/html\/welcome\/CentreforExperientialandCareerEd_CYMK_halfrev_332x176.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -112401,6 +112487,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/html\/welcome\/index.html",
+      "oF" : 0
+    },
+    "\/html\/welcome\/kit_banners.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/welcome\/kit_banners.html",
       "oF" : 0
     },
     "\/html\/welcome\/kit_banners.kit" : {
