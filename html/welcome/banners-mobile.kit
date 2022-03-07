@@ -7,6 +7,100 @@ https://goufv.github.io/html/welcome/banners.html
 <!-- @import '_nav.html' -->
 <h1>023 iPad + Mobile Banners</h1>
 <STYLE>
+
+.col-content {
+  background: rgba(46, 49, 49, 0.8);
+  padding: 20px;
+}
+.col-content h2,
+.col-content p {
+  color: #FFF;
+}
+.col-banner {
+  height: 100px;
+  background-repeat: no-repeat;
+  visibility: hidden;
+}
+.ct-hero-cta {
+  padding: 30px;
+  padding-bottom: 0px;
+  background: #b1b1b1;
+  background-size: cover;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-2col {
+  background-size: contain;
+  min-height: 100px;
+  background-position: left;
+}
+.col-content button {
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  background: #00703c;
+  color: #FFF;
+}
+.section-hero-full
+{
+  margin-top:0px;
+}
+/* mobile */
+@media(max-width:767px) {
+  .ct-hero-cta {
+      background-image: none;
+      padding: 10px;
+      padding-bottom: 0px;
+      background: #FFF;
+      min-height: 1px;
+      padding-top: 0px;
+  }
+  .ct-hero-cta .container {
+      padding: 0px;
+  }
+  .col-content {
+      background: rgba(46, 49, 49, 1);
+      padding: 10px 40px 40px 30px;
+  }
+  .col-banner {
+  height: 160px;
+  background-repeat: no-repeat;
+  visibility:visible;
+  background-size: cover;
+  }
+}
+/* desktop */
+@media(min-width:768px) {
+  .col-banner {
+      background-image: none;
+  }
+  .col-content {
+      padding: 40px;
+  }
+  .col-content h2 {
+      font-size: 2em;
+      font-weight: 400;
+      letter-spacing: -1px;
+  }
+  .vcenter {
+      vertical-align: middle;
+      margin-top: 10%;
+      margin-bottom: 5%;
+  }
+}
+.btn-change {
+  -webkit-transition-duration: 0.15s;
+  -webkit-transition-timing-function: linear;
+}
+.btn-change:hover {
+/* box-shadow: 220px 0 0 #7cb232 inset; */
+/* -webkit-transition-duration: 0.2s; */
+background-color: #7cb232;
+color: white;
+}
+
   .banner-home-bg-22
   {
     background-image: url("banners/ufv-1.jpg");
@@ -28,10 +122,7 @@ https://goufv.github.io/html/welcome/banners.html
   {
     display: none;
   }
-  .col-content
-  {
-    padding: 30px;
-  }
+  
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 850px) {
@@ -66,6 +157,12 @@ https://goufv.github.io/html/welcome/banners.html
   </div>
 </div>
 </section>
+
+
+
+
+
+
 <h1>022 Banner - Mobile Image</h1>
 <STYLE>
   .banner-home-bg-22
@@ -191,100 +288,6 @@ tour.
 </section>
 <!-- / ct-hero-cta -->
 <style>
-.col-content {
-  background: rgba(46, 49, 49, 0.8);
-  padding: 20px;
-}
-.col-content h2,
-.col-content p {
-  color: #FFF;
-}
-.col-banner {
-  height: 100px;
-  background-repeat: no-repeat;
-  visibility: hidden;
-}
-.ct-hero-cta {
-  padding: 30px;
-  padding-bottom: 0px;
-  background: #b1b1b1;
-  background-size: cover;
-  min-height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.hero-2col {
-  background-size: contain;
-  min-height: 100px;
-  background-position: left;
-}
-.col-content button {
-  display: inline-block;
-  padding: 10px;
-  border: none;
-  background: #00703c;
-  color: #FFF;
-}
-.section-hero-full
-{
-  margin-top:0px;
-}
-/* mobile */
-@media(max-width:767px) {
-  .ct-hero-cta {
-      background-image: none;
-      padding: 10px;
-      padding-bottom: 0px;
-      background: #FFF;
-      min-height: 1px;
-      padding-top: 0px;
-  }
-  .ct-hero-cta .container {
-      padding: 0px;
-  }
-  .col-content {
-      background: rgba(46, 49, 49, 1);
-      padding: 20px;
-  }
-  .col-banner {
-  height: 160px;
-  background-repeat: no-repeat;
-  visibility:visible;
-  background-size: cover;
-  }
-}
-/* desktop */
-@media(min-width:768px) {
-  .col-banner {
-      background-image: none;
-  }
-  .col-content {
-      padding: 40px;
-  }
-  .col-content h2 {
-      font-size: 2em;
-      font-weight: 400;
-      letter-spacing: -1px;
-  }
-  .vcenter {
-      vertical-align: middle;
-      margin-top: 10%;
-      margin-bottom: 5%;
-  }
-}
-.btn-change {
-  -webkit-transition-duration: 0.15s;
-  -webkit-transition-timing-function: linear;
-}
-.btn-change:hover {
-/* box-shadow: 220px 0 0 #7cb232 inset; */
-/* -webkit-transition-duration: 0.2s; */
-background-color: #7cb232;
-color: white;
-}
-@media(min-width:992px) {}
-@media(min-width:1200px) {}
 </style>
           <!-- Header Image -->
 <!-- 2015 Header Image text/headerimage -->
