@@ -112233,6 +112233,14 @@
       "oAP" : "\/html\/welcome\/banners_BAK01.html",
       "oF" : 0
     },
+    "\/html\/welcome\/banners-mobile.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/welcome\/banners-mobile.html",
+      "oF" : 0
+    },
     "\/html\/welcome\/banners-mobile.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -114945,6 +114953,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/t4\/pl\/_pl_marketing.PROD.html",
+      "oF" : 0
+    },
+    "\/t4\/pl\/_pl_mrktg_alt.PROD.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/t4\/pl\/_pl_mrktg_alt.PROD.html",
       "oF" : 0
     },
     "\/t4\/pl\/INT" : {

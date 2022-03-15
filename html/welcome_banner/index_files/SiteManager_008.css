@@ -1,0 +1,139 @@
+/* 
+
+T4 Media Library Over-rides
+
+Thank you Terminal Four!
+
+- Used for media library ID numbers where required, because mixing t4 media formatting syntax with your existing development CSS is a chore and the rocket scientist behind this should be on pluto as this additional file is now required.
+
+- When adding T4 media library reference - add them to this file only
+
+Maintained by Anthony Lepki, Web Producer, University Relations - 2015
+
+*/
+.page-bg 		{	background-image: url("/terminalfour/SiteManager?ctfn=download&fnno=60&ceid=1287643524"); }
+/* there is nothing here, but if you do not use this in your local development, then the t4 tag above will unformat your CSS */
+    
+@media (max-width: 640px) {
+        div.ufv-top-nav
+        {
+          display:none;
+        }
+
+.navbar-default .navbar-brand {
+  background: rgba(0, 0, 0, 0) url("https://www.ufv.ca/web/2015/logos/ufv-university-fraser-valley-bc.jpg") no-repeat scroll left center;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0 0 0 22px;
+  padding: 0;
+  text-indent: -1000px;
+  text-transform: lowercase;
+  width: 200px;
+  word-spacing: -6px;
+}
+}
+    
+
+    /* 
+
+T4 Media Library Over-rides
+
+Thank you Terminal Four!
+
+- Used for media library ID numbers where required, because mixing t4 media formatting syntax with your existing development CSS is a chore and the rocket scientist behind this should be on pluto as this additional file is now required.
+
+- When adding T4 media library reference - add them to this file only
+
+Maintained by Anthony Lepki, Web Producer, University Relations - 2015
+
+*/
+.page-bg 		{	background-image: url("/terminalfour/SiteManager?ctfn=download&fnno=60&ceid=1231997049"); }
+/* there is nothing here, but if you do not use this in your local development, then the t4 tag above will unformat your CSS */
+   
+@font-face { font-family: 'Glyphicons Halflings'; src: url(https://www.ufv.ca/web/fonts/glyphicons-halflings-regular.eot); src: url(https://www.ufv.ca/web/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(https://www.ufv.ca/web/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(https://www.ufv.ca/web/fonts/glyphicons-halflings-regular.woff) format("woff"), url(https://www.ufv.ca/web/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(https://www.ufv.ca/web/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg"); }    
+/***** Font Definition for Open Sans. This stylesheet comes from qrohlf.com/posts/better-opensans *****/
+/* Regular */
+@font-face { font-family: 'Open Sans'; 
+src: url("https://www.ufv.ca/web/fonts/OpenSans.eot"); 
+src: url("https://www.ufv.ca/web/fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), 
+url("https://www.ufv.ca/web/fonts/OpenSans.woff") format("woff"), 
+url("https://www.ufv.ca/web/fonts/OpenSans.ttf") format("truetype"), 
+url("https://www.ufv.ca/web/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular") format("svg"); 
+font-weight: normal; font-weight: 400; font-style: normal; }
+/* Italic */
+@font-face { font-family: 'Open Sans'; src: url("https://www.ufv.ca/web/fonts/OpenSans-Italic-webfont.eot"); src: url("https://www.ufv.ca/web/fonts/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/OpenSans-Italic-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/OpenSans-Italic-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/OpenSans-Italic-webfont.svg#OpenSansItalic") format("svg"); font-weight: normal; font-weight: 400; font-style: italic; }
+/* Light */
+@font-face { font-family: 'Open Sans'; src: url("https://www.ufv.ca/web/fonts/OpenSans-Light-webfont.eot"); src: url("https://www.ufv.ca/web/fonts/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/OpenSans-Light-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/OpenSans-Light-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/OpenSans-Light-webfont.svg#OpenSansLight") format("svg"); font-weight: 200; font-style: normal; }
+/* Light Italic */
+@font-face { font-family: 'Open Sans'; src: url("https://www.ufv.ca/web/fonts/OpenSans-LightItalic-webfont.eot"); src: url("https://www.ufv.ca/web/fonts/OpenSans-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/OpenSans-LightItalic-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/OpenSans-LightItalic-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic") format("svg"); font-weight: 200; font-style: italic; }
+/* Semibold */
+@font-face { font-family: 'Open Sans'; src: url("https://www.ufv.ca/web/fonts/OpenSans-Semibold-webfont.eot"); src: url("https://www.ufv.ca/web/fonts/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/OpenSans-Semibold-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/OpenSans-Semibold-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold") format("svg"); font-weight: 500; font-style: normal; }
+/* Semibold Italic */
+@font-face { font-family: 'Open Sans'; src: url("https://www.ufv.ca/web/fonts/OpenSans-SemiboldItalic-webfont.eot"); src: url("https://www.ufv.ca/web/fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/OpenSans-SemiboldItalic-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic") format("svg"); font-weight: 500; font-style: italic; }
+/* Bold */
+@font-face { font-family: 'Open Sans'; src: url("https://www.ufv.ca/web/fonts/OpenSans-Bold-webfont.eot"); src: url("https://www.ufv.ca/web/fonts/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/OpenSans-Bold-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/OpenSans-Bold-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/OpenSans-Bold-webfont.svg#OpenSansBold") format("svg"); 
+          font-weight: bold; 
+          font-weight: 700; 
+          font-style: normal; }
+/* Bold Italic */
+@font-face { font-family: 'Open Sans'; src: url("https://www.ufv.ca/web/fonts/OpenSans-BoldItalic-webfont.eot"); src: url("fonts/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-BoldItalic-webfont.woff") format("woff"), url("fonts/OpenSans-BoldItalic-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic") format("svg"); 
+          font-weight: bold; 
+          font-weight: 700; 
+          font-style: italic; }
+/* Extra Bold */
+@font-face { font-family: 'Open Sans'; src: url("https://www.ufv.ca/web/fonts/OpenSans-ExtraBold-webfont.eot"); 
+          src: url("https://www.ufv.ca/web/fonts/OpenSans-ExtraBold-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/OpenSans-ExtraBold-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/OpenSans-ExtraBold-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold") format("svg"); 
+          font-weight: 900; 
+          font-style: normal; }
+/* Extra Bold Italic */
+@font-face { font-family: 'Open Sans'; src: url("https://www.ufv.ca/web/fonts/OpenSans-ExtraBoldItalic-webfont.eot"); src: url("fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-ExtraBoldItalic-webfont.woff") format("woff"), url("fonts/OpenSans-ExtraBoldItalic-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic") format("svg"); font-weight: 900; font-style: italic; }
+@font-face { font-family: 'SocialGlyphs'; src: url("https://www.ufv.ca/web/fonts/socialglyphs-webfont.eot"); src: url("https://www.ufv.ca/web/fonts/socialglyphs-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/socialglyphs-webfont.woff") format("woff"), url("../fonts/socialglyphs-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/socialglyphs-webfont.svg#SocialGlyphsRegular") format("svg"); font-weight: normal; font-style: normal; }
+
+
+/* PT Serif
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+@font-face {
+  font-family: 'pt_serif';
+  src: url("https://www.ufv.ca/web/fonts/pt-serif/bolditalic/PTF76F-webfont.eot");
+  src: url("https://www.ufv.ca/web/fonts/pt-serif/bolditalic/PTF76F-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/pt-serif/bolditalic/PTF76F-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/pt-serif/bolditalic/PTF76F-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/pt-serif/bolditalic/PTF76F-webfont.svg#pt_serifbold_italic") format("svg");
+  font-weight: italic;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'pt_serif';
+  src: url("https://www.ufv.ca/web/fonts/pt-serif/regular/PTF55F-webfont.eot");
+  src: url("https://www.ufv.ca/web/fonts/pt-serif/regular/PTF55F-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/pt-serif/regular/PTF55F-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/pt-serif/regular/PTF55F-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/pt-serif/regular/PTF55F-webfont.svg#pt_serifregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+        
+@font-face {
+  font-family: 'pt_serif';
+  src: url("/terminalfour/SiteManager?ctfn=download&fnno=60&ceid=137078169");
+  font-weight: normal;
+  font-style: normal;
+}
+
+          
+
+@font-face {
+  font-family: 'pt_serif';
+  src: url("https://www.ufv.ca/web/fonts/pt-serif/bold/PTF75F-webfont.eot");
+  src: url("https://www.ufv.ca/web/fonts/pt-serif/bold/PTF75F-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/pt-serif/bold/PTF75F-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/pt-serif/bold/PTF75F-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/pt-serif/bold/PTF75F-webfont.svg#pt_serifbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pt_serif';
+  src: url("https://www.ufv.ca/web/fonts/pt-serif/italic/PTF56F-webfont.eot");
+  src: url("https://www.ufv.ca/web/fonts/pt-serif/italic/PTF56F-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.ufv.ca/web/fonts/pt-serif/italic/PTF56F-webfont.woff") format("woff"), url("https://www.ufv.ca/web/fonts/pt-serif/italic/PTF56F-webfont.ttf") format("truetype"), url("https://www.ufv.ca/web/fonts/pt-serif/italic/PTF56F-webfont.svg#pt_serifitalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+        
