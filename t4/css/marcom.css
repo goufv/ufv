@@ -705,7 +705,7 @@ div.call-to-action span a:hover { background-color: #999; }
 
 div.program-text { padding: 15px; }
 
-div.box-header h2 { padding-top: 15px; color: #ffffff; font-size: 1.1em; }
+div.box-header h2 { color: #ffffff; font-size: 1.1em; }
 
 div.box-header { display: block; background-color: #7cb232; padding: 10px; clear: both; }
 
