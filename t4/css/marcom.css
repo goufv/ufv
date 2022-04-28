@@ -2,7 +2,7 @@
 ufv-marcom.css - CSS Overrides - Marketing, University Relations
 - 2021-12-15 (H5 headings)-MM
 - 2022-04-27 Fix LH icon + textblock CSS for H2 (AL/SJ)
-
+- 2022-04-28 Marketing template Headings (AL/SJ) using class 'c-pl-marketing'
 */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800);
 body { font-family: 'Open Sans', sans-serif; }
@@ -982,3 +982,50 @@ Updated Action Boxes
   .text-icon-content h2 {
     margin-top: 0px;
   }
+
+  /* c-pl-marketing Marketing template headings */
+
+
+.c-pl-marketing h2 {
+   font-size:36px;
+   font-weight:700;
+}
+
+.c-pl-marketing h3 {
+   font-size:26px;
+   font-weight:600;
+}
+
+.c-pl-marketing h4 {
+   font-size:22px;
+   font-weight:500;
+}
+
+.c-pl-marketing .white-text h2 {
+   color: #fff;
+}
+
+.c-pl-marketing .white-text h3 {
+   color: #fff;
+}
+
+.c-pl-marketing .white-text h4 {
+   color: #fff;
+}
+
+.c-pl-marketing .white-text h5 {
+   color: #fff;
+}
+
+.c-pl-marketing .white-text p {
+   color: #fff;
+}
+
+.c-pl-marketing .white-text ol {
+   color: #fff;
+}
+
+.c-pl-marketing .white-text ul {
+   color: #fff;
+}
+
