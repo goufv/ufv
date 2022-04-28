@@ -1,6 +1,8 @@
 /*
 ufv-marcom.css - CSS Overrides - Marketing, University Relations
-updated 2021-12-15 (H5 headings)-MM
+- 2021-12-15 (H5 headings)-MM
+- 2022-04-27 Fix LH icon + textblock CSS for H2 (AL/SJ)
+
 */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800);
 body { font-family: 'Open Sans', sans-serif; }
