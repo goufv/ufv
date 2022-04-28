@@ -976,3 +976,7 @@ Updated Action Boxes
       font-weight: bold;
     }
   }
+
+  .text-icon-content h2 {
+    margin-top: 0px;
+  }
