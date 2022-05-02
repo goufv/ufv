@@ -1,0 +1,93 @@
+<STYLE>
+
+/*
+https://myweb.ufv.ca/terminalfour/SiteManager?ctfn=content&fnno=30&sid=264189&svi=hierarchy:false:30&cid=1023833&cVer=24.0
+*/
+
+
+.white-text {
+   color: #fff!important;
+}
+h2.white-text {
+   color: #fff;
+}
+
+.cb-numbers {
+   background-color: #ebebeb;
+   padding: 52px 20px 40px 20px;
+   text-align: center; 
+   text-transform: uppercase;
+}
+
+.cb-numbers p {
+   
+   font-weight: 600;
+   font-size: 20px; 
+}
+
+.large-green {
+   color: #00703C;
+   font-size: 42px;
+}
+
+
+.green-chevron-link a:link {
+    text-decoration: none;
+}
+
+.green-chevron-link::after  {
+    font-family: FontAwesome;
+    color: #7cb232;
+    text-decoration: none;
+    padding-left: 10px;
+    content: "\f054"; 
+}  
+.green-chevron-link::after {
+display:inline-block;
+
+}
+.green-chevron-white-text-link {
+    text-decoration: none;
+    color: #fff!important;
+}
+.green-chevron-white-text-link::after  {
+    font-family: FontAwesome;
+    color: #7cb232;
+    padding-left: 10px;
+    content: "\f054"; 
+}  
+
+.green-chevron-white-text-link::after {
+display:inline-block;
+}
+.faq-caret .faq-toggle.collapsed:before {
+    font-family: "Font Awesome 5 Pro";
+    color: #00703c;
+    /*content: "\f138"; */
+    content: "\f055";
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 0px;
+}
+.faq-caret .faq-toggle:not(.collapsed):before {
+    font-family: "Font Awesome 5 Pro";
+    color: #00703c;
+   /*content: "\f138"; */
+    content: "\f056";
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 0px;
+}
+
+.faq-caret .faq-toggle.collapsed:hover {
+     /*color: #00703C; */
+     text-decoration: underline;
+}
+
+  /*TO MAKE THE UNDERLINE APPEAR UNDER THE TEXT PART ONLY*/
+.faq-caret .faq-toggle:before {
+    display:inline-block;
+    padding-right:1.5%;
+} 
+
+</STYLE>

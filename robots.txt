@@ -113,7 +113,9 @@ Disallow: /calendar/Winter-Summer-2015/
 Disallow: /calendar/winter-summer-2015/
 Disallow: /calendar/winter-summer-2016/
 Disallow: /calendar/winter-summer-2017/
+Disallow: /calendar/Winter-Summer-2017/
 Disallow: /calendar/winter-summer-2018/
+Disallow: /calendar/Winter-Summer-2018/
 Disallow: /calendar/Winter-Summer-2018/
 Disallow: /calendar/Winter-Summer-2019/
 Disallow: /calendar/Fall-2019/
