@@ -1,0 +1,50 @@
+<!-- ct_Contact text/html -->
+<t4 type="meta" meta="html_anchor" />  
+<!-- Contact Content Type : <t4 type="content" name="First Name" output="normal" modifiers="htmlentities"  /> <t4 type="content" name="Last Name" output="normal" modifiers="htmlentities"  /> -->
+<div class="ct-contact">
+  <div class="profile-img">
+    <img itemprop="image" src="<t4 type="content" name="Image" output="normal" modifiers=""  formatter="path/*" />" class="img-responsive">
+    </div>
+    <div itemscope itemtype="http://schema.org/Person">
+      <!-- name -->
+      <h3 class="contact_name">
+        <span itemprop="name"><t4 type="content" name="Honorific before name" output="selective-output" modifiers="htmlentities" format="$value&nbsp;" /><t4 type="content" name="First Name" output="normal" modifiers="htmlentities"  />&nbsp;<t4 type="content" name="Last Name" output="normal" modifiers="htmlentities"  /><t4 type="content" name="Honorific after name" output="selective-output" modifiers="htmlentities" format=",&nbsp;$value" /></span>
+      </h3>
+      <!-- title -->
+      <p class="contact_title">
+        <span itemprop="jobTitle">
+          <t4 type="content" name="Job title" output="normal" modifiers="htmlentities"  />
+          <t4 type="content" name="Job title 2" output="selective-output" modifiers="htmlentities" format="<br />$value <br />"  />
+          <t4 type="content" name="Job title 3" output="selective-output" modifiers="htmlentities" format="$value <br />"  />
+          <t4 type="content" name="On leave?" output="selective-output" modifiers="htmlentities" format=",&nbsp;$value" />
+        </span>
+      </p>
+      <!-- department -->
+      <p class="contact_dept">
+        <t4 type="content" name="Department" output="normal" modifiers="htmlentities" display_field="value" />
+      </p>
+      <!-- location -->
+      <p class="contact_loc">
+        <t4 type="content" name="Location" output="normal" modifiers="" display_field="value"/><t4 type="content" name="Room Number" output="selective-output" modifiers="tags" format=",&nbsp;$value" />
+      </p>
+      <!-- phone -->
+      <t4 type="content" output="selective-output" modifiers="" name="Contact phone" format="<p class=&quot;contact_phone&quot;>Phone: <span itemprop=&quot;telephone&quot;>$value</span></p>" />
+      <!-- Toll free -->
+      <t4 type="content" output="selective-output" modifiers="" name="Toll free" format="<p class=&quot;contact_phone&quot;>Toll Free: <span itemprop=&quot;telephone&quot;>$value</span></p>" />
+      <!-- email -->
+      <a class="contact_email btn btn-default" 
+         href="mailto:<t4 type="content" name="Contact email" output="normal" modifiers="encode_emails"  />" 
+         rel="nofollow" 
+         itemprop="email" 
+         title="email <t4 type="content" name="First Name" output="normal" modifiers="htmlentities"  />">
+        email <t4 type="content" name="First Name" output="normal" modifiers="htmlentities"  />
+      </a>
+      <!-- blog link -->
+      <t4 type="content" output="selective-output" modifiers="" name="Blog link" format="<a class=&quot;contact_profile btn btn-default&quot; href=&quot;$value&quot; target=&quot;_blank&quot; itemprop=&quot;url&quot; >Website</a>"/>
+      <!-- profile link -->
+      <t4 type="content" name="Display full profile link?" output="selective-output" modifiers="tags" format="$value" />
+    </div>
+  </div>
+
+
+  
