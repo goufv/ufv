@@ -4,6 +4,7 @@ ufv-marcom.css - CSS Overrides - Marketing, University Relations
 - 2022-04-27 Fix LH icon + textblock CSS for H2 (AL/SJ)
 - 2022-04-28 Marketing template Headings (AL/SJ) using class 'c-pl-marketing'
 - 2022-04-29 Right line fix conference website (AL/SJ)
+- 2022-05-02 Right line fix heading alignment fix (AL/MM)
 */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800);
 body { font-family: 'Open Sans', sans-serif; }
@@ -1034,6 +1035,12 @@ Updated Action Boxes
 {
   border: none;
 }
+.right-line::after {
+	top: unset;
+	bottom: 10%;
+	margin-left: 15px;
+}
+
 
 /* cl-bg-drk-wht-txt */
 
