@@ -23,9 +23,7 @@
 		<li>
 			<a href="#home4" data-toggle="tab" title="Find people by department">Department</a>
 		</li>
-		<li>
-			<a href="#print-tab" data-toggle="tab" title="View by alphabetical or department lists">All</a>
-		</li>
+		
 	</ul>
 	<div class="tab-content">
 		<div class="tab-pane active" id="people-tab">
