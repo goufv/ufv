@@ -1,0 +1,168 @@
+<!--
+Hero 03 - Two Buttons
+INPUT from user:
+- Banner image
+1. Banner height
+2. Background Color
+3. Opacity
+4. Title
+5. Content
+6. CTA button link
+7. CTA button text
+Banner Image bank
+https://www.ufv.ca/media/2015/headers/campus/UFV-Abbotsford-Campus.jpg
+https://ufv.ca/media/assets/ufv-welcome/UFV_BannerWelcome_1700x465.jpg
+-->
+
+<!-- $banner_image = https://ufv.ca/media/assets/ufv-welcome/UFV_BannerWelcome_1700x465.jpg -->
+<!-- $banner_image = https://www.ufv.ca/media/2015/headers/campus/UFV-Abbotsford-Campus.jpg -->
+<!-- $height = 500px -->
+<!-- $bg-color = 204, 204, 204-->
+<!-- 
+  rgb(0, 112, 60)
+-->
+<!-- $bg-color = 0, 112, 60 -->
+<!-- $opacity = 0.9 -->
+<!-- $banner_title = Right Column Option -->
+<!-- $banner_content = Do you already have a place in mind where you would like to take your practicum? Connect with us and customize your practicum experience? -->
+<!-- $cta_link = # -->
+<!-- $cta_button_text = Tell Us More -->
+<!DOCTYPE html>
+<html class="sb-init" lang="en"><head>
+  <title>Banner 01</title>
+
+<!-- @import "header.kit" -->
+
+
+
+<section id="ufv-cta-banner">
+  <div class="container wow fadeIn animated">
+      <div class="row">
+          <div class="col-md-6 bg-content ufv-banner-content">
+              <h2 class="heading">Two (2) Button Options</h2>
+              <p class="p-banner-text">Do you already have a place in mind where you would like to take your practicum? Connect with us and customize your practicum experience?</p>
+              <a href="#" target="_self">Button #01</a>
+              <a href="#" target="_self">Button #02</a>
+          </div>
+          
+      </div>
+  </div>
+</section>
+
+
+
+<!-- @import "_footer.kit" -->
+
+
+
+<STYLE>
+  .hero-cta
+  {
+      min-height: <!-- $height -->; /* INPUT */
+      height: <!-- $height -->; /* INPUT */
+      background-image: url('<!-- $banner_image -->'); 
+  }
+  .col-cta-content,
+  .bg-content
+  {
+  
+  }
+  
+  .vcenter {
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .vertical-align {
+      display: flex;
+      align-items: center;
+  }
+  .carousel-caption {
+    bottom: 1%;
+    color: #ffffff;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%; 
+    position: absolute;
+    text-align: left;
+    z-index: 10;
+    left: 2%;
+    right: 7%;
+    top: 30%;
+  }
+  #ufv-cta-banner {
+    display: table;
+    width: 100%;
+    background: url(<!-- $banner_image -->) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;  
+  }
+  #ufv-cta-banner {
+    padding: 150px 0;
+  }
+  .parallax {
+  background-image: url(<!-- $banner_image -->);
+  /* Set a specific height */
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  }
+  #parallax {
+  background-image: url(<!-- $banner_image -->);
+  /* Set a specific height */
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  }
+  .ct-header-button {
+    background-color: #F49F2E;
+    color: #fff;
+    padding: 15px;
+    
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px 0 rgba(black,0.05);
+    margin-top: 20px;
+  }
+  .ufv-banner-content a {
+    background-color: #F49F2E;
+    color: #fff;
+    padding: 15px;
+    
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px 0 rgba(black,0.05);
+    margin-right: 10px;
+  }
+  .ufv-banner-content
+  {
+    background-color:rgba(<!-- $bg-color -->, <!-- $opacity -->);
+    padding: 15px 30px 15px 30px;
+    line-height: 60px;
+  }
+  .ufv-banner-content p
+  {
+    color:#fff;
+  }
+  .ufv-banner-content h2
+  {
+    color:#fff;
+  }
+  section
+  {
+    background: black;
+    margin-top: 0px;
+  }
+  
+  </STYLE>
+

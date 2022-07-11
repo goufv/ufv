@@ -1,0 +1,212 @@
+<!--
+INPUT from user:
+- Banner image
+1. Banner height
+2. Background Color
+3. Opacity
+4. Title
+5. Content
+6. CTA button link
+7. CTA button text
+-->
+<!--
+  Banner Image bank
+  https://www.ufv.ca/media/2015/headers/campus/UFV-Abbotsford-Campus.jpg
+  https://ufv.ca/media/assets/ufv-welcome/UFV_BannerWelcome_1700x465.jpg
+-->
+<!-- 
+  rgb(0, 112, 60)
+-->
+<STYLE>
+.hero-cta
+{
+    min-height: 500px; /* INPUT */
+    height: 500px; /* INPUT */
+    background-image: url('https://www.ufv.ca/media/2015/headers/campus/UFV-Abbotsford-Campus.jpg'); 
+}
+.col-cta-content,
+.bg-content
+{
+
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.carousel-caption {
+	bottom: 1%;
+	color: #ffffff;
+	padding-bottom: 0.5%;
+	padding-top: 0.5%; 
+	position: absolute;
+	text-align: left;
+	z-index: 10;
+	left: 2%;
+	right: 7%;
+	top: 30%;
+}
+#ufv-cta-banner {
+	display: table;
+	width: 100%;
+	background: url(https://www.ufv.ca/media/2015/headers/campus/UFV-Abbotsford-Campus.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;  
+}
+#ufv-cta-banner {
+	padding: 150px 0;
+}
+.parallax {
+background-image: url(https://www.ufv.ca/media/2015/headers/campus/UFV-Abbotsford-Campus.jpg);
+/* Set a specific height */
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 150px 0;
+}
+#parallax {
+background-image: url(https://www.ufv.ca/media/2015/headers/campus/UFV-Abbotsford-Campus.jpg);
+/* Set a specific height */
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 150px 0;
+}
+.ct-header-button {
+	background-color: #F49F2E;
+	color: #fff;
+	padding: 15px;
+	
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	box-shadow: 0 1px 2px 0 rgba(black,0.05);
+  margin-top: 20px;
+}
+.ufv-banner-content a {
+	background-color: #F49F2E;
+	color: #fff;
+	padding: 15px;
+	
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	box-shadow: 0 1px 2px 0 rgba(black,0.05);
+  margin-right: 10px;
+}
+.ufv-banner-content
+{
+  background-color:rgba(0, 112, 60, 0.9);
+  padding: 15px 30px 15px 30px;
+  line-height: 60px;
+}
+.ufv-banner-content p
+{
+  color:#fff;
+}
+.ufv-banner-content h2
+{
+  color:#fff;
+}
+
+</STYLE>
+<!-- 
+
+2 cols
+
+-->
+
+<section id="ufv-cta-banner">
+  <div class="container wow fadeIn animated">
+      <div class="row">
+          <div class="col-md-6 bg-content ufv-banner-content">
+              <h2 class="heading">Customize Your Experience</h2>
+              <p class="p-banner-text">Do you already have a place in mind where you would like to take your practicum? Connect with us and customize your practicum experience?</p>
+              <a class="ct-header-button" href="#" target="_self">Tell Us More</a>
+          </div>
+          <div class="col-md-5 col-md-offset-1 bg-content ufv-banner-content">
+              <h2 class="heading">Customize Your Experience</h2>
+              <p class="p-banner-text">Do you already have a place in mind where you would like to take your practicum? Connect with us and customize your practicum experience?</p>
+              <a href="#" target="_self">Tell Us More</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- 
+
+1 col
+
+-->
+<h2 class="demo-h2">Left block option + 2 buttons</h2>
+
+<section id="ufv-cta-banner">
+  <div class="container wow fadeIn animated">
+      <div class="row">
+          <div class="col-md-6 bg-content ufv-banner-content">
+              <h2 class="heading">Customize Your Experience</h2>
+              <p class="p-banner-text">Do you already have a place in mind where you would like to take your practicum? Connect with us and customize your practicum experience?</p>
+              <a href="#" target="_self">Tell Us More</a>
+              <a href="#" target="_self">Tell Us More</a>
+          </div>
+          
+      </div>
+  </div>
+</section>
+
+<!-- 
+
+Right Align
+
+-->
+
+<h2 class="demo-h2">Right block option</h2>
+
+<section id="ufv-cta-banner">
+  <div class="container wow fadeIn animated">
+      <div class="row">
+          <div class="col-md-6">
+          </div>
+          <div class="col-md-5 col-md-offset-1 bg-content ufv-banner-content">
+              <h2>Customize Your Experience</h2>
+              <p>Do you already have a place in mind where you would like to take your practicum? Connect with us and customize your practicum experience?</p>
+              <a href="#" target="_self">Tell Us More</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- 
+
+Right Align + Parrallax
+
+-->
+
+<h2 class="demo-h2">Right box content + Parallax background image</h2>
+
+<section id="" class="ufv-cta-banner parallax">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-5 col-md-offset-1 ufv-banner-content">
+              <h2>Customize Your Experience</h2>
+              <p>Do you already have a place in mind where you would like to take your practicum? Connect with us and customize your practicum experience?</p>
+              <a href="#" target="_self">Tell Us More</a>
+          </div>
+      </div>
+  </div>
+</section>
