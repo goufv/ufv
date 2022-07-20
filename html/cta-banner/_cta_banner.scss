@@ -1,0 +1,164 @@
+
+  .col-content-v2 {
+    background: rgba(255, 255, 255, 0.8);
+      padding: 40px;
+      
+    }
+  
+    .col-content-v2 h2, p {
+    color:black!important;
+    /*color: white !important;*/
+    /*color: #00703C!important;*/
+    
+    }
+    
+    
+    .col-content-v2 h2:after {
+        font-family: 'Font Awesome 5 Brands';
+        font-weight:400;
+     content: '\f785';
+    color:red;
+    }
+  
+    .col-content-v2 h2::after {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    content: '\f785';
+    color: red;
+  }
+    
+    .col-banner {
+      height: 100px;
+      background-repeat: no-repeat;
+      visibility: hidden;
+    }
+    .ct-hero-cta {
+      padding: 30px;
+      padding-bottom: 0px;
+      background: #b1b1b1;
+      background-size: cover;
+      min-height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .hero-2col {
+      background-size: contain;
+      min-height: 100px;
+      background-position: left;
+    }
+    .col-content-v2 button {
+      display: inline-block;
+      padding: 20px;
+      margin-top: 10px;
+      margin-right: 10px;
+      border: none;
+      background: #00703c;
+      color: #FFF;
+      font-weight: 600;
+    }
+    .section-hero-full
+    {
+      margin-top:0px;
+    
+    }
+    /* mobile */
+    @media(max-width:767px) {
+      .ct-hero-cta {
+          background-image: none;
+          padding: 10px;
+          padding-bottom: 0px;
+          background: #FFF;
+          min-height: 1px;
+          padding-top: 0px;
+      }
+      .ct-hero-cta .container {
+          padding: 0px;
+      }
+      .col-content-v2 {
+    background: rgba(255, 255, 255, 1);
+          padding: 40px;
+      }
+      .col-banner {
+      height: 160px;
+      background-repeat: no-repeat;
+      visibility:visible;
+      background-size: cover;
+      }
+    }
+    /* desktop */
+    @media(min-width:768px) {
+      .col-banner {
+          background-image: none;
+      }
+      .col-content-v2 {
+          padding: 40px;
+      }
+      .col-content-v2 h2 {
+          font-size: 2em;
+          font-weight: 700;
+          letter-spacing: -1px;
+      }
+      .vcenter {
+          vertical-align: middle;
+          margin-top: 10%;
+          margin-bottom: 10%;
+      }
+    }
+    .btn-change {
+      -webkit-transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+    }
+    .btn-change:hover {
+    /* box-shadow: 220px 0 0 #7cb232 inset; */
+    /* -webkit-transition-duration: 0.2s; */
+    background-color: #7cb232;
+    color: white;
+    }
+    
+    /*.btn-change:after {
+        font-family: 'Font Awesome 5 Brands';
+        font-weight:400;
+     content: '\f785';
+     color:red;
+        color:white;
+    }*/
+    
+      .banner-home-bg-22
+      {
+        background-image: url("https://ufv.ca/media/2015/test-images/international-banner-winter.png");
+        background-image: url("https://ufv.ca/media/2015/test-images/international-banner-winter.png");
+        padding: 0px;
+    background-size:cover;
+      }
+    @media only screen and (max-width: 600px) {
+      .mob-home-22
+      {
+    background-image: url("https://ufv.ca/media/2015/test-images/international-banner-winter.png");
+    /*background-image: url("banners/ufv-mobile-home.jpg");*/
+    /*background-image: url("https://goufv.github.io/html/welcome/banners/ufv-mobile-home.jpg");*/
+      padding: 0px;
+      min-height: 150px;
+      background-position: top;
+    /*background-position: center;*/
+      background-repeat: no-repeat;
+      background-size: scale-down;
+    background-size: cover;
+      }
+      .home-img
+      {
+        display: none;
+      }
+      
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (max-width: 850px) {
+    .mob-home-22
+    {
+      padding-top: 60px;
+    min-height: 150px;
+    }
+    .banner-home-bg-22 {
+      background-size: cover;
+    }
+    } 

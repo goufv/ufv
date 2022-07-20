@@ -1,0 +1,574 @@
+<!--
+Hero 03 - Two Buttons
+INPUT from user:
+- Banner image
+1. Banner height
+2. Background Color
+3. Opacity
+4. Title
+5. Content
+6. CTA button link
+7. CTA button text
+Banner Image bank
+
+e45300
+https://www.ufv.ca/media/2015/headers/campus/UFV-Abbotsford-Campus.jpg
+https://ufv.ca/media/assets/ufv-welcome/UFV_BannerWelcome_1700x465.jpg
+-->
+
+<!-- $banner_image = https://ufv.ca/media/assets/ufv-welcome/UFV_BannerWelcome_1700x465.jpg -->
+<!-- $banner_image = https://www.ufv.ca/media/2015/headers/campus/UFV-Abbotsford-Campus.jpg -->
+<!-- $height = 500px -->
+<!-- $bg-color = 204, 204, 204-->
+<!-- 
+  rgb(0, 112, 60)
+-->
+<!-- $bg-color = 0, 112, 60 -->
+<!-- $opacity = 0.9 -->
+<!-- $banner_title = Right Column Option -->
+<!-- $banner_content = Do you already have a place in mind where you would like to take your practicum? Connect with us and customize your practicum experience? -->
+<!-- $cta_link = # -->
+<!-- $cta_button_text = Tell Us More -->
+<!DOCTYPE html>
+<html class="sb-init" lang="en"><head>
+  <title>Banner - Marketing July 2022</title>
+
+<!-- @import "header.kit" -->
+
+<script src="https://kit.fontawesome.com/c0d073437b.js" crossorigin="anonymous"></script>
+
+
+<style>
+
+  .col-content-v2 {
+  background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    
+  }
+  
+  .col-content-v2 h2, p {
+  color:black!important;
+  /*color: white !important;*/
+  /*color: #00703C!important;*/
+  
+  }
+  
+  
+  .col-content-v2 h2:after {
+      font-family: 'Font Awesome 5 Brands';
+      font-weight:400;
+   content: '\f785';
+  color:red;
+  }
+
+  .col-content-v2 h2::after {
+	font-family: 'Font Awesome 5 Brands';
+	font-weight: 400;
+	content: '\f785';
+	color: red;
+}
+  
+  .col-banner {
+    height: 100px;
+    background-repeat: no-repeat;
+    visibility: hidden;
+  }
+  .ct-hero-cta {
+    padding: 30px;
+    padding-bottom: 0px;
+    background: #b1b1b1;
+    background-size: cover;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero-2col {
+    background-size: contain;
+    min-height: 100px;
+    background-position: left;
+  }
+  .col-content-v2 button {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background: #00703c;
+    color: #FFF;
+    font-weight: 600;
+  }
+  .section-hero-full
+  {
+    margin-top:0px;
+  
+  }
+  /* mobile */
+  @media(max-width:767px) {
+    .ct-hero-cta {
+        background-image: none;
+        padding: 10px;
+        padding-bottom: 0px;
+        background: #FFF;
+        min-height: 1px;
+        padding-top: 0px;
+    }
+    .ct-hero-cta .container {
+        padding: 0px;
+    }
+    .col-content-v2 {
+  background: rgba(255, 255, 255, 1);
+        padding: 40px;
+    }
+    .col-banner {
+    height: 160px;
+    background-repeat: no-repeat;
+    visibility:visible;
+    background-size: cover;
+    }
+  }
+  /* desktop */
+  @media(min-width:768px) {
+    .col-banner {
+        background-image: none;
+    }
+    .col-content-v2 {
+        padding: 40px;
+    }
+    .col-content-v2 h2 {
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+    .vcenter {
+        vertical-align: middle;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+  }
+  .btn-change {
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+  }
+  .btn-change:hover {
+  /* box-shadow: 220px 0 0 #7cb232 inset; */
+  /* -webkit-transition-duration: 0.2s; */
+  background-color: #7cb232;
+  color: white;
+  }
+  
+  /*.btn-change:after {
+      font-family: 'Font Awesome 5 Brands';
+      font-weight:400;
+   content: '\f785';
+   color:red;
+      color:white;
+  }*/
+  
+    .banner-home-bg-22
+    {
+      background-image: url("https://ufv.ca/media/2015/test-images/international-banner-winter.png");
+      background-image: url("https://ufv.ca/media/2015/test-images/international-banner-winter.png");
+      padding: 0px;
+  background-size:cover;
+    }
+  @media only screen and (max-width: 600px) {
+    .mob-home-22
+    {
+  background-image: url("https://ufv.ca/media/2015/test-images/international-banner-winter.png");
+  /*background-image: url("banners/ufv-mobile-home.jpg");*/
+  /*background-image: url("https://goufv.github.io/html/welcome/banners/ufv-mobile-home.jpg");*/
+    padding: 0px;
+    min-height: 150px;
+    background-position: top;
+  /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: scale-down;
+  background-size: cover;
+    }
+    .home-img
+    {
+      display: none;
+    }
+    
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 850px) {
+  .mob-home-22
+  {
+    padding-top: 60px;
+  min-height: 150px;
+  }
+  .banner-home-bg-22 {
+    background-size: cover;
+  }
+  } 
+
+
+  .col-content-v2 h2::after {
+	font-family: 'Font Awesome 5 Brands';
+	font-weight: 400;
+	content: '\f785';
+	color: #00703c;
+}
+
+  </style>
+<h1>Images for Testing <i class="fa-brands fa-canadian-maple-leaf"></i></h1>
+
+<ul>
+  <li><a href="https://ufv.ca/media/2015/test-images/international-banner-winter.png" target="_blank">https://ufv.ca/media/2015/test-images/international-banner-winter.png</a></li>
+  <li><a href="https://ufv.ca/media/2015/test-images/International-masthead-banner-landing-page-flipped.png" target="_blank">https://ufv.ca/media/2015/test-images/International-masthead-banner-landing-page-flipped.png</a></li>
+
+  <li><a href="https://ufv.ca/media/2015/test-images/International-masthead-banner-current.png" target="_blank">https://ufv.ca/media/2015/test-images/International-masthead-banner-current.png</a></li>
+
+  <li><a href="https://ufv.ca/media/2015/test-images/International-masthead-banner-sunny-lawn.png" target="_blank">https://ufv.ca/media/2015/test-images/International-masthead-banner-sunny-lawn.png</a></li>
+
+  
+  
+
+
+</ul>
+
+
+<h1>Masthead banner standard</h1>
+<section class="section-hero-full banner-home-bg-22" style="margin-bottom: 0px;">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6 col-sm-6 col-sm-6 mob-home-22">
+           <!-- <img src="https://international.ufv.ca/media/assets/international-education/images/International-masthead-banner.jpg" class="img-responsive home-img"> -->
+          </div>
+          <div class="col-sm-6 uc1 col-sm-pull-6 col-sm-pull-6 vcenter col-content-v2">
+              <h2>
+                UFV International 
+              </h2>
+              
+              <p>
+                Small classes with committed, respected professors
+              </p>
+              <a href="/future-students/tour-booking/" target="_self">
+              <button class="btn-change">
+                  Find your program
+              </button>
+              </a>
+          </div>
+  </div>
+</div>
+</section>
+
+<style>
+  .mtg-col-rev
+  {
+    
+    background: rgba(0, 0, 0, 0.8);    
+  }
+  .mtg-col-rev h2, 
+  .mtg-col-rev p
+    {
+      color: #ebebeb !important;
+    }
+</style>
+
+<h1>Column 01 - Reversed</h1>
+
+<section class="section-hero-full banner-home-bg-22" style="margin-bottom: 0px;">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6 col-sm-6 col-sm-6 mob-home-22">
+           <!-- <img src="https://international.ufv.ca/media/assets/international-education/images/International-masthead-banner.jpg" class="img-responsive home-img"> -->
+          </div>
+          <div class="col-sm-6 uc1 col-sm-pull-6 col-sm-pull-6 vcenter col-content-v2 mtg-col-rev">
+              <h2>
+                UFV International
+              </h2>
+
+              
+              <p>
+                Small classes with committed, respected professors
+              </p>
+              <a href="/future-students/tour-booking/" target="_self">
+              <button class="btn-change">
+                  Find your program
+              </button>
+              </a>
+          </div>
+  </div>
+</div>
+</section>
+
+
+<h1>Banner with 2 buttons</h1>
+<section class="section-hero-full banner-home-bg-22" style="margin-bottom: 0px;">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6 col-sm-6 col-sm-6 mob-home-22">
+           <!-- <img src="https://international.ufv.ca/media/assets/international-education/images/International-masthead-banner.jpg" class="img-responsive home-img"> -->
+          </div>
+          <div class="col-sm-6 uc1 col-sm-pull-6 col-sm-pull-6 vcenter col-content-v2">
+              <h2>
+                2 Button Option
+              </h2>
+              <p>
+                Small classes with committed, respected professors
+              </p>
+              <a href="/future-students/tour-booking/" target="_self">
+              <button class="btn-change">
+                  Button 01
+              </button>
+              <button class="btn-change">
+                Button 02
+            </button>
+              </a>
+          </div>
+  </div>
+</div>
+</section>
+
+
+
+<STYLE>
+  .btn-cta-grey
+  {
+    background-color: #403F3F !important;
+    color: #b1b1b1;
+  }
+  .btn-cta-grey:hover
+  {
+    background-color: #222 !important;
+    color: #fff;
+  }
+  .btn-cta-green-alt
+  {
+    background-color: #7cb232 !important;
+    color: #fff;
+  }
+
+  .btn-cta-green-alt:hover
+  {
+    background-color: #00703c !important;
+    color: #fff;
+  }
+  .btn-cta-orange
+  {
+    background-color: #f49f2e !important;
+    background-color: #e45300 !important;
+    color: #fff;
+
+  }
+  .btn-cta-orange:hover
+  {
+    background-color: #e6a231 !important;
+    color: #fff;
+
+  }
+
+  
+  .btn-change
+  {
+    padding:20px;
+  }
+
+
+  h1
+  {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    margin: 240px 0px 40px 5px;
+    text-align: center;
+  }
+</STYLE>
+
+
+
+<h1>Banner with color button options</h1>
+
+
+<section class="section-hero-full banner-home-bg-22">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6 col-sm-6 col-sm-6 mob-home-22">
+           <!-- <img src="https://international.ufv.ca/media/assets/international-education/images/International-masthead-banner.jpg" class="img-responsive home-img"> -->
+          </div>
+          <div class="col-sm-6 uc1 col-sm-pull-6 col-sm-pull-6 vcenter col-content-v2">
+              <h2>
+                Multiple Button Color Option
+              </h2>
+              <p>
+                Small classes with committed, respected professors
+              </p>
+              <a href="/future-students/tour-booking/" target="_self">
+              <button class="btn-change">
+                  Green
+              </button>
+              <button class="btn-change btn-cta-grey">
+                Button Grey
+            </button>
+            <button class="btn-change btn-cta-green-alt">
+              Alt Green
+          </button>
+
+          <button class="btn-change btn-cta-orange">
+            Alt Green
+        </button>
+
+
+              </a>
+          </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+<h1>Banner with content right option</h1>
+
+<section class="section-hero-full banner-home-bg-22" style="margin-bottom: 0px;">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6 col-sm-6 col-sm-6 mob-home-22">
+           <!-- <img src="https://international.ufv.ca/media/assets/international-education/images/International-masthead-banner.jpg" class="img-responsive home-img"> -->
+          </div>
+          <div class="col-sm-6 uc1 col-sm-6 col-sm-6 vcenter col-content-v2">
+              <h2>
+                UFV International
+              </h2>
+              <p>
+                Small classes with committed, respected professors
+              </p>
+              <a href="/future-students/tour-booking/" target="_self">
+              <button class="btn-change">
+                  Find your program
+              </button>
+              </a>
+          </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+<!-- @import "_footer.kit" -->
+
+
+
+<STYLE>
+  .hero-cta
+  {
+      min-height: <!-- $height -->; /* INPUT */
+      height: <!-- $height -->; /* INPUT */
+      background-image: url('<!-- $banner_image -->'); 
+  }
+  .col-cta-content,
+  .bg-content
+  {
+  
+  }
+  
+  .vcenter {
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .vertical-align {
+      display: flex;
+      align-items: center;
+  }
+  .carousel-caption {
+    bottom: 1%;
+    color: #ffffff;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%; 
+    position: absolute;
+    text-align: left;
+    z-index: 10;
+    left: 2%;
+    right: 7%;
+    top: 30%;
+  }
+  #ufv-cta-banner {
+    display: table;
+    width: 100%;
+    background: url(<!-- $banner_image -->) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;  
+  }
+  #ufv-cta-banner {
+    padding: 150px 0;
+  }
+  .parallax {
+  background-image: url(<!-- $banner_image -->);
+  /* Set a specific height */
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  }
+  #parallax {
+  background-image: url(<!-- $banner_image -->);
+  /* Set a specific height */
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  }
+  .ct-header-button {
+    background-color: #F49F2E;
+    color: #fff;
+    padding: 15px;
+    
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px 0 rgba(black,0.05);
+    margin-top: 20px;
+  }
+  .ufv-banner-content a {
+    background-color: #F49F2E;
+    color: #fff;
+    padding: 15px;
+    
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px 0 rgba(black,0.05);
+    margin-right: 10px;
+  }
+  .ufv-banner-content
+  {
+    background-color:rgba(<!-- $bg-color -->, <!-- $opacity -->);
+    padding: 15px 30px 15px 30px;
+    line-height: 60px;
+  }
+  .ufv-banner-content p
+  {
+    color:#fff;
+  }
+  .ufv-banner-content h2
+  {
+    color:#fff;
+    
+  }
+  section
+  {
+    background: black;
+    margin-top: 0px;
+  }
+  
+  </STYLE>
+
