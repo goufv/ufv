@@ -1,0 +1,17 @@
+.main-header-marketing
+{
+background-color: #f5f5f5;
+}
+/*HEADER AND GLOBAL NAV*/
+.header-full-dark {
+background:#3b5b59;
+}
+.navbar-collapse {
+background:#9bb9ad;
+}
+#header {
+background:#9bb9ad;
+}
+.navbar-default.navbar-inverse .navbar-nav > li > a:hover {
+background:#3b5b59;
+}
