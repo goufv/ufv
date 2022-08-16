@@ -1,0 +1,224 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><t4 type="title"/> - University of the Fraser Valley (UFV)</title>
+<meta name="robots" content="index, follow">
+<t4 type="media" id="28582" formatter="css/*"/><!-- slidingtabs-horizontal.css -->
+<t4 type="media" id="28576" formatter="css/*"/><!-- dept-home.css -->
+<t4 type="media" id="28575" formatter="css/*"/><!-- DefaultDesignTemplate.css -->
+<t4 type="media" id="28583" formatter="css/*"/><!-- Unordered List Menu.css -->
+<t4 type="media" id="28579" formatter="css/*"/><!-- home.css -->
+<t4 type="media" id="28584" formatter="css/*"/><!-- wt-rotator.css -->
+  
+<t4 type="media" id="28570" formatter="javascript/*"/>
+<t4 type="media" id="28565" formatter="javascript/*"/>
+<t4 type="media" id="28568" formatter="javascript/*"/>
+<t4 type="media" id="28563" formatter="javascript/*"/>
+<t4 type="media" id="28567" formatter="javascript/*"/>
+<!-- Dept Inner Page - University of the Fraser Valley (UFV) <t4 type="channel" output="site-root"/> Content ID: <t4 type="meta" meta="content_id" /> | Channel ID: <t4 type="channel" output="id"/> | <t4 type="channel" output="name"/> 
+aml 02/2013 | apr 8/13 -->
+
+<script type="text/javascript">
+$(window).load(function(){
+$("ul li >ul").parent().addClass("ipf-parent");
+  }); // end window load
+  $(document).ready(function(){  
+    if ( $('.eventfulltext').length ){ 
+        $('.breadcrumbs').remove();
+    } //if eventfulltext exists 
+});
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5941939-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+  
+<body>
+
+<a name="Top"></a>
+
+<table width="916" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td width="9" align="left" valign="top" class="dropshadow_left"><img src="<t4 type="media" id="28680" formatter="image/path"/>" name="spacer9x9" width="9" height="9" id="spacer9x9" /></td>
+<td align="left" valign="top" class="container"><div id="masthead_short"> <a name="top" id="top"></a>
+<table width="874" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="202" align="right" valign="middle"><a href="<t4 type="navigation" id="137"/>" target="_self"><img src="<t4 type="media" id="28680" formatter="image/path"/>" alt="Home" name="spacer202x30" width="202" height="30" border="0" id="spacer202x" /></a></td>
+
+<!-- nav 152 -->       
+<t4 type="navigation" id="152"/>
+
+<td width="105" align="right" valign="middle" id="nav00">
+
+<!-- Request more information -->
+<a href="<t4 type="navigation" id="178"/>" target="_self"><img src="<t4 type="media" id="28675" formatter="image/path"/>" alt="Request More Info Now" name="requestinfo" width="96" height="20" border="0" id="requestinfo" onmouseover="MM_swapImage('requestinfo','','
+<t4 type="media" id="29807" formatter="image/path"/>
+',1)" onmouseout="MM_swapImgRestore()" /></a>
+
+</td>
+</tr>
+
+<tr>
+<td width="202" align="right" valign="middle">
+
+<a href="<t4 type="navigation" id="137"/>" target="_self"><img src="<t4 type="media" id="28680" formatter="path/*"/>" alt="University of the Fraser Valley" name="spacer202x30" width="202" height="30" border="0" id="spacer202x30" /></a></td>
+
+<td width="672" height="30" colspan="2" align="right" valign="bottom" id="nav">
+
+<!-- Search UFV Website -->
+<div align="right" style="width:595px; float:left; padding-top:10px; ">
+<form id="cse-search-box" action="http://www.ufv.ca/search/">
+SEARCH:
+<input type="hidden" value="004026034678438143748:icmjbj-slqc" name="cx" />
+<input type="hidden" value="FORID:11" name="cof" />
+<input size="15" name="q" />
+<input type="image" src="<t4 type="media" id="28677" formatter="image/path"/>
+" align="absmiddle" value="Search" name="sa" />
+</form>
+</div>
+       
+<!-- Apply Now - UFV -->
+<div id="btnapplynow" style="float:left; width:45px;"><a href="<t4 type="navigation" id="153"/>" target="_self"><img src="<t4 type="media" id="29789" formatter="path/*"/>" border=0 width="42" height="41" alt="Apply Now" id="ApplyNowBtnSM" onmouseover="MM_swapImage('ApplyNowBtnSM','','
+<t4 type="media" id="29790" formatter="path/*"/>
+',1)" onmouseout="MM_swapImgRestore()"></a> 
+</div>
+         
+</td>
+</tr>
+</table>
+</div>
+
+<!-- Global Navigation -->
+<div class="nav01_container"> <!--UFV Admissions --><a href="http://www.ufv.ca/admissions/" target="_self"><img src="http://www.ufv.ca/web/images/nav/ufv-admissions-oreg.gif" alt="Admissions" name="admissions" width="91" height="36" border="0" id="admissions" onmouseover="MM_swapImage('admissions','','http://www.ufv.ca/web/images/nav/ufv-admissions-oreg-o.gif',1)" onmouseout="MM_swapImgRestore()" /></a><!-- Future Students --><a href="http://www.ufv.ca/future-students/" target="_self"><img src="http://www.ufv.ca/web/images/nav/future-students.gif" alt="Future Students" name="future-students" width="128" height="36" border="0" id="future-students" onmouseover="MM_swapImage('future-students','','http://www.ufv.ca/web/images/nav/future-students-o.gif',1)" onmouseout="MM_swapImgRestore()" /></a><!-- International Students --><a href="http://international.ufv.ca" target="_self"><img src="http://www.ufv.ca/web/images/nav/international-students.gif" alt="International Students" name="international-students" width="115" height="36" border="0" id="international-students" onmouseover="MM_swapImage('international-students','','http://www.ufv.ca/web/images/nav/international-students-o.gif',1)" onmouseout="MM_swapImgRestore()" /></a><!-- Faculty and Programs --><a href="http://www.ufv.ca/faculties_programs/" target="_self"><img src="http://www.ufv.ca/web/images/nav/faculty-programs.gif" alt="Faculty & Programs @ UFV" name="faculty-programs" width="151" height="36" border="0" id="faculty-programs" onmouseover="MM_swapImage('faculty-programs','','http://www.ufv.ca/web/images/nav/faculty-programs-o.gif',1)" onmouseout="MM_swapImgRestore()" /></a><!-- Services at UFV --><a href="http://www.ufv.ca/services/" target="_self"><img src="http://www.ufv.ca/web/images/nav/ufv-services.gif" alt="University Services" name="university-services" width="72" height="36" border="0" id="university-services" onmouseover="MM_swapImage('university-services','','http://www.ufv.ca/web/images/nav/ufv-services-o.gif',1)" onmouseout="MM_swapImgRestore()" /></a><!-- Campus and Student Life --><a href="http://www.ufv.ca/studentlife/" target="_self"><img src="http://www.ufv.ca/web/images/nav/student-campus-life.gif" alt="Campus and Student Life" name="student-life" width="98" height="36" border="0" id="student-life" onmouseover="MM_swapImage('student-life','','http://www.ufv.ca/web/images/nav/student-campus-life-o.gif',1)" onmouseout="MM_swapImgRestore()" /></a><!-- Research --><a href="http://www.ufv.ca/research/" target="_self"><img src="http://www.ufv.ca/web/images/nav/research.gif" alt="Research" name="university-research" width="79" height="36" border="0" id="university-research" onmouseover="MM_swapImage('university-research','','http://www.ufv.ca/web/images/nav/research-o.gif',1)" onmouseout="MM_swapImgRestore()" /></a><!-- News and events --><a href="http://blogs.ufv.ca/" target="_self"><img src="http://www.ufv.ca/web/images/nav/news-blogs.gif" alt="UFV Today News & Events" name="ufv-news" width="53" height="36" border="0" id="ufv-news" onmouseover="MM_swapImage('ufv-news','','http://www.ufv.ca/web/images/nav/news-wordpress-blogs.gif',1)" onmouseout="MM_swapImgRestore()" /></a><!-- About University of the Fraser Valley - UFV --><a href="http://www.ufv.ca/about_ufv/" target="_self"><img src="http://www.ufv.ca/web/images/nav/about-ufv.gif" alt="About UFV" name="about-ufv" width="87" height="36" border="0" id="about-ufv" onmouseover="MM_swapImage('about-ufv','','http://www.ufv.ca/web/images/nav/about-ufv-o.gif',1)" onmouseout="MM_swapImgRestore()" /></a>
+</div>
+
+<div class="ninepx_spacebelow">
+
+<table width="874" border="0" cellpadding="0" cellspacing="0" id="maincontent">
+<tr>
+<td width="202" align="left" valign="top" class="leftcolumn">
+<div id="nav03">
+<div id="nav2">
+<div id="nav3">
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="172" id="nav3">
+
+<!-- navigation object : Inner Left Menu -->
+<t4 type="navigation" id="129"/>
+
+<!-- Convocation left nav -->
+
+<!-- navigation object : Pagelets -->
+  <t4 type="navigation" id="157"/>
+
+
+
+</td>
+</tr>
+</table>
+
+</div>
+</div>
+</div>
+
+<td align="left" valign="top">
+<td width="672" align="left" valign="top">
+<table width="672" border="0" cellspacing="0" cellpadding="0" id="locationline">
+<tr>
+<td width="500">
+
+<!-- navigation object : Breadcrumbs -->
+<t4 type="navigation" id="132"/>
+
+</td>
+<td width="172" align="right">
+
+<div class="breadcrumbs">
+<div class="ipf-EmailPage">&nbsp;</div>
+</div>
+
+</td>
+</tr>
+</table>
+
+<div class="deptbanner_container" style="margin-bottom:5px;">
+<!-- navigation object : Banner Img <t4 type="navigation" id="114"/>--><!-- navigation object : Banner Image Related Branch -->
+<t4 type="navigation" id="158"/>
+</div>
+
+<table width="672" border="0" cellspacing="0" cellpadding="0" id="pagecontent">
+<tr>
+<td width="670" align="left" valign="top" id="content-updated">
+
+<!-- UFV Content -->
+
+
+  
+
+
+  <!-- dept inner page - footer  -->
+
+</div></td>
+<td width="0" align="left" valign="top">
+
+</div></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td> </td>
+</tr>
+<tr>
+<td colspan="3"><table border="0" align="right" cellpadding="3" class="#homepage_SN">
+<tr>
+<td><a href="http://www.youtube.com/user/goUFV" target="_blank" onMouseOver="MM_swapImage('youtube','','<t4 type="media" id="28702" formatter="path/*"/>',1)" onmouseout="MM_swapImgRestore()"><img src="<t4 type="media" id="28701" formatter="path/*"/>" alt="YouTube goUFV" name="youtube" width="32" height="32" border="0" id="youtube" /></a></td>
+<td width="32"><a href="http://www.linkedin.com/company/university-of-the-fraser-valley_2" target="_blank" onMouseOver="MM_swapImage('linkedin','','<t4 type="media" id="29772" formatter="path/*"/>',1)" onmouseout="MM_swapImgRestore()"><img src="<t4 type="media" id="28642" formatter="path/*"/>" alt="Linkedin" name="linkedin" width="32" height="32" border="0" id="linkedin" /></a></td>
+<td width="32"><a href="http://www.facebook.com/goUFV" target="_blank" onMouseOver="MM_swapImage('Facebook','','<t4 type="media" id="29768" formatter="path/*"/>',1)" onmouseout="MM_swapImgRestore()"><img src="<t4 type="media" id="29767" formatter="path/*"/>" alt="Facebook" name="Facebook" width="32" height="32" border="0" id="Facebook" /></a></td>
+<td width="32"><a href="http://www.twitter.com/goUFV" target="_blank" onMouseOver="MM_swapImage('Image39','','<t4 type="media" id="28686" formatter="path/*"/>',1)" onmouseout="MM_swapImgRestore()"><img src="<t4 type="media" id="28685" formatter="path/*"/>" alt="Twitter" name="Image39" width="32" height="32" border="0" id="Image39" /></a></td>
+<td width="32"><a href="http://www.flickr.com/photos/ufv/" target="_blank" onMouseOver="MM_swapImage('Flikr','','<t4 type="media" id="29770" formatter="path/*"/>',1)" onmouseout="MM_swapImgRestore()"><img src="<t4 type="media" id="29769" formatter="path/*"/>" alt="Flikr" name="Flikr" width="32" height="32" border="0" id="Flikr" /></a></td>
+<!-- University of the Fraser Valley - Newsletter Sign Up -->
+<td width="32"><a href="http://www.ufv.ca/MarCom/newsroom/UFVenews_signup.htm" target="_self" onMouseOver="MM_swapImage('Image40','','<t4 type="media" id="29773" formatter="path/*"/>',1)" onmouseout="MM_swapImgRestore()"><img src="<t4 type="media" id="29773" formatter="path/*"/>" alt="Signup for eNews!" name="Image40" width="32" height="32" border="0" id="Image40" /></a></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<!-- end maincontent --> 
+</div></td>
+<td width="9" height="600" align="left" valign="top" class="dropshadow_right"><img src="<t4 type="media" id="118321" formatter="path/*"/>" name="spacer9x9" width="9" height="9" id="spacer9x9" /></td>
+</tr>
+<tr>
+<td width="9"> </td>
+<td><div id="footer">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+
+<td align="left" valign="middle">© University of the Fraser Valley. 33844 King Road, Abbotsford BC., Canada V2S 7M8</td>
+
+<td align="right" valign="middle">
+
+<a href="<t4 type="navigation" id="168"/>" title="UFV Website Directory Sitemap">Sitemap</a>  |  
+<a href="<t4 type="navigation" id="169"/>" title="UFV Legal Information" rel="nofollow">Legal</a> | 
+<a href="<t4 type="navigation" id="170"/>" title="UFV Privacy Policy" rel="nofollow">Privacy</a> |  
+<a href="<t4 type="navigation" id="171"/>" title="Tell us what you think? Website Feedback">Feedback</a>  |  
+<a href="#" target="_top" title="Back to Top of Page">Back to Top</a>
+
+</td>
+</tr>
+</table>
+</div></td>
+<td width="9"> </td>
+</tr>
+</table>
+</html>
