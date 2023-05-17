@@ -55,6 +55,20 @@ DEV: skip navigation links
   position: static;
   margin: auto;
 }
+.screenreader-text:focus {
+	color: black;
+	display: inline-block;
+	height: auto;
+	width: auto;
+	position: static;
+	margin: auto;
+	border: 1px solid;
+	padding: 5px 10px;
+	font-size: 14px;
+	margin: 5px;
+	text-decoration: none !important;
+	background: #ebebeb;
+}
     
   </style><a href="#maincontent" class="screenreader-text">Skip to main content</a>
   
@@ -178,37 +192,7 @@ DEV: skip navigation links
       
     </nav>
   <!-- 1021612 -->
-<style>
-    .return-to-campus-div {
-        display: none;
-    }
-    @media screen and (max-width: 768px) {
-        .return-to-campus-div {
-            display: block;
-        }
-        .return-to-campus {
-            background: #00aecf;
-            color: #FFF;
-            padding: 5px 10px 10px 5px;
-        text-align: center;
-        }
-        .return-to-campus p {
-            color: #fff;
-            font-weight: 500;
-            font-size: 15px;
-            letter-spacing: -.5px;
-            margin: 0px;
-            padding: 5px 0px;
-        }
-    }
-</style>
-<div class="return-to-campus-div">
-    <a href="https://www.ufv.ca/return-to-campus/" title="Information about return to campus">
-        <div class="return-to-campus">
-        <p>Return to campus  — information and updates »</p>
-        </div>
-    </a>
-</div>
+
 <!-- /1021612 -->
     <header class="main-header">
       <div class="container">
