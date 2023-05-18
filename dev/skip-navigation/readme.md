@@ -1,13 +1,12 @@
 # Skip Navigation
 
+Used for accessibility
+
 Existing website
 
 https://webdev.ufv.ca/_dev/skip-navigation/
 
-
 [https://goufv.github.io/dev/skip-navigation/skip-nav.html](https://goufv.github.io/dev/skip-navigation/skip-nav.html)
-
-
 
 ## Code
 
@@ -45,3 +44,6 @@ margin: auto;
 
 </div>
 ```
+
+
+
