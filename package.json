@@ -1,0 +1,25 @@
+{
+  "name": "goufv.github.io",
+  "version": "1.0.0",
+  "description": "goUFV on GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goufv/goufv.github.io.git"
+  },
+  "keywords": [
+    "ufv"
+  ],
+  "author": "Anthony Lepki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goufv/goufv.github.io/issues"
+  },
+  "homepage": "https://github.com/goufv/goufv.github.io#readme",
+  "devDependencies": {
+    "generate-changelog": "^1.8.0"
+  }
+}
